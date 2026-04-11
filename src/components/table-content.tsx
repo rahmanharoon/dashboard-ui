@@ -1,6 +1,3 @@
-import { tableHeaders } from "@/lib/constants"
-import { Badge } from "./ui/badge"
-import TablePagination from "./table-pagination"
 import {
   Table,
   TableBody,
@@ -9,17 +6,21 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
+import { tableHeaders } from "@/lib/constants";
+import { aedHeaderKeys, formatAed } from "@/lib/utils";
+import TablePagination from "./table-pagination";
+import { Badge } from "./ui/badge";
 
 interface ITableData {
-  data: Record<string, string | number>[]
-  goNext: (totalItems: number) => void
-  goPrev: (totalItems: number) => void
-  pageNo: number
-  size: number
-  goTo: (page: number, totalItems: number) => void
-  totalItems: number
-  onChangeSize: (size: number) => void
+  data: Record<string, string | number>[];
+  goNext: (totalItems: number) => void;
+  goPrev: (totalItems: number) => void;
+  pageNo: number;
+  size: number;
+  goTo: (page: number, totalItems: number) => void;
+  totalItems: number;
+  onChangeSize: (size: number) => void;
 }
 
 const statusColor: Record<
@@ -43,10 +44,10 @@ const statusColor: Record<
   Rejected: "destructive",
   "On Hold": "pending",
   Pending: "pending",
-}
+};
 
 const TableUI = (props: ITableData) => {
-  const { data, ...rest } = props
+  const { data, ...rest } = props;
   return (
     <Table>
       <TableHeader>
@@ -62,18 +63,25 @@ const TableUI = (props: ITableData) => {
         {data.map((row) => (
           <TableRow key={row?.Record_ID}>
             {Object.keys(tableHeaders).map((headerKey) => {
-              const headerLower = headerKey.toLocaleLowerCase()
-              const value = row[headerKey]
+              const headerLower = headerKey.toLocaleLowerCase();
+              const value = row[headerKey];
               const isBadge =
                 headerLower.includes("status") ||
-                headerLower.includes("priority")
-              const isDelta = headerLower.includes("delta")
+                headerLower.includes("priority");
+              const isDelta = headerLower.includes("delta");
+              const isAedColumn = aedHeaderKeys.has(headerKey);
+              const displayValue =
+                isAedColumn && !isBadge ? formatAed(value) : value;
+              const deltaNum =
+                typeof value === "number"
+                  ? value
+                  : Number(String(value));
               return (
                 <TableCell
                   key={`${row?.Record_ID} - ${value}`}
                   className={
                     isDelta
-                      ? Number(value) < 0
+                      ? deltaNum < 0
                         ? "text-red-800"
                         : "text-green-700"
                       : ""
@@ -82,10 +90,10 @@ const TableUI = (props: ITableData) => {
                   {isBadge ? (
                     <Badge variant={statusColor[value]}>{value}</Badge>
                   ) : (
-                    value
+                    displayValue
                   )}
                 </TableCell>
-              )
+              );
             })}
           </TableRow>
         ))}
@@ -98,7 +106,7 @@ const TableUI = (props: ITableData) => {
         </TableRow>
       </TableFooter>
     </Table>
-  )
-}
+  );
+};
 
-export default TableUI
+export default TableUI;
