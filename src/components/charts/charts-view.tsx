@@ -7,7 +7,7 @@ const ChartsView = ({ data }: { data: ISheetsData[] }) => {
   const { chartsData } = useChartsData(data)
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {/* Pie Chart */}
         <PieChartWithPaddingAngle title="Status" data={chartsData?.status} />
         {/* Bar chart */}

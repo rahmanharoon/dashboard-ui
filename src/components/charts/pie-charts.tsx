@@ -39,7 +39,7 @@ export default function PieChartWithPaddingAngle({
         />
         <RechartsDevtools />
       </PieChart>
-      <div className="flex w-full items-center justify-center gap-2">
+      <div className="flex w-full flex-wrap items-center justify-center gap-2">
         {data?.map((item) => (
           <div key={item?.name} className="flex items-center gap-2">
             <div

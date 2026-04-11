@@ -16,7 +16,7 @@ const FilterList = ({
   onChangeFilterVal,
 }: IFilerListProps) => {
   return (
-    <Card className="grid grid-cols-4 items-center gap-4 p-3">
+    <Card className="grid grid-cols-1 items-center gap-4 p-3 sm:grid-cols-2 md:grid-cols-4">
       {/* Search */}
       <SearchInput
         searchVal={filters.search}
