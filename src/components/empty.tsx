@@ -17,8 +17,8 @@ interface IEmptyProps {
 const EmptyOutline = memo(({ onChooseFile }: IEmptyProps) => {
   return (
     <div className="flex h-full items-center justify-center">
-      <div className="max-h-min min-h-max w-[60%]">
-        <Empty className="justify-center self-center border border-dashed bg-gray-50">
+      <div className="max-h-min min-h-max w-[80%] sm:w-[60%]">
+        <Empty className="justify-center self-center border border-dashed bg-gray-50 dark:bg-gray-950">
           <EmptyHeader>
             <EmptyMedia variant="icon">
               <Sheet />
