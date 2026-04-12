@@ -67,7 +67,7 @@ export const buildBudgetPeriodChartData = (
 
     byPeriod[p].actual += actual
     byPeriod[p].expected += expected
-    byPeriod[p].delta += delta
+    byPeriod[p].delta = delta
   }
 
   const periodKeys = Object.keys(byPeriod).sort(

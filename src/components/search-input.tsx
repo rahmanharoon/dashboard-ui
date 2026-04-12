@@ -17,7 +17,7 @@ const SearchInput = ({ onChangeSearch, searchVal }: ISearchProps) => {
           const value = e.target.value
           onChangeSearch(value)
         }}
-        placeholder="Search..."
+        placeholder="Search by owner name, initiative or company name"
       />
     </Field>
   )

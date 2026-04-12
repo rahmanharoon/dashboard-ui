@@ -1,5 +1,13 @@
-import { useMemo, useState } from "react"
-import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts"
+import { useId, useMemo, useState } from "react"
+import {
+  CartesianGrid,
+  Curve,
+  Line,
+  LineChart,
+  type CurveProps,
+  XAxis,
+  YAxis,
+} from "recharts"
 
 import { BudgetPeriodClickDot } from "@/components/charts/budget-period-click-dot"
 import { BudgetPeriodDetailsModal } from "@/components/modals/budget-period-details-modal"
@@ -24,7 +32,106 @@ const chartConfig = {
     label: "Delta (AED)",
     color: "var(--chart-4)",
   },
+  deltaNegative: {
+    label: "Delta (AED)",
+    color: "var(--destructive)",
+  },
 } satisfies ChartConfig
+
+const HUGE = 1e6
+
+const formatDeltaYAxisTick = (v: unknown): string => {
+  const n = typeof v === "number" ? v : Number(v)
+  if (!Number.isFinite(n)) return String(v ?? "")
+  if (n === 0) return "0"
+  const body = Math.abs(n).toLocaleString("en-US")
+  return n < 0 ? `-${body}` : body
+}
+
+const yAtDeltaZero = (
+  points: ReadonlyArray<{ x?: number | null; y?: number | null; value?: unknown }>,
+): number => {
+  const withY = points.filter(
+    (p): p is { x: number; y: number; value: number } =>
+      typeof p.x === "number" &&
+      typeof p.y === "number" &&
+      p.value != null &&
+      Number.isFinite(Number(p.value)),
+  )
+  if (withY.length === 0) return 0
+  for (let i = 0; i < withY.length - 1; i++) {
+    const a = withY[i]
+    const b = withY[i + 1]
+    const va = Number(a.value)
+    const vb = Number(b.value)
+    if (va === 0) return a.y
+    if (vb === 0) return b.y
+    if ((va < 0 && vb > 0) || (va > 0 && vb < 0)) {
+      const t = va / (va - vb)
+      return a.y + t * (b.y - a.y)
+    }
+  }
+  const vals = withY.map((p) => Number(p.value))
+  if (vals.every((v) => v > 0)) return Math.max(...withY.map((p) => p.y)) + 1
+  if (vals.every((v) => v < 0)) return Math.min(...withY.map((p) => p.y)) - 1
+  return (Math.min(...withY.map((p) => p.y)) + Math.max(...withY.map((p) => p.y))) / 2
+}
+
+function DeltaZeroSplitCurve({
+  clipIdBase,
+  ...props
+}: CurveProps & { clipIdBase: string }) {
+  const {
+    points,
+    type,
+    layout,
+    connectNulls,
+    pathRef,
+    clipPath: chartClipPath,
+    stroke: _stroke,
+    ...curveRest
+  } = props
+
+  if (!points?.length) return null
+
+  const y0 = yAtDeltaZero(points)
+  const clipAboveId = `${clipIdBase}-above`
+  const clipBelowId = `${clipIdBase}-below`
+
+  return (
+    <g clipPath={chartClipPath}>
+      <defs>
+        <clipPath id={clipAboveId}>
+          <rect x={-HUGE} y={-HUGE} width={HUGE * 2} height={HUGE + y0} />
+        </clipPath>
+        <clipPath id={clipBelowId}>
+          <rect x={-HUGE} y={y0} width={HUGE * 2} height={HUGE * 2} />
+        </clipPath>
+      </defs>
+      <Curve
+        {...curveRest}
+        points={points}
+        type={type}
+        layout={layout}
+        connectNulls={connectNulls}
+        stroke="var(--color-delta)"
+        clipPath={`url(#${clipAboveId})`}
+        pathRef={pathRef}
+        pointerEvents="none"
+      />
+      <Curve
+        {...curveRest}
+        points={points}
+        type={type}
+        layout={layout}
+        connectNulls={connectNulls}
+        stroke="var(--color-deltaNegative)"
+        clipPath={`url(#${clipBelowId})`}
+        pointerEvents="stroke"
+      />
+    </g>
+  )
+}
 
 export function BudgetLineChart({
   title,
@@ -34,10 +141,14 @@ export function BudgetLineChart({
   data: ISheetsData[]
 }) {
   const [selectedPeriod, setSelectedPeriod] = useState<string | null>(null)
+  const splitClipId = useId().replace(/:/g, "")
 
   const chartData = useMemo(() => buildBudgetPeriodChartData(data), [data])
 
   const closeModal = () => setSelectedPeriod(null)
+
+  const dotFill = (row: BudgetPeriodRow) =>
+    row.delta < 0 ? "var(--color-deltaNegative)" : "var(--color-delta)"
 
   return (
     <Card className="flex flex-col gap-3 p-4">
@@ -57,10 +168,8 @@ export function BudgetLineChart({
           <YAxis
             tickLine={false}
             axisLine={false}
-            width={56}
-            tickFormatter={(v) =>
-              typeof v === "number" ? v.toLocaleString() : String(v)
-            }
+            width={68}
+            tickFormatter={formatDeltaYAxisTick}
           />
           <ChartTooltip content={<ChartTooltipContent />} />
           <Line
@@ -68,12 +177,16 @@ export function BudgetLineChart({
             type="natural"
             stroke="var(--color-delta)"
             strokeWidth={2}
+            isAnimationActive={false}
+            shape={(curveProps) => (
+              <DeltaZeroSplitCurve {...curveProps} clipIdBase={splitClipId} />
+            )}
             dot={(props) => (
               <BudgetPeriodClickDot
                 cx={props.cx}
                 cy={props.cy}
                 payload={props.payload as BudgetPeriodRow}
-                fill="var(--color-delta)"
+                fill={dotFill(props.payload as BudgetPeriodRow)}
                 onPickPeriod={setSelectedPeriod}
               />
             )}
@@ -83,7 +196,7 @@ export function BudgetLineChart({
                 cy={props.cy}
                 r={typeof props.r === "number" ? props.r : 6}
                 payload={props.payload as BudgetPeriodRow}
-                fill="var(--color-delta)"
+                fill={dotFill(props.payload as BudgetPeriodRow)}
                 onPickPeriod={setSelectedPeriod}
               />
             )}

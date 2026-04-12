@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from "react"
 
-import FileItem from "@/components/file-item"
 import SpinningLoader from "@/components/spinning-loader"
 import MenuTabs from "@/components/ui/menu-tabs"
 import { EmptyOutline } from "@/components/empty"
@@ -29,7 +28,6 @@ const Main = () => {
   } = useFilters()
 
   const [view, setView] = useState<"dashboard" | "list">("dashboard")
-  const [file, setFile] = useState<File | null>(null)
   const [loading, setLoading] = useState<boolean>(true)
   const [data, setData] = useState<ISheetsData[]>([])
   const [filteredData, setFilterData] = useState<ISheetsData[]>([])
@@ -49,7 +47,10 @@ const Main = () => {
         const ownerMatch = String(item["Owner"] ?? "")
           .toLowerCase()
           .includes(searchValue)
-        if (!companyMatch && !ownerMatch) return false
+        const initiativeMatch = String(item["Initiative"] ?? "")
+          .toLowerCase()
+          .includes(searchValue)
+        if (!companyMatch && !ownerMatch && !initiativeMatch) return false
       }
       if (
         filters.Company_Name?.length &&
@@ -114,7 +115,6 @@ const Main = () => {
         const fileData = await readFile(defaultFile)
         if (signal.aborted) return
         const files = fileData as unknown as ISheetsData[]
-        setFile(defaultFile)
         setData(files)
         getFilterOptions(files)
       } catch (e) {
@@ -137,7 +137,6 @@ const Main = () => {
       return
     }
     setLoading(true)
-    setFile(file)
     const fileData = await readFile(file)
     const files = fileData as unknown as ISheetsData[]
     setData(files)
@@ -157,7 +156,6 @@ const Main = () => {
       ) : (
         <div className="flex flex-col gap-4">
           <MenuTabs view={view} onChangeView={onChangeView} />
-          <FileItem file={file as File} />
           {view === "list" ? (
             <>
               <FilterList
