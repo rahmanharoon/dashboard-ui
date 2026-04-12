@@ -1,0 +1,1001 @@
+Record_ID,Company_Name,Business_Unit,Department,Cost_Center,Region,Expense_Type,Initiative,Estimated_Budget_AED,Actual_Budget_AED,Delta_AED,Year,Quarter,Priority,Status,Approval_Status,Owner
+57d68c0c-a021-431c-86ba-ee7c2605f5af,DAMAC,Real Estate,IT,CC-642,Abu Dhabi,OpEx,Cybersecurity Enhancement,1830494,2139923,309429,2023,Q2,Low,Completed,Approved,Fatima Al Nuaimi
+c6909566-8bd8-4371-850c-a810331da51d,Majid Al Futtaim,Construction,HR,CC-569,Dubai,CapEx,Smart City Integration,1982052,1815036,-167016,2024,Q4,High,Planned,Pending,Reem Al Ketbi
+913dc1b8-5d76-46a6-8046-320f51fe778b,DAMAC,Retail,Operations,CC-817,Sharjah,OpEx,Customer Experience Enhancement,324115,297662,-26453,2025,Q2,High,In Progress,Approved,Fatima Al Nuaimi
+a1ce36ab-3d77-4567-b721-14649adbc6e2,Emaar,Real Estate,IT,CC-560,Ras Al Khaimah,OpEx,Data Center Modernization,1665114,1818893,153779,2023,Q3,High,On Hold,Pending,Zainab Al Neyadi
+7c2e9062-c08d-422e-900a-968173890921,Dubai Holding,Hospitality,HR,CC-946,Fujairah,CapEx,IoT Integration Project,605761,742809,137048,2025,Q2,High,In Progress,Pending,Fatima Al Nuaimi
+3fbfe522-e4d9-40cf-9b92-e6b95f50fd4a,DAMAC,Retail,IT,CC-131,Ras Al Khaimah,OpEx,Workforce Optimization Program,1126802,929020,-197782,2024,Q1,Medium,Planned,Approved,Latifa Al Balushi
+a7e1ef11-f88f-4b38-96c3-e3cc417bb6ec,Emaar,Hospitality,IT,CC-943,Ras Al Khaimah,OpEx,Workforce Optimization Program,75075,62374,-12701,2023,Q3,High,Planned,Approved,Yousef Al Kaabi
+af0e72d7-af30-4b9e-a561-28e8d8e278da,Emaar,Real Estate,HR,CC-225,Dubai,OpEx,Hotel Renovation Program,1942671,2181606,238935,2024,Q4,Low,On Hold,Pending,Mariam Al Hammadi
+a4c818ff-843f-463a-9b1a-6afb3d76f421,Emaar,Retail,IT,CC-291,Sharjah,OpEx,Data Center Modernization,852641,973380,120739,2024,Q1,Low,In Progress,Rejected,Latifa Al Balushi
+1647fa5b-afb8-4e02-9f2d-2cda6d02842c,Majid Al Futtaim,Construction,Finance,CC-189,Sharjah,OpEx,Supply Chain Optimization,1096251,1102824,6573,2026,Q2,Low,In Progress,Rejected,Noura Al Suhaili
+87f8c9da-99be-4b80-866c-3c88d0bcbf0a,Aldar,Retail,Operations,CC-657,Ras Al Khaimah,OpEx,E-commerce Platform Launch,1716913,1390296,-326617,2025,Q4,Medium,In Progress,Approved,Noura Al Suhaili
+fe853d56-91e3-4ba3-9776-51f01d05c2dd,DAMAC,Real Estate,Operations,CC-642,Sharjah,CapEx,Workforce Optimization Program,1302243,1184403,-117840,2023,Q2,Low,In Progress,Pending,Reem Al Ketbi
+b23aa57e-657d-43d6-aae0-4a5246428239,Dubai Holding,Hospitality,Marketing,CC-966,Ras Al Khaimah,OpEx,CRM Implementation,1761874,2106529,344655,2024,Q2,Low,Completed,Rejected,Mohammed Al Ameri
+a8879a71-caed-483a-9b11-057f4d51b8d6,Dubai Holding,Retail,Marketing,CC-677,Abu Dhabi,CapEx,IoT Integration Project,802422,1008636,206214,2025,Q2,Medium,Planned,Approved,Noura Al Suhaili
+8d29db62-6f65-41cc-b638-2e9842b9c641,Dubai Holding,Corporate,Operations,CC-100,Sharjah,CapEx,CRM Implementation,537846,592077,54231,2025,Q2,Medium,Planned,Approved,Huda Al Shamsi
+87667ec7-6f52-4ca7-bff2-488f03acdbe4,Emaar,Real Estate,Marketing,CC-981,Sharjah,CapEx,AI Analytics Platform,1280208,1475245,195037,2026,Q1,Medium,Completed,Pending,Ahmed Al Mansoori
+f37fee3b-0545-4834-979b-e8636f8e556d,Aldar,Construction,HR,CC-278,Fujairah,OpEx,Infrastructure Upgrade,380309,443507,63198,2024,Q4,Medium,Completed,Approved,Noura Al Suhaili
+84c27e7e-14f8-49a8-9c49-4f5c7ddc6c33,Majid Al Futtaim,Construction,Marketing,CC-133,Abu Dhabi,OpEx,Smart City Integration,1578469,1264194,-314275,2024,Q1,Medium,In Progress,Pending,Hassan Al Blooshi
+a73ab840-085f-4496-be65-8f2130b09261,DAMAC,Hospitality,Finance,CC-941,Sharjah,OpEx,Customer Experience Enhancement,213172,195904,-17268,2025,Q2,High,Planned,Pending,Noor Al Marri
+303657e8-c2e9-4ab7-b270-73d64883afe2,Dubai Holding,Real Estate,Operations,CC-548,Ras Al Khaimah,CapEx,Facility Management System Upgrade,1700500,1452256,-248244,2026,Q4,Medium,On Hold,Approved,Khalid Al Mazrouei
+e6b3189e-9a05-476c-8deb-53b6d57a1f92,Emaar,Hospitality,Operations,CC-175,Dubai,OpEx,Data Center Modernization,1704086,2099477,395391,2025,Q3,High,Planned,Pending,Omar Al Falasi
+6acf80b0-3dbf-4a06-aef4-b5e1a31df9a3,Dubai Holding,Corporate,Finance,CC-446,Fujairah,OpEx,E-commerce Platform Launch,1912126,1888662,-23464,2023,Q4,Low,In Progress,Rejected,Fatima Al Nuaimi
+926f9863-8228-4778-a6f1-c5b69fe45d9c,DAMAC,Hospitality,IT,CC-519,Fujairah,OpEx,Data Center Modernization,379470,313737,-65733,2025,Q3,High,Planned,Approved,Abdullah Al Shehhi
+8716800d-78bc-4387-9d6d-4b5a67855818,Aldar,Hospitality,Finance,CC-469,Dubai,OpEx,AI Analytics Platform,1249088,1342558,93470,2025,Q4,High,Planned,Approved,Fatima Al Nuaimi
+0d08a9fd-df83-4ef1-b44c-4477095131b0,Dubai Holding,Construction,Finance,CC-415,Ras Al Khaimah,OpEx,IoT Integration Project,408261,456882,48621,2025,Q1,Low,On Hold,Approved,Aisha Al Suwaidi
+f52769b7-de10-4f82-aea8-6ee0ac89774b,Emaar,Construction,Finance,CC-369,Ras Al Khaimah,OpEx,Data Center Modernization,1907012,1889319,-17693,2024,Q3,Low,Planned,Approved,Ali Al Zaabi
+f036763f-ee11-412e-8cf5-ce2a1a177125,Dubai Holding,Retail,Marketing,CC-523,Fujairah,CapEx,Supply Chain Optimization,1510605,1712624,202019,2023,Q4,Low,On Hold,Rejected,Abdullah Al Shehhi
+f7a5d902-d9f6-42d3-a6cc-81e64ed0dd91,Majid Al Futtaim,Hospitality,Operations,CC-406,Dubai,OpEx,Workforce Optimization Program,1868008,2368971,500963,2023,Q2,High,On Hold,Approved,Hassan Al Blooshi
+4b9c5265-c072-44fe-87c6-403685b2ecbb,Emaar,Real Estate,Operations,CC-180,Ras Al Khaimah,CapEx,Mobile App Revamp,494365,595329,100964,2024,Q3,Medium,Planned,Approved,Aisha Al Suwaidi
+e5b04881-db36-42e3-a7d0-7557241a32da,DAMAC,Retail,Marketing,CC-569,Dubai,OpEx,Data Center Modernization,1216780,1215170,-1610,2026,Q2,High,Planned,Approved,Reem Al Ketbi
+749726da-8f7c-4c35-a4cc-f78e583d38bc,DAMAC,Corporate,HR,CC-998,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,1684823,1432933,-251890,2026,Q4,High,In Progress,Pending,Hassan Al Blooshi
+bee07b2a-0d73-489b-afef-ee4294dbd1c9,Aldar,Real Estate,Operations,CC-439,Abu Dhabi,CapEx,Infrastructure Upgrade,351680,390056,38376,2026,Q3,Medium,Planned,Pending,Ahmed Al Mansoori
+e8134186-5881-49b6-9fdd-f93544c13a06,Aldar,Real Estate,IT,CC-237,Sharjah,OpEx,Smart City Integration,702107,660102,-42005,2025,Q3,Low,On Hold,Rejected,Abdullah Al Shehhi
+3559e02a-431e-4628-a15f-62ab5baeced4,Emaar,Construction,Operations,CC-877,Fujairah,OpEx,E-commerce Platform Launch,237248,212092,-25156,2024,Q1,Medium,On Hold,Approved,Abdullah Al Shehhi
+350c624d-c994-47cd-96bf-de40572c0f13,Majid Al Futtaim,Real Estate,IT,CC-297,Abu Dhabi,CapEx,Customer Experience Enhancement,1835295,1949345,114050,2023,Q4,High,Completed,Rejected,Noor Al Marri
+e6628d9c-1de9-4c07-95f8-f15e52dafd1c,Aldar,Corporate,Operations,CC-750,Dubai,CapEx,Infrastructure Upgrade,624572,614688,-9884,2025,Q4,Low,On Hold,Approved,Reem Al Ketbi
+0b304f2a-a6b4-445e-8e08-7fc19cea4c78,DAMAC,Hospitality,HR,CC-866,Dubai,OpEx,Business Intelligence Dashboard Rollout,1280777,1377689,96912,2026,Q1,High,In Progress,Approved,Zainab Al Neyadi
+dc934fe2-1f58-4d61-b75f-4973055f0d1e,DAMAC,Construction,Marketing,CC-120,Dubai,OpEx,Cloud Migration Initiative,522094,594585,72491,2024,Q1,High,Completed,Rejected,Zainab Al Neyadi
+eec915ee-3b82-46d9-9a79-193c0539f5db,DAMAC,Construction,Operations,CC-972,Sharjah,OpEx,ERP Implementation,1544725,1982673,437948,2024,Q4,Medium,On Hold,Rejected,Mariam Al Hammadi
+60da1927-9273-4681-8e9a-731a809490a4,DAMAC,Corporate,Marketing,CC-723,Sharjah,OpEx,Workforce Optimization Program,65408,69054,3646,2023,Q4,High,Completed,Pending,Hassan Al Blooshi
+db7623fa-78c7-4f0d-a944-7004ace41e4f,DAMAC,Retail,IT,CC-253,Fujairah,CapEx,Data Center Modernization,731861,900734,168873,2026,Q3,Low,In Progress,Rejected,Yousef Al Kaabi
+fcec8a3d-4460-46a2-93be-e3ed0834808e,DAMAC,Retail,Operations,CC-514,Ras Al Khaimah,CapEx,Mall Expansion Project,1424474,1493826,69352,2024,Q3,Low,In Progress,Rejected,Ali Al Zaabi
+c3115e27-e947-4e9e-a8bf-1818be405df0,DAMAC,Corporate,HR,CC-965,Abu Dhabi,CapEx,Customer Experience Enhancement,1388640,1655881,267241,2023,Q4,High,Completed,Rejected,Yousef Al Kaabi
+7ad42789-06f2-48ed-b3bb-b66bae4bfebb,DAMAC,Real Estate,IT,CC-463,Abu Dhabi,OpEx,Mall Expansion Project,1649955,2072858,422903,2025,Q3,Medium,Completed,Pending,Hassan Al Blooshi
+0260e236-730e-4d0d-8ebd-556e7142392f,Majid Al Futtaim,Corporate,Marketing,CC-172,Ras Al Khaimah,CapEx,Hotel Renovation Program,1036786,857254,-179532,2023,Q4,Low,Completed,Pending,Omar Al Falasi
+14c65113-b03c-4509-9b4c-a123225f3f92,Emaar,Hospitality,HR,CC-519,Fujairah,OpEx,Hotel Renovation Program,1876303,2302448,426145,2025,Q2,High,On Hold,Pending,Ali Al Zaabi
+f71c44cf-cc26-4b6a-9f45-5b2e2581272b,Dubai Holding,Real Estate,Operations,CC-380,Abu Dhabi,CapEx,Customer Experience Enhancement,420827,402608,-18219,2024,Q4,High,In Progress,Rejected,Abdullah Al Shehhi
+534a1b39-38fa-4f7f-b0c3-5b52527ee3c9,Aldar,Construction,Operations,CC-104,Dubai,CapEx,Infrastructure Upgrade,1378519,1398789,20270,2025,Q1,Medium,In Progress,Approved,Mariam Al Hammadi
+69adf459-0adc-4df4-9185-ad00b53fa967,Emaar,Hospitality,HR,CC-419,Abu Dhabi,CapEx,Mobile App Revamp,58648,65295,6647,2025,Q2,High,Planned,Pending,Khalid Al Mazrouei
+75ad73db-06b0-4fd9-8ab1-7a428e37d1a0,Majid Al Futtaim,Corporate,HR,CC-544,Abu Dhabi,OpEx,Sustainability & Green Energy Program,1006146,1171069,164923,2025,Q2,High,On Hold,Approved,Omar Al Falasi
+e19bea47-868b-4c62-9e10-26d594d8ab10,Emaar,Hospitality,Finance,CC-703,Fujairah,CapEx,Supply Chain Optimization,520435,605570,85135,2025,Q1,Medium,Completed,Rejected,Khalid Al Mazrouei
+7ce5b5a8-81d7-4907-870f-e1e8295af35f,Dubai Holding,Real Estate,Finance,CC-149,Dubai,OpEx,Sustainability & Green Energy Program,151894,166621,14727,2026,Q1,Low,Completed,Pending,Ali Al Zaabi
+7296ae5c-fc9e-43c6-a82a-65efb025db47,Dubai Holding,Retail,Operations,CC-777,Dubai,OpEx,ERP Implementation,371130,335036,-36094,2024,Q4,High,Planned,Pending,Noura Al Suhaili
+6c66a3f5-f0aa-4a4a-a054-aa6150038a04,Emaar,Corporate,IT,CC-896,Sharjah,CapEx,Sustainability & Green Energy Program,1695761,1446707,-249054,2026,Q3,High,Planned,Rejected,Sara Al Dhaheri
+94313f40-2673-4d17-814b-87e4b5514ed3,Aldar,Retail,IT,CC-102,Dubai,CapEx,Customer Experience Enhancement,1959156,1770777,-188379,2026,Q2,High,Planned,Rejected,Noor Al Marri
+6b5bb1ab-eeb5-4488-8d23-7d08aecdfb63,Emaar,Construction,HR,CC-370,Ras Al Khaimah,CapEx,Cloud Migration Initiative,262421,328653,66232,2024,Q1,Medium,Completed,Rejected,Hassan Al Blooshi
+16daead3-66bb-4909-a3c0-cb297a5530e4,Dubai Holding,Real Estate,Finance,CC-972,Abu Dhabi,CapEx,Data Center Modernization,943376,1103061,159685,2025,Q4,Low,Completed,Rejected,Saeed Al Yammahi
+9692bb71-a7db-42ba-87c4-23eed7680b54,Emaar,Real Estate,Operations,CC-509,Ras Al Khaimah,OpEx,Data Center Modernization,831445,1003954,172509,2026,Q4,Low,In Progress,Approved,Sara Al Dhaheri
+1e3c146d-7e3e-444d-bcb4-610be8a43841,Emaar,Real Estate,Operations,CC-704,Ras Al Khaimah,OpEx,ERP Implementation,1509974,1756410,246436,2026,Q3,Low,Planned,Rejected,Latifa Al Balushi
+57b1eff0-2360-44fb-870a-335a9777bb02,Aldar,Real Estate,Operations,CC-551,Dubai,CapEx,Retail Digital Transformation,1920162,1661569,-258593,2025,Q1,Low,In Progress,Rejected,Sara Al Dhaheri
+cfe809ec-6583-4e2d-a0bb-46855d298705,Majid Al Futtaim,Real Estate,Operations,CC-777,Abu Dhabi,OpEx,Mall Expansion Project,1138630,1208714,70084,2026,Q2,Low,Planned,Approved,Noor Al Marri
+1634581d-de61-4eb0-9e26-dc705dccb242,Aldar,Construction,IT,CC-176,Ras Al Khaimah,OpEx,Data Center Modernization,379100,399110,20010,2025,Q3,High,In Progress,Rejected,Ahmed Al Mansoori
+452d1353-7bef-4225-9c2a-31ac555d89b9,Emaar,Real Estate,Operations,CC-554,Fujairah,OpEx,Data Center Modernization,844060,845442,1382,2026,Q4,Medium,Planned,Pending,Mariam Al Hammadi
+529ab9cf-2bf1-4890-842f-b6ab4ed0b056,Aldar,Construction,Finance,CC-670,Fujairah,CapEx,Facility Management System Upgrade,1420222,1148795,-271427,2025,Q2,Low,On Hold,Pending,Latifa Al Balushi
+8946dd4c-0104-40ef-babe-9c6ec335b749,Emaar,Construction,HR,CC-673,Fujairah,OpEx,Hotel Renovation Program,1780802,1472968,-307834,2025,Q4,High,Planned,Rejected,Khalid Al Mazrouei
+beeda801-ba1a-4d59-8107-c78bb4307147,DAMAC,Corporate,Marketing,CC-482,Dubai,CapEx,E-commerce Platform Launch,54607,53005,-1602,2026,Q2,Low,On Hold,Approved,Huda Al Shamsi
+421536cf-0531-4961-bf67-aba8214b2645,Dubai Holding,Construction,IT,CC-568,Abu Dhabi,OpEx,Retail Digital Transformation,1331049,1195229,-135820,2026,Q1,Low,Planned,Pending,Hassan Al Blooshi
+90e7bfae-9afc-421d-8886-17aabb7504ea,Majid Al Futtaim,Hospitality,Operations,CC-104,Fujairah,CapEx,Workforce Optimization Program,1430883,1566327,135444,2026,Q4,Low,In Progress,Rejected,Latifa Al Balushi
+1d91b6d8-2392-4704-8e8f-df185c24d319,Emaar,Real Estate,Operations,CC-773,Fujairah,OpEx,IoT Integration Project,414171,482611,68440,2026,Q4,Low,In Progress,Pending,Yousef Al Kaabi
+9d195679-6179-4da5-8868-056c01dedfc0,Aldar,Hospitality,IT,CC-522,Fujairah,OpEx,Smart City Integration,769027,988388,219361,2025,Q2,High,In Progress,Rejected,Aisha Al Suwaidi
+eba9741a-bc40-49ec-aa7e-5a5aac05120e,Emaar,Hospitality,Marketing,CC-655,Sharjah,CapEx,Cloud Migration Initiative,659389,753883,94494,2025,Q4,Low,On Hold,Rejected,Sara Al Dhaheri
+076115b6-b84e-45e5-aca6-8f27a7954439,DAMAC,Construction,Finance,CC-635,Dubai,CapEx,Infrastructure Upgrade,1924572,2349314,424742,2024,Q1,Low,Planned,Approved,Abdullah Al Shehhi
+4a272c08-2659-4654-8d7c-85b53ca4831b,DAMAC,Retail,IT,CC-959,Dubai,OpEx,Infrastructure Upgrade,1623252,1936159,312907,2023,Q3,Medium,Planned,Rejected,Omar Al Falasi
+9b445eb5-7068-497c-b286-56dee2da65d1,Emaar,Corporate,Operations,CC-343,Fujairah,OpEx,Infrastructure Upgrade,1600828,1730403,129575,2023,Q4,Medium,On Hold,Rejected,Mohammed Al Ameri
+42fd9496-f15f-409d-82a0-ec570700cc0b,DAMAC,Hospitality,Marketing,CC-989,Ras Al Khaimah,CapEx,E-commerce Platform Launch,1207889,998804,-209085,2025,Q2,Low,In Progress,Pending,Fatima Al Nuaimi
+d33e56d9-c35d-43c8-8265-71c26144f1da,Dubai Holding,Hospitality,IT,CC-852,Fujairah,CapEx,E-commerce Platform Launch,422089,545223,123134,2023,Q4,Medium,Completed,Approved,Ali Al Zaabi
+fe93897d-82be-49d1-bb7f-ed6f4dd9e8ba,Dubai Holding,Retail,Operations,CC-826,Abu Dhabi,CapEx,Business Intelligence Dashboard Rollout,1274707,1558975,284268,2025,Q1,Low,Completed,Pending,Sara Al Dhaheri
+f7a1e39d-d105-4547-a090-6745f7bc5a0a,DAMAC,Corporate,IT,CC-288,Fujairah,CapEx,Cybersecurity Enhancement,1203769,1178541,-25228,2024,Q4,Low,On Hold,Approved,Ali Al Zaabi
+d66ef9c0-0663-4ed2-b2fe-e9e14acb5815,DAMAC,Retail,HR,CC-400,Abu Dhabi,OpEx,Cybersecurity Enhancement,513885,638090,124205,2023,Q1,Low,Completed,Pending,Noor Al Marri
+221fd46e-e979-4ab9-a1d0-1c27503b7611,Majid Al Futtaim,Hospitality,Finance,CC-798,Sharjah,OpEx,Supply Chain Optimization,1946866,2182694,235828,2026,Q3,Low,Completed,Approved,Huda Al Shamsi
+5684ec47-683b-4e0b-a2df-5fcf0cbe7578,Majid Al Futtaim,Corporate,Operations,CC-598,Dubai,OpEx,Business Intelligence Dashboard Rollout,1774087,2102731,328644,2024,Q3,Low,Planned,Approved,Huda Al Shamsi
+b8fa7a42-a077-4837-9291-da4176d44e59,Dubai Holding,Real Estate,IT,CC-786,Abu Dhabi,OpEx,Facility Management System Upgrade,1671766,1787096,115330,2024,Q4,Low,Planned,Rejected,Sara Al Dhaheri
+e856c327-9eac-4a40-b8dc-2aa0f2d4d9f7,DAMAC,Real Estate,Finance,CC-175,Dubai,CapEx,Customer Experience Enhancement,372446,302380,-70066,2023,Q2,Medium,On Hold,Pending,Fatima Al Nuaimi
+b0023b5a-da51-43dc-9914-e9a7c165e8d6,DAMAC,Real Estate,Operations,CC-789,Dubai,CapEx,Facility Management System Upgrade,1371661,1374711,3050,2023,Q1,Low,Planned,Pending,Noor Al Marri
+b3336586-4a7e-4739-bad5-3f526e020bc1,DAMAC,Corporate,Finance,CC-388,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,272582,257567,-15015,2023,Q4,High,In Progress,Approved,Ali Al Zaabi
+f6ff40bf-f947-4b22-82e9-60e7e6a0631e,Majid Al Futtaim,Retail,IT,CC-405,Sharjah,CapEx,Workforce Optimization Program,869970,1042559,172589,2024,Q1,High,Planned,Rejected,Mariam Al Hammadi
+58047e60-fd75-4f94-9da8-27ea0999758f,Dubai Holding,Retail,IT,CC-866,Sharjah,CapEx,CRM Implementation,876449,936552,60103,2024,Q2,High,In Progress,Rejected,Huda Al Shamsi
+ff40b12f-c11a-4d48-94bd-217e69dbf84a,Majid Al Futtaim,Real Estate,Marketing,CC-572,Fujairah,CapEx,CRM Implementation,457531,392246,-65285,2023,Q3,High,In Progress,Rejected,Rashid Al Qasimi
+0852d6be-42e2-4749-8e42-fadc56186f3a,DAMAC,Hospitality,IT,CC-202,Sharjah,CapEx,Infrastructure Upgrade,1071712,1367257,295545,2025,Q4,Medium,Completed,Rejected,Reem Al Ketbi
+00f2ac80-3538-4f44-af16-ae5a90e5a888,Emaar,Corporate,Marketing,CC-473,Sharjah,OpEx,Workforce Optimization Program,691047,792443,101396,2023,Q3,High,In Progress,Rejected,Noor Al Marri
+dd705908-8f1d-46dd-9362-dcbe3dafb7c8,DAMAC,Hospitality,HR,CC-998,Ras Al Khaimah,OpEx,Customer Experience Enhancement,1393935,1419112,25177,2025,Q3,Medium,Planned,Approved,Sara Al Dhaheri
+639f6230-6aa2-4227-a41b-331aeaf34a54,DAMAC,Hospitality,Marketing,CC-301,Sharjah,CapEx,Mall Expansion Project,1322190,1111944,-210246,2023,Q1,Low,Planned,Rejected,Yousef Al Kaabi
+2c0740f0-8173-477e-a07e-eec8d8dc3cdd,Emaar,Real Estate,Marketing,CC-366,Fujairah,OpEx,Customer Experience Enhancement,899628,1065699,166071,2024,Q3,Medium,In Progress,Rejected,Ahmed Al Mansoori
+4e8ea3c4-6f3f-431d-85f7-32c21c7dddb9,Aldar,Corporate,Marketing,CC-192,Ras Al Khaimah,OpEx,Mobile App Revamp,1847603,1746907,-100696,2023,Q2,Low,In Progress,Rejected,Omar Al Falasi
+59bfd222-f968-48a9-a85d-246116ab6143,Majid Al Futtaim,Corporate,IT,CC-853,Ras Al Khaimah,OpEx,E-commerce Platform Launch,985792,867113,-118679,2024,Q4,High,Planned,Pending,Zainab Al Neyadi
+23e4627f-fb5f-4bb0-b001-3c71a8b9d4b9,Emaar,Corporate,HR,CC-497,Ras Al Khaimah,OpEx,Smart City Integration,540772,444192,-96580,2023,Q3,High,Completed,Rejected,Ali Al Zaabi
+f7303203-c4e4-4cad-822a-21693c2ffa7a,Emaar,Construction,Operations,CC-474,Fujairah,CapEx,Mobile App Revamp,1263478,1354669,91191,2025,Q4,High,On Hold,Pending,Sara Al Dhaheri
+64efb68c-807a-4747-a6d3-f0d3d251afbc,Majid Al Futtaim,Real Estate,Marketing,CC-242,Ras Al Khaimah,CapEx,Infrastructure Upgrade,1071022,1281294,210272,2023,Q3,High,In Progress,Approved,Latifa Al Balushi
+25685510-3e09-4860-a633-e3ac6fdce642,Dubai Holding,Hospitality,Operations,CC-930,Sharjah,CapEx,Retail Digital Transformation,809636,891417,81781,2026,Q4,High,In Progress,Rejected,Abdullah Al Shehhi
+3d9929c7-8cc6-4598-b83b-0f2911e3a852,Emaar,Corporate,Marketing,CC-264,Abu Dhabi,CapEx,ERP Implementation,97072,89484,-7588,2024,Q1,High,Completed,Approved,Sara Al Dhaheri
+5791f051-1f50-4e30-9850-16a974b4a777,Majid Al Futtaim,Real Estate,HR,CC-187,Abu Dhabi,OpEx,E-commerce Platform Launch,900303,990044,89741,2026,Q4,High,In Progress,Pending,Hassan Al Blooshi
+f123aae1-f75a-434a-a7ba-50b28ae025e0,Emaar,Corporate,Marketing,CC-370,Abu Dhabi,OpEx,Retail Digital Transformation,349289,418206,68917,2023,Q2,Medium,On Hold,Approved,Saeed Al Yammahi
+2abd03ff-26e1-494c-aea8-99fe7d119d39,Majid Al Futtaim,Construction,IT,CC-720,Dubai,CapEx,Smart City Integration,84734,76360,-8374,2023,Q1,High,On Hold,Rejected,Hassan Al Blooshi
+f21f119f-b2ce-4758-9abb-626a46f51796,Dubai Holding,Construction,Marketing,CC-530,Sharjah,CapEx,IoT Integration Project,1941599,2139132,197533,2026,Q2,Medium,On Hold,Pending,Hassan Al Blooshi
+784de5cb-8f30-4eec-a8be-e2bbc87916a1,Majid Al Futtaim,Real Estate,Operations,CC-237,Sharjah,OpEx,Cloud Migration Initiative,1737412,2033983,296571,2024,Q1,Medium,On Hold,Pending,Ahmed Al Mansoori
+dfc72673-6d5f-4d82-9385-8313d6923e56,Dubai Holding,Corporate,Marketing,CC-220,Fujairah,CapEx,Customer Experience Enhancement,61470,70971,9501,2024,Q3,Medium,Completed,Approved,Mariam Al Hammadi
+7f026df4-302f-4ab2-a84f-b8eeaae03dab,DAMAC,Retail,Marketing,CC-533,Fujairah,OpEx,Retail Digital Transformation,943536,1062221,118685,2025,Q4,High,On Hold,Rejected,Aisha Al Suwaidi
+0f06cc7e-0c18-41ef-bcd8-1a6a45d6638c,Majid Al Futtaim,Corporate,Operations,CC-359,Sharjah,OpEx,ERP Implementation,1061808,944329,-117479,2026,Q2,Low,Planned,Rejected,Huda Al Shamsi
+332728fa-c939-42f6-8cc6-ac5d87b9a705,Emaar,Real Estate,IT,CC-620,Ras Al Khaimah,OpEx,Customer Experience Enhancement,986577,1175560,188983,2023,Q2,Medium,Planned,Approved,Mariam Al Hammadi
+8f4c9774-f6f8-4a18-b4f3-8745ffec247d,Aldar,Real Estate,Finance,CC-369,Abu Dhabi,OpEx,Retail Digital Transformation,1039160,1312387,273227,2023,Q4,Medium,Completed,Rejected,Reem Al Ketbi
+f78c2dae-489d-4542-a6b6-d71d7cc16dd1,Emaar,Construction,Operations,CC-110,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,170508,217032,46524,2023,Q2,Low,In Progress,Rejected,Hassan Al Blooshi
+b659f5c0-486d-4ef6-88b1-2ff01c866b0f,Dubai Holding,Hospitality,Finance,CC-382,Ras Al Khaimah,OpEx,Customer Experience Enhancement,804429,739775,-64654,2026,Q4,Low,In Progress,Rejected,Hassan Al Blooshi
+6bdf1c4b-cb6b-4845-a8ba-fbab0e256069,Dubai Holding,Corporate,HR,CC-843,Fujairah,OpEx,Mall Expansion Project,1595444,1837649,242205,2025,Q2,Low,In Progress,Pending,Noor Al Marri
+c5853717-c7dd-4afb-8cfa-bc919696b66f,Emaar,Construction,Marketing,CC-209,Fujairah,CapEx,Infrastructure Upgrade,1255666,1007453,-248213,2025,Q3,High,Completed,Rejected,Abdullah Al Shehhi
+184f0838-d3be-4145-baa7-0a0e2c18d4c2,Aldar,Corporate,Operations,CC-888,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,574584,659102,84518,2026,Q4,Low,Planned,Pending,Rashid Al Qasimi
+1f9f5892-d885-4a50-8ffe-475f9a4305a0,Emaar,Hospitality,HR,CC-522,Sharjah,CapEx,ERP Implementation,590687,492501,-98186,2025,Q2,Medium,Planned,Pending,Khalid Al Mazrouei
+021402c1-5a99-4653-afa6-6b5d16b9d288,Dubai Holding,Corporate,IT,CC-587,Sharjah,OpEx,Hotel Renovation Program,1620322,1961460,341138,2025,Q2,Low,In Progress,Pending,Mohammed Al Ameri
+03e09939-c873-4163-ab5d-26957faf3913,Emaar,Retail,IT,CC-334,Abu Dhabi,CapEx,Cybersecurity Enhancement,468731,430028,-38703,2025,Q2,High,Planned,Approved,Noura Al Suhaili
+bd6ab0d6-befd-4d0b-8a90-a3c7ead4c8fa,Dubai Holding,Corporate,Finance,CC-968,Ras Al Khaimah,OpEx,Mall Expansion Project,1441301,1508079,66778,2025,Q4,Low,Completed,Pending,Fatima Al Nuaimi
+e3042c73-608e-4eed-8bbf-02296088ab04,DAMAC,Construction,IT,CC-868,Fujairah,CapEx,ERP Implementation,1652774,2079195,426421,2026,Q4,Low,Planned,Rejected,Rashid Al Qasimi
+66a5a81d-0195-4e15-8f56-ce183a3f54ca,Emaar,Construction,Finance,CC-815,Fujairah,OpEx,E-commerce Platform Launch,875684,1077266,201582,2023,Q1,Low,In Progress,Pending,Fatima Al Nuaimi
+9f475ae3-d57d-422b-8594-c1834810cc3a,Majid Al Futtaim,Retail,IT,CC-661,Sharjah,CapEx,Sustainability & Green Energy Program,261283,251541,-9742,2026,Q3,Medium,In Progress,Pending,Sara Al Dhaheri
+48277e1b-18ca-45a8-a2fa-210fba2908dc,DAMAC,Retail,Operations,CC-386,Ras Al Khaimah,CapEx,Workforce Optimization Program,491518,496210,4692,2024,Q2,High,Completed,Approved,Fatima Al Nuaimi
+a176b1f1-918e-48b4-878e-f99fc078aab5,Emaar,Hospitality,IT,CC-584,Dubai,CapEx,AI Analytics Platform,956428,1174641,218213,2026,Q2,Low,Completed,Pending,Sara Al Dhaheri
+5a1ee00d-695f-435c-add2-cff1b14b717e,Majid Al Futtaim,Real Estate,Operations,CC-201,Abu Dhabi,CapEx,Facility Management System Upgrade,576330,623052,46722,2025,Q4,Low,Planned,Pending,Mariam Al Hammadi
+5a119864-3679-4255-8879-2d35504fbc14,DAMAC,Corporate,Marketing,CC-929,Sharjah,OpEx,Smart City Integration,751825,699110,-52715,2026,Q1,Medium,In Progress,Rejected,Yousef Al Kaabi
+29dc99cd-0962-4a6e-887d-fc295fabf0a5,Emaar,Retail,HR,CC-432,Fujairah,OpEx,Retail Digital Transformation,1412866,1588860,175994,2026,Q1,Medium,Completed,Pending,Yousef Al Kaabi
+11f2ac6d-a1e6-4642-aa05-a0c0e37d50f4,DAMAC,Construction,Marketing,CC-685,Ras Al Khaimah,CapEx,IoT Integration Project,353768,436595,82827,2024,Q3,High,Completed,Pending,Yousef Al Kaabi
+cfb493d1-94bc-43bb-9951-ae7b17109f77,Majid Al Futtaim,Construction,HR,CC-555,Sharjah,OpEx,CRM Implementation,661018,763619,102601,2024,Q2,High,In Progress,Rejected,Huda Al Shamsi
+f6989792-3a45-48e9-83a3-4aa518ca978c,Dubai Holding,Hospitality,IT,CC-506,Dubai,CapEx,Mobile App Revamp,1438361,1331668,-106693,2026,Q1,High,On Hold,Rejected,Yousef Al Kaabi
+6e977d58-7782-41d6-bc0c-1783239e1808,Majid Al Futtaim,Hospitality,Finance,CC-770,Ras Al Khaimah,OpEx,Mall Expansion Project,224590,191342,-33248,2024,Q3,Medium,In Progress,Approved,Hassan Al Blooshi
+c5c1bb36-c385-471e-aec7-3de3677fdb48,Dubai Holding,Retail,HR,CC-984,Ras Al Khaimah,OpEx,IoT Integration Project,1808499,1601071,-207428,2025,Q4,High,In Progress,Rejected,Abdullah Al Shehhi
+a4b21d2c-97ab-495c-ad19-b801cd8ce611,Majid Al Futtaim,Construction,Marketing,CC-755,Fujairah,OpEx,Smart City Integration,1007440,1123823,116383,2026,Q2,High,On Hold,Pending,Saeed Al Yammahi
+8cbc68da-9107-4227-8f68-0aed7504d6bc,DAMAC,Real Estate,Finance,CC-635,Abu Dhabi,OpEx,Facility Management System Upgrade,914454,850353,-64101,2026,Q1,Low,On Hold,Pending,Rashid Al Qasimi
+5611b64e-dfa8-4f44-9c58-09e7f12bba5b,DAMAC,Corporate,IT,CC-915,Dubai,OpEx,Cybersecurity Enhancement,69152,81802,12650,2026,Q4,Medium,In Progress,Approved,Aisha Al Suwaidi
+8280583f-76e1-42c0-aa3c-cfa8ddee0f8f,Aldar,Hospitality,HR,CC-181,Ras Al Khaimah,CapEx,E-commerce Platform Launch,1595848,1792129,196281,2025,Q3,Low,Completed,Pending,Ali Al Zaabi
+892ba43d-df5c-41cf-b20b-e403b1772af0,Emaar,Retail,Finance,CC-752,Ras Al Khaimah,OpEx,ERP Implementation,1839881,1534887,-304994,2026,Q2,Medium,Planned,Approved,Mariam Al Hammadi
+bbdb780c-6b35-45e0-a2be-f4ca15d64b96,Dubai Holding,Retail,HR,CC-228,Ras Al Khaimah,CapEx,CRM Implementation,1171914,950498,-221416,2023,Q2,High,On Hold,Approved,Khalid Al Mazrouei
+1c082ad1-2fb4-4424-884a-e9f5b5eeb36a,Aldar,Retail,Operations,CC-813,Dubai,OpEx,Smart City Integration,931313,890138,-41175,2024,Q1,Medium,On Hold,Approved,Aisha Al Suwaidi
+09c364e1-470c-42d8-9a26-1d6721a33145,DAMAC,Construction,Finance,CC-224,Abu Dhabi,OpEx,Smart City Integration,1035969,922843,-113126,2026,Q2,Low,Planned,Approved,Omar Al Falasi
+505ff89f-9d36-4753-a2d2-9309475b0730,Majid Al Futtaim,Hospitality,Operations,CC-498,Sharjah,OpEx,Mobile App Revamp,1592083,1887411,295328,2023,Q1,Medium,On Hold,Rejected,Aisha Al Suwaidi
+6b41269c-5d43-42e2-8d1d-99084d1802a9,Dubai Holding,Hospitality,Finance,CC-341,Ras Al Khaimah,OpEx,Facility Management System Upgrade,466753,457517,-9236,2024,Q3,Low,Planned,Pending,Noura Al Suhaili
+61ade34d-cb8e-4840-b34e-71ddb749f9b9,Majid Al Futtaim,Construction,Marketing,CC-258,Sharjah,CapEx,CRM Implementation,68727,88274,19547,2024,Q4,High,Completed,Rejected,Mohammed Al Ameri
+acc92bf1-2bc3-4cf8-91d2-f3d7c1e27377,Emaar,Corporate,Finance,CC-228,Ras Al Khaimah,CapEx,Data Center Modernization,175357,171456,-3901,2025,Q4,Low,In Progress,Approved,Hassan Al Blooshi
+661dcace-3578-4b8b-bcbe-00fe3382ad29,Emaar,Retail,Finance,CC-596,Ras Al Khaimah,OpEx,AI Analytics Platform,842238,824621,-17617,2026,Q2,Low,In Progress,Rejected,Mohammed Al Ameri
+3544d131-c81e-4731-86f8-7903f77d47f3,DAMAC,Corporate,Marketing,CC-264,Dubai,CapEx,Mobile App Revamp,728807,849935,121128,2025,Q3,Low,Completed,Pending,Aisha Al Suwaidi
+7132b719-ee41-4547-a4e8-51251e9eef9b,Aldar,Hospitality,Finance,CC-734,Sharjah,CapEx,IoT Integration Project,1677217,1876827,199610,2023,Q4,High,On Hold,Rejected,Reem Al Ketbi
+04cd5dc4-d533-4a38-8851-2313d2d04b4a,Aldar,Retail,Finance,CC-198,Fujairah,CapEx,AI Analytics Platform,1335636,1257587,-78049,2024,Q2,High,In Progress,Approved,Fatima Al Nuaimi
+a4a0f704-e91d-4e6a-9370-0d97db1ea928,Majid Al Futtaim,Construction,Operations,CC-638,Fujairah,OpEx,Facility Management System Upgrade,451849,383790,-68059,2025,Q2,Low,Planned,Approved,Noura Al Suhaili
+d6682366-8719-45bd-8bdc-7acb20af282e,Dubai Holding,Construction,Finance,CC-469,Fujairah,OpEx,Customer Experience Enhancement,1425206,1490341,65135,2023,Q3,Low,Planned,Rejected,Yousef Al Kaabi
+7adec605-527b-464f-ad75-dc59a506d2b1,Emaar,Corporate,Finance,CC-203,Abu Dhabi,OpEx,Cybersecurity Enhancement,1799982,1713496,-86486,2024,Q2,Low,In Progress,Rejected,Mariam Al Hammadi
+4e7dae9d-9cf2-42d5-8e82-1e54ed73764a,Dubai Holding,Corporate,HR,CC-790,Ras Al Khaimah,OpEx,Customer Experience Enhancement,1220507,1229773,9266,2024,Q2,Low,On Hold,Rejected,Saeed Al Yammahi
+65074742-607b-4a62-aad6-ad2b5652e8ae,Majid Al Futtaim,Construction,HR,CC-422,Fujairah,OpEx,Supply Chain Optimization,1428944,1256167,-172777,2026,Q4,Low,Completed,Rejected,Omar Al Falasi
+e9999a67-9a15-46ef-b691-b2982d8da344,Aldar,Corporate,HR,CC-468,Ras Al Khaimah,OpEx,Hotel Renovation Program,1231000,1320632,89632,2023,Q1,Medium,Planned,Rejected,Yousef Al Kaabi
+858cc9b5-3a94-4f09-af7b-92230790bc69,DAMAC,Hospitality,IT,CC-976,Sharjah,CapEx,Data Center Modernization,1917145,1823053,-94092,2025,Q2,High,Planned,Pending,Zainab Al Neyadi
+ee7fd59e-85ce-4eae-8dfe-93871963a342,DAMAC,Corporate,IT,CC-338,Sharjah,OpEx,Customer Experience Enhancement,377380,328020,-49360,2026,Q2,Low,Planned,Rejected,Yousef Al Kaabi
+da7366c7-6a0e-4b13-80f2-4f41a8647f40,Aldar,Corporate,Finance,CC-709,Sharjah,CapEx,Business Intelligence Dashboard Rollout,1712840,1783523,70683,2026,Q1,High,Completed,Pending,Khalid Al Mazrouei
+f439b2b6-eb71-4262-9f4e-6efa8cd3d474,Dubai Holding,Hospitality,Marketing,CC-111,Ras Al Khaimah,CapEx,ERP Implementation,923509,1168352,244843,2023,Q3,Low,In Progress,Pending,Ali Al Zaabi
+c9edf475-b31f-41ec-b18c-407ad9d5a26d,Dubai Holding,Construction,Operations,CC-870,Fujairah,CapEx,E-commerce Platform Launch,1513326,1377729,-135597,2026,Q3,Medium,In Progress,Approved,Rashid Al Qasimi
+285c73d5-1907-4d83-9084-bafa43810aea,Dubai Holding,Corporate,Operations,CC-368,Dubai,OpEx,CRM Implementation,223109,231570,8461,2026,Q2,High,On Hold,Rejected,Mariam Al Hammadi
+b78c822d-110e-44bf-b621-a9f41306f8c0,Majid Al Futtaim,Hospitality,Marketing,CC-730,Fujairah,CapEx,Cybersecurity Enhancement,1073118,1070606,-2512,2023,Q3,Medium,Completed,Rejected,Fatima Al Nuaimi
+f40b33e3-020c-49a4-9f92-bd888c92147f,Aldar,Construction,HR,CC-456,Abu Dhabi,OpEx,IoT Integration Project,237893,203699,-34194,2023,Q3,High,Completed,Rejected,Latifa Al Balushi
+6068d58f-c0d6-49ad-941a-1b144f3f863f,Dubai Holding,Hospitality,IT,CC-801,Sharjah,CapEx,Sustainability & Green Energy Program,1356907,1184456,-172451,2023,Q1,Low,Planned,Approved,Fatima Al Nuaimi
+22082077-ec17-45d2-adea-50ff05816e6d,DAMAC,Real Estate,HR,CC-810,Dubai,OpEx,Cloud Migration Initiative,1993493,1741991,-251502,2026,Q1,Medium,In Progress,Rejected,Omar Al Falasi
+f6e2309b-477a-4155-8e3a-7a816ba95283,Majid Al Futtaim,Retail,Marketing,CC-594,Fujairah,CapEx,Cybersecurity Enhancement,494334,445840,-48494,2023,Q4,Low,Planned,Pending,Omar Al Falasi
+fe020fd8-ba8c-45e0-8d1e-76cafdd572b1,Majid Al Futtaim,Retail,Finance,CC-576,Dubai,CapEx,Hotel Renovation Program,176059,165848,-10211,2025,Q3,High,Planned,Pending,Noura Al Suhaili
+935f9b03-a066-4f67-acaa-13b9f15650da,Aldar,Corporate,Finance,CC-423,Ras Al Khaimah,CapEx,IoT Integration Project,860597,787949,-72648,2024,Q4,Low,Planned,Approved,Hassan Al Blooshi
+77c45315-e648-487b-a034-b90ed0194d7d,DAMAC,Construction,Operations,CC-862,Abu Dhabi,CapEx,Smart City Integration,1984140,2112529,128389,2025,Q3,Low,Completed,Approved,Zainab Al Neyadi
+95cbcfd9-f158-4ac3-bfea-97f4851cfc60,DAMAC,Construction,Finance,CC-668,Sharjah,CapEx,CRM Implementation,628558,758007,129449,2025,Q4,Low,In Progress,Approved,Rashid Al Qasimi
+3fb9f019-cf8f-4a04-855d-a1ed76c6a185,Majid Al Futtaim,Hospitality,Operations,CC-346,Fujairah,CapEx,Cloud Migration Initiative,851546,902944,51398,2025,Q3,Medium,In Progress,Approved,Ali Al Zaabi
+cce880c1-8362-4a9b-bef8-097eaa38c7d5,Emaar,Hospitality,HR,CC-805,Fujairah,CapEx,Facility Management System Upgrade,340616,371446,30830,2024,Q2,Medium,Planned,Rejected,Aisha Al Suwaidi
+ed849e11-7265-4ae4-9de9-4e8e6a47e637,DAMAC,Hospitality,Finance,CC-883,Sharjah,OpEx,Smart City Integration,1558776,1339290,-219486,2025,Q4,Low,Completed,Approved,Mohammed Al Ameri
+084d2d0c-28ad-4373-aaac-2d93544701d7,Emaar,Real Estate,Marketing,CC-731,Sharjah,CapEx,ERP Implementation,444125,379009,-65116,2024,Q2,Low,Planned,Pending,Hassan Al Blooshi
+d684a8ce-03ac-46e8-b8ca-80ce84d3d619,Emaar,Corporate,Marketing,CC-580,Sharjah,CapEx,CRM Implementation,1493136,1776702,283566,2026,Q4,High,In Progress,Approved,Latifa Al Balushi
+beebce0f-256b-41ad-9ee7-33e14d8bc39a,Dubai Holding,Retail,Operations,CC-327,Abu Dhabi,CapEx,Retail Digital Transformation,117590,118094,504,2024,Q4,Low,On Hold,Rejected,Reem Al Ketbi
+361aa503-6735-4c00-a510-0e680e8a118c,Emaar,Construction,Operations,CC-894,Dubai,OpEx,Retail Digital Transformation,1867758,1921498,53740,2025,Q4,Low,Planned,Rejected,Hassan Al Blooshi
+08b0ae22-aba1-42df-80a7-52ff42ac8cd6,Dubai Holding,Hospitality,Marketing,CC-650,Ras Al Khaimah,CapEx,CRM Implementation,997093,1025460,28367,2026,Q1,High,Completed,Pending,Ahmed Al Mansoori
+774ec67c-a23b-4c50-89e8-d5017f9dbd5b,DAMAC,Construction,IT,CC-532,Sharjah,CapEx,Retail Digital Transformation,1904716,1813817,-90899,2024,Q4,Low,On Hold,Approved,Ahmed Al Mansoori
+e89144bf-f595-4b04-9607-531ab28ff96a,Majid Al Futtaim,Corporate,IT,CC-502,Ras Al Khaimah,OpEx,Supply Chain Optimization,1099955,942205,-157750,2023,Q2,Medium,In Progress,Pending,Noor Al Marri
+072063ef-01e5-422d-89a2-eca3786c9aa5,Emaar,Real Estate,Finance,CC-216,Ras Al Khaimah,OpEx,Supply Chain Optimization,574460,552651,-21809,2026,Q2,Medium,On Hold,Approved,Yousef Al Kaabi
+820914e6-073e-40f9-a5a5-7d68b3952cc1,Majid Al Futtaim,Hospitality,IT,CC-989,Abu Dhabi,CapEx,Smart City Integration,408371,512965,104594,2023,Q4,Medium,Completed,Rejected,Ahmed Al Mansoori
+d84faa87-ca55-4b78-9100-69e231318b83,Emaar,Real Estate,IT,CC-307,Dubai,OpEx,Mall Expansion Project,985871,931046,-54825,2026,Q4,Medium,Planned,Rejected,Ahmed Al Mansoori
+b35905b0-f256-4752-8f72-093a5926a615,Aldar,Construction,Operations,CC-552,Dubai,CapEx,Data Center Modernization,548867,498611,-50256,2025,Q2,High,In Progress,Approved,Saeed Al Yammahi
+f1bb832a-7f20-4339-9bbb-a3051d2115b1,Emaar,Real Estate,Marketing,CC-958,Fujairah,OpEx,Smart City Integration,1420020,1383823,-36197,2023,Q1,High,On Hold,Approved,Aisha Al Suwaidi
+ddda6499-6f50-4090-8bea-f9eb313f7374,Majid Al Futtaim,Corporate,Marketing,CC-281,Ras Al Khaimah,OpEx,Smart City Integration,1459475,1375103,-84372,2023,Q3,Medium,Completed,Pending,Rashid Al Qasimi
+07a11d7d-e213-410c-9357-aba05ebf069c,Majid Al Futtaim,Real Estate,HR,CC-582,Abu Dhabi,CapEx,Customer Experience Enhancement,1640568,1662981,22413,2025,Q3,Low,On Hold,Rejected,Latifa Al Balushi
+30e2ab44-22e1-4101-880e-43e2ee073157,Dubai Holding,Real Estate,Marketing,CC-847,Fujairah,CapEx,Supply Chain Optimization,1509260,1365164,-144096,2025,Q4,Low,Completed,Pending,Aisha Al Suwaidi
+c767597e-eebb-42ad-b8fc-2a862b468c02,DAMAC,Hospitality,Marketing,CC-676,Ras Al Khaimah,OpEx,Supply Chain Optimization,1256161,1629884,373723,2024,Q2,Low,Completed,Approved,Reem Al Ketbi
+c68c703d-b0e8-4824-9bba-70d32bf7be76,Dubai Holding,Hospitality,Marketing,CC-524,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,297898,241891,-56007,2025,Q2,High,In Progress,Rejected,Khalid Al Mazrouei
+3cdb8a53-758e-46d2-a5a9-a740a150a992,DAMAC,Retail,Marketing,CC-663,Sharjah,CapEx,Retail Digital Transformation,583552,697401,113849,2025,Q3,Medium,Planned,Approved,Noura Al Suhaili
+ec0ade24-0a14-4f85-9943-5c73d5b38243,Aldar,Construction,Finance,CC-761,Abu Dhabi,OpEx,Workforce Optimization Program,743139,904335,161196,2026,Q3,Medium,On Hold,Rejected,Hassan Al Blooshi
+6f233e5c-35c8-4ca0-93cb-e7a88f5798a1,Majid Al Futtaim,Retail,Marketing,CC-648,Dubai,CapEx,Smart City Integration,1801343,1910390,109047,2025,Q3,High,In Progress,Pending,Ahmed Al Mansoori
+eeaca865-036a-48e9-9864-a7440c808642,Majid Al Futtaim,Hospitality,Marketing,CC-720,Ras Al Khaimah,CapEx,Cloud Migration Initiative,761254,983395,222141,2023,Q3,Low,Completed,Rejected,Mariam Al Hammadi
+2f586629-7544-4fa0-abbe-885a74244b1b,Aldar,Hospitality,HR,CC-562,Sharjah,CapEx,Workforce Optimization Program,619371,623666,4295,2025,Q2,High,Completed,Approved,Ali Al Zaabi
+8413f187-7e0b-4d0f-8fcd-9b63ab1d7da2,Aldar,Corporate,Finance,CC-918,Ras Al Khaimah,CapEx,Data Center Modernization,473831,595452,121621,2025,Q4,Low,Completed,Pending,Rashid Al Qasimi
+9c4ba89d-de13-45ab-950c-4bb8fee8d7fd,Majid Al Futtaim,Hospitality,IT,CC-841,Dubai,OpEx,Supply Chain Optimization,1663719,2056189,392470,2023,Q1,Medium,Planned,Rejected,Zainab Al Neyadi
+65552ad4-e9e6-4032-ac4e-dbe3b8fa58ca,Aldar,Real Estate,Finance,CC-633,Sharjah,CapEx,ERP Implementation,1878454,1584547,-293907,2025,Q2,Medium,In Progress,Approved,Zainab Al Neyadi
+42a60236-1033-434d-975b-7da825b8b73f,Aldar,Real Estate,HR,CC-252,Abu Dhabi,OpEx,Infrastructure Upgrade,630176,671854,41678,2023,Q1,High,Completed,Rejected,Abdullah Al Shehhi
+9b852435-7707-4ad4-86a6-be19ad5c015c,DAMAC,Corporate,IT,CC-275,Dubai,OpEx,Sustainability & Green Energy Program,618437,538521,-79916,2025,Q4,High,In Progress,Approved,Sara Al Dhaheri
+de6c2068-f249-4e2e-a895-3b1d97ca7751,Dubai Holding,Construction,Finance,CC-188,Ras Al Khaimah,OpEx,IoT Integration Project,1944341,2212170,267829,2026,Q3,Medium,Completed,Approved,Noura Al Suhaili
+fbee63ca-6b64-4411-bfe6-4f946bd1129d,Majid Al Futtaim,Real Estate,Operations,CC-681,Abu Dhabi,CapEx,IoT Integration Project,1640485,1862664,222179,2026,Q1,Medium,Completed,Rejected,Aisha Al Suwaidi
+5f8a56b6-1380-4103-89dd-0adb10d1ed14,Aldar,Hospitality,IT,CC-247,Fujairah,OpEx,Customer Experience Enhancement,1539430,1821525,282095,2026,Q2,Low,Completed,Pending,Latifa Al Balushi
+efd91a6e-444b-46ec-a161-754d03ddf794,Aldar,Real Estate,HR,CC-590,Ras Al Khaimah,CapEx,Sustainability & Green Energy Program,1072375,874127,-198248,2025,Q2,Low,Planned,Pending,Ahmed Al Mansoori
+f0888591-5511-48a3-a5a5-4a9e14c6bea7,Majid Al Futtaim,Real Estate,HR,CC-645,Ras Al Khaimah,OpEx,Smart City Integration,1720922,1468790,-252132,2026,Q2,Low,In Progress,Rejected,Noura Al Suhaili
+0b2f43a1-8ad6-4042-8f06-0448fbb27949,DAMAC,Hospitality,Marketing,CC-541,Ras Al Khaimah,OpEx,Data Center Modernization,1061612,1053021,-8591,2024,Q2,Low,Planned,Rejected,Yousef Al Kaabi
+0a93f7e5-c035-4b97-8ddb-5888a214b657,Dubai Holding,Corporate,Marketing,CC-574,Sharjah,CapEx,Mobile App Revamp,1254160,1528036,273876,2024,Q3,Medium,Planned,Rejected,Ali Al Zaabi
+cb61985f-8bf9-4a20-9b0c-598928ea707d,Aldar,Retail,Operations,CC-760,Dubai,CapEx,Sustainability & Green Energy Program,1487615,1795600,307985,2024,Q1,High,In Progress,Pending,Huda Al Shamsi
+79081e95-3a98-4262-a416-9390b7b1d70b,Majid Al Futtaim,Construction,IT,CC-310,Sharjah,OpEx,Supply Chain Optimization,661326,658013,-3313,2025,Q4,Low,Completed,Approved,Noura Al Suhaili
+809fe308-1c47-451c-b2b8-5363721fc669,Majid Al Futtaim,Construction,IT,CC-972,Sharjah,CapEx,IoT Integration Project,67027,74114,7087,2023,Q1,Low,Completed,Approved,Huda Al Shamsi
+8f93a962-79a5-45c6-818d-7166e1471298,Aldar,Corporate,Operations,CC-740,Sharjah,OpEx,Retail Digital Transformation,1865461,1521455,-344006,2026,Q4,Low,In Progress,Rejected,Khalid Al Mazrouei
+1164703e-6d31-4676-98e1-e4226b5c8a4c,Majid Al Futtaim,Construction,HR,CC-960,Ras Al Khaimah,CapEx,Data Center Modernization,1045877,909426,-136451,2024,Q2,High,Planned,Rejected,Fatima Al Nuaimi
+df7bf37d-5346-4188-9f90-608fb5702c6a,Aldar,Construction,IT,CC-186,Abu Dhabi,OpEx,IoT Integration Project,351981,408533,56552,2026,Q2,Medium,On Hold,Rejected,Omar Al Falasi
+3af4154d-c8a1-498d-a46a-a04784bd4dc9,Emaar,Construction,Marketing,CC-107,Fujairah,OpEx,Infrastructure Upgrade,856805,837658,-19147,2024,Q3,Medium,Completed,Approved,Sara Al Dhaheri
+af82313d-9a6a-44f8-a79f-4a46adc97f5e,DAMAC,Real Estate,Marketing,CC-593,Dubai,CapEx,AI Analytics Platform,1241496,1293184,51688,2025,Q4,Low,Planned,Rejected,Noura Al Suhaili
+f3b3f0be-f53a-46d6-9add-07a453992890,Dubai Holding,Corporate,Marketing,CC-419,Fujairah,CapEx,Workforce Optimization Program,235485,217262,-18223,2023,Q4,Medium,On Hold,Rejected,Omar Al Falasi
+85afe5a3-05bf-4073-91c3-507f20ba8262,DAMAC,Retail,IT,CC-136,Fujairah,OpEx,Cloud Migration Initiative,745235,753065,7830,2025,Q1,Low,On Hold,Rejected,Aisha Al Suwaidi
+289f38fc-86e5-453b-82ea-dd7feb5e4b68,DAMAC,Corporate,Finance,CC-393,Ras Al Khaimah,CapEx,Facility Management System Upgrade,1251374,1033397,-217977,2023,Q3,Medium,In Progress,Rejected,Hassan Al Blooshi
+deb8ab1f-61e7-49af-85f1-e8b35fd6dce2,Dubai Holding,Real Estate,Marketing,CC-278,Fujairah,CapEx,CRM Implementation,627172,770749,143577,2026,Q3,High,Completed,Rejected,Saeed Al Yammahi
+21aa9acf-40fd-4a5c-97a4-65a97ea55f6c,Majid Al Futtaim,Real Estate,HR,CC-186,Abu Dhabi,CapEx,Facility Management System Upgrade,1066947,950014,-116933,2026,Q4,High,On Hold,Rejected,Sara Al Dhaheri
+018e1ddf-4151-4b8c-9db7-c826473b762d,DAMAC,Real Estate,HR,CC-873,Dubai,CapEx,Sustainability & Green Energy Program,400818,362911,-37907,2026,Q4,Medium,Completed,Pending,Aisha Al Suwaidi
+57e6522e-9172-47ac-80f0-c502e1fdb372,Emaar,Construction,Operations,CC-585,Sharjah,CapEx,Smart City Integration,1627955,2053225,425270,2026,Q1,Medium,On Hold,Pending,Reem Al Ketbi
+9c1d0d1a-a0cd-48fd-80b5-fd66084d1e4a,Dubai Holding,Real Estate,Marketing,CC-752,Sharjah,OpEx,Cybersecurity Enhancement,712047,912047,200000,2025,Q3,Medium,Completed,Approved,Sara Al Dhaheri
+e7a7bdb0-77b5-4262-b641-46aae6f9a5be,Aldar,Hospitality,Marketing,CC-888,Abu Dhabi,OpEx,Infrastructure Upgrade,1422257,1553230,130973,2024,Q3,Low,Planned,Rejected,Mariam Al Hammadi
+11313a07-c5b2-4d59-8819-b81ab397c15d,Aldar,Real Estate,Marketing,CC-206,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,1794179,1496302,-297877,2025,Q3,High,Planned,Approved,Mariam Al Hammadi
+d03d2bb7-9fd9-4b0f-a017-c0f636e1572f,Majid Al Futtaim,Hospitality,Marketing,CC-753,Dubai,CapEx,Mall Expansion Project,242814,201157,-41657,2024,Q4,Low,In Progress,Approved,Ali Al Zaabi
+2a16aa16-7637-4b13-ab51-a14e7336534f,Aldar,Real Estate,Operations,CC-383,Ras Al Khaimah,OpEx,Supply Chain Optimization,436427,404422,-32005,2024,Q1,Medium,Planned,Pending,Hassan Al Blooshi
+19f3e310-ead3-432e-b1ce-8c03dc9365ca,DAMAC,Retail,IT,CC-551,Dubai,OpEx,Data Center Modernization,747627,970404,222777,2026,Q2,Low,On Hold,Approved,Zainab Al Neyadi
+1d47f811-9a85-4cb2-b358-6b4114b9165f,Emaar,Corporate,Finance,CC-552,Sharjah,CapEx,AI Analytics Platform,1183787,1402022,218235,2023,Q1,Low,Completed,Pending,Rashid Al Qasimi
+b72cfac6-ae84-4c04-b518-40c27463552c,Dubai Holding,Real Estate,Operations,CC-372,Abu Dhabi,OpEx,AI Analytics Platform,1930122,2024409,94287,2023,Q4,Medium,On Hold,Pending,Ahmed Al Mansoori
+a2b07d68-2247-44b8-97be-cb1d93119fcf,Dubai Holding,Corporate,IT,CC-103,Ras Al Khaimah,OpEx,Supply Chain Optimization,1687743,2035650,347907,2025,Q3,Low,Completed,Pending,Saeed Al Yammahi
+e63991bc-3167-4104-b23a-0bc4a8f46220,Dubai Holding,Retail,Marketing,CC-973,Sharjah,CapEx,Facility Management System Upgrade,1375971,1786709,410738,2025,Q2,High,Planned,Pending,Khalid Al Mazrouei
+289ed4c9-e44b-459f-87f9-8cfb7e6eec5b,Aldar,Real Estate,HR,CC-598,Dubai,OpEx,Business Intelligence Dashboard Rollout,450562,427779,-22783,2024,Q2,High,In Progress,Approved,Latifa Al Balushi
+9ec16fcd-f27e-41bf-9379-d4a4bd2cc648,Aldar,Real Estate,Marketing,CC-758,Sharjah,OpEx,Cloud Migration Initiative,1293496,1189036,-104460,2026,Q1,High,Completed,Approved,Yousef Al Kaabi
+4d979c1f-2394-4e46-8170-3cf3adc56b1c,Aldar,Real Estate,IT,CC-926,Fujairah,OpEx,Smart City Integration,1702091,1975286,273195,2024,Q2,High,Planned,Rejected,Noor Al Marri
+8676cccd-a41c-4278-8861-6b404a5b17a5,Aldar,Corporate,Finance,CC-348,Abu Dhabi,CapEx,CRM Implementation,1075286,1211756,136470,2023,Q3,High,On Hold,Rejected,Noor Al Marri
+31431237-40dd-4f71-a59e-9c8e7734fb85,Dubai Holding,Real Estate,Operations,CC-709,Fujairah,CapEx,Business Intelligence Dashboard Rollout,1801860,1973975,172115,2024,Q4,Medium,On Hold,Pending,Yousef Al Kaabi
+f7689f67-b7c8-41a8-a6fe-e0dbdc36a40f,Emaar,Retail,IT,CC-882,Dubai,CapEx,Supply Chain Optimization,1484637,1615260,130623,2023,Q1,Medium,In Progress,Pending,Noura Al Suhaili
+36f29e81-ef70-4ed3-9492-f67c3d68de36,Emaar,Construction,IT,CC-695,Dubai,CapEx,CRM Implementation,1510238,1487529,-22709,2026,Q2,High,On Hold,Approved,Noura Al Suhaili
+3115fec5-c270-4374-8785-57d99f7269e4,Dubai Holding,Corporate,HR,CC-526,Ras Al Khaimah,CapEx,Mall Expansion Project,65149,57963,-7186,2024,Q3,Low,On Hold,Pending,Hassan Al Blooshi
+4e1776dc-ab8a-4810-b6a6-14dbe6ebaa98,Dubai Holding,Corporate,IT,CC-834,Ras Al Khaimah,CapEx,Smart City Integration,416055,459852,43797,2025,Q3,Medium,Planned,Rejected,Khalid Al Mazrouei
+84a90e39-abb0-430d-a623-fa6445bc0866,Majid Al Futtaim,Real Estate,Marketing,CC-470,Fujairah,CapEx,Supply Chain Optimization,452449,388542,-63907,2024,Q3,High,In Progress,Approved,Omar Al Falasi
+fca4491c-b538-40b9-98e1-9eca6a2178a7,Aldar,Construction,IT,CC-263,Dubai,CapEx,Smart City Integration,1487060,1817025,329965,2025,Q3,High,On Hold,Pending,Mariam Al Hammadi
+b0db16e1-7397-4b98-80c1-acfa28e7a6af,Aldar,Real Estate,Finance,CC-858,Dubai,CapEx,CRM Implementation,1343563,1615737,272174,2023,Q4,Low,Planned,Approved,Mohammed Al Ameri
+f54e51fd-4ac4-424b-a1f9-e56303bdbf49,Majid Al Futtaim,Retail,Operations,CC-303,Sharjah,CapEx,ERP Implementation,1562891,1597916,35025,2023,Q3,High,Planned,Approved,Abdullah Al Shehhi
+e7c2a0d9-84e2-4296-af3e-17658ec14a08,Aldar,Hospitality,Finance,CC-582,Fujairah,OpEx,Smart City Integration,915275,1130312,215037,2026,Q2,High,On Hold,Approved,Rashid Al Qasimi
+c16349b7-62c1-44ac-b57b-fdfee5dcca02,Emaar,Retail,HR,CC-307,Sharjah,CapEx,Hotel Renovation Program,833254,723433,-109821,2023,Q3,High,Planned,Pending,Rashid Al Qasimi
+ab8f89c6-c745-49bd-b9b8-92806a2e3347,DAMAC,Hospitality,HR,CC-718,Abu Dhabi,CapEx,Data Center Modernization,927078,821020,-106058,2024,Q1,Medium,On Hold,Approved,Latifa Al Balushi
+5349cc23-5d28-44f2-b548-2a856144c59d,DAMAC,Real Estate,Operations,CC-853,Abu Dhabi,CapEx,Sustainability & Green Energy Program,1042978,1270862,227884,2026,Q2,Low,In Progress,Rejected,Omar Al Falasi
+25486f84-7c5a-4aad-adca-d7b1bf8958b9,Dubai Holding,Construction,Marketing,CC-134,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,926131,1194794,268663,2023,Q4,Medium,In Progress,Approved,Omar Al Falasi
+c651c6db-14fb-480a-a4f3-b45d31b631c3,Aldar,Hospitality,IT,CC-467,Sharjah,CapEx,CRM Implementation,1629320,1313576,-315744,2023,Q1,Medium,Completed,Approved,Abdullah Al Shehhi
+1b6c3cb0-af4e-42a9-bf20-afecd1ad276b,Majid Al Futtaim,Real Estate,Operations,CC-574,Abu Dhabi,OpEx,E-commerce Platform Launch,1013185,1245164,231979,2025,Q4,Low,Planned,Rejected,Fatima Al Nuaimi
+ecd6d673-0a29-48ef-a90a-33fc481fd236,DAMAC,Corporate,Finance,CC-403,Ras Al Khaimah,OpEx,Facility Management System Upgrade,857150,1068623,211473,2024,Q1,Low,Completed,Rejected,Sara Al Dhaheri
+c73a30f9-901c-4676-befe-a287387764d5,DAMAC,Real Estate,Finance,CC-492,Sharjah,OpEx,Cloud Migration Initiative,1129480,1437445,307965,2023,Q3,Medium,In Progress,Rejected,Khalid Al Mazrouei
+325aaa17-b57f-45fe-979f-53e7e693c613,Emaar,Hospitality,HR,CC-344,Fujairah,CapEx,Retail Digital Transformation,1528227,1273781,-254446,2026,Q2,Low,In Progress,Pending,Hassan Al Blooshi
+e2102118-2515-423f-9517-28ea50a53537,Aldar,Retail,Finance,CC-164,Sharjah,OpEx,Facility Management System Upgrade,1933102,1804896,-128206,2026,Q1,Medium,Completed,Pending,Reem Al Ketbi
+7022d843-a0dd-4e22-98bc-8f4dd1886b98,Dubai Holding,Hospitality,Operations,CC-189,Dubai,OpEx,Data Center Modernization,822057,986428,164371,2025,Q1,High,In Progress,Pending,Latifa Al Balushi
+b2413620-d855-46f3-a535-48b44d9eece0,Emaar,Hospitality,Marketing,CC-742,Dubai,OpEx,Customer Experience Enhancement,1511887,1321354,-190533,2024,Q4,Medium,On Hold,Pending,Fatima Al Nuaimi
+9cad8546-611e-4eb7-b17a-933bbd00f2e3,Emaar,Real Estate,Finance,CC-992,Abu Dhabi,OpEx,Supply Chain Optimization,1402001,1136659,-265342,2025,Q3,Medium,On Hold,Pending,Huda Al Shamsi
+81c04fce-745f-4054-a7a2-d54b18b46185,DAMAC,Hospitality,HR,CC-332,Ras Al Khaimah,OpEx,IoT Integration Project,1239612,1073475,-166137,2023,Q2,Medium,Completed,Pending,Ahmed Al Mansoori
+4cd9afcf-3c26-4b9f-990f-6987f2b6c6fe,Majid Al Futtaim,Retail,IT,CC-279,Abu Dhabi,CapEx,E-commerce Platform Launch,1347361,1700458,353097,2023,Q1,Medium,In Progress,Pending,Rashid Al Qasimi
+f788aba3-5dab-46e9-9ae1-ef5cdd332ea5,Majid Al Futtaim,Real Estate,HR,CC-452,Abu Dhabi,OpEx,Sustainability & Green Energy Program,825258,736335,-88923,2024,Q3,High,Planned,Pending,Mariam Al Hammadi
+ebf770b2-0180-4c38-8fb2-083078bc030e,Aldar,Retail,IT,CC-104,Fujairah,OpEx,Customer Experience Enhancement,1661699,1450151,-211548,2025,Q4,Medium,In Progress,Rejected,Zainab Al Neyadi
+034439fa-bf10-4cd9-919a-818d1e21c8a9,DAMAC,Real Estate,Operations,CC-141,Abu Dhabi,CapEx,Customer Experience Enhancement,1951866,2461588,509722,2023,Q4,Low,In Progress,Pending,Ali Al Zaabi
+e7b40100-6ebf-42d0-b4bc-0d6061ecae7b,Majid Al Futtaim,Hospitality,Marketing,CC-639,Abu Dhabi,OpEx,Mall Expansion Project,243946,234964,-8982,2023,Q1,Low,On Hold,Rejected,Latifa Al Balushi
+fc809dcd-d416-4dd3-bd51-849f5c62ef95,Aldar,Hospitality,Operations,CC-425,Fujairah,CapEx,Cloud Migration Initiative,233242,300396,67154,2025,Q4,High,On Hold,Pending,Latifa Al Balushi
+e02c5c56-ff3a-4b7c-8065-5c08bc08dd49,DAMAC,Retail,HR,CC-556,Fujairah,CapEx,Customer Experience Enhancement,831883,670577,-161306,2026,Q4,Medium,Completed,Approved,Fatima Al Nuaimi
+beb1b3cf-a0bf-49f2-9d8f-179330aa39b5,Aldar,Hospitality,Marketing,CC-712,Dubai,CapEx,Mobile App Revamp,1932662,1955691,23029,2025,Q4,Low,Completed,Approved,Hassan Al Blooshi
+939f8c0e-2d47-4a6e-a34b-6a692c441c17,Dubai Holding,Construction,HR,CC-524,Abu Dhabi,OpEx,Cybersecurity Enhancement,1635686,1615871,-19815,2024,Q2,High,On Hold,Pending,Aisha Al Suwaidi
+67ad8bc0-c6c4-4805-aa98-6b22e8b3ff2d,DAMAC,Corporate,HR,CC-605,Fujairah,OpEx,Hotel Renovation Program,1078832,885846,-192986,2023,Q1,High,Completed,Pending,Aisha Al Suwaidi
+df260dbd-80f5-4ba4-8b76-ef9bff026959,Dubai Holding,Retail,Operations,CC-283,Ras Al Khaimah,CapEx,IoT Integration Project,1799534,2012383,212849,2023,Q3,Medium,Planned,Rejected,Khalid Al Mazrouei
+eec462b2-1439-487c-af44-7b7468cd2c70,Majid Al Futtaim,Construction,HR,CC-743,Ras Al Khaimah,CapEx,Retail Digital Transformation,808664,881874,73210,2023,Q3,High,Planned,Approved,Latifa Al Balushi
+add3eca2-fd6b-4de9-afdf-a02602c5d856,Emaar,Retail,IT,CC-154,Sharjah,OpEx,Smart City Integration,1016879,1260074,243195,2025,Q1,Medium,Completed,Rejected,Ahmed Al Mansoori
+8c5b098c-3f64-44ed-894b-d0ad1560591a,Emaar,Real Estate,Marketing,CC-870,Abu Dhabi,OpEx,Hotel Renovation Program,211117,223136,12019,2025,Q3,Low,Completed,Approved,Fatima Al Nuaimi
+df74a8ab-f56e-4cfc-864f-1a822de768f7,Emaar,Real Estate,IT,CC-630,Sharjah,OpEx,Hotel Renovation Program,1266445,1235815,-30630,2026,Q4,Medium,In Progress,Approved,Yousef Al Kaabi
+0e42b0bf-8b86-4ca1-9b2f-beb1ff63336d,Emaar,Corporate,Marketing,CC-806,Fujairah,CapEx,AI Analytics Platform,374125,393464,19339,2026,Q1,High,In Progress,Approved,Fatima Al Nuaimi
+70f41b20-4f80-49f0-9320-e1674acf747f,DAMAC,Hospitality,Operations,CC-711,Fujairah,OpEx,IoT Integration Project,780249,745751,-34498,2025,Q1,Low,Planned,Approved,Hassan Al Blooshi
+d3d1dfc2-c008-4df7-97ef-cb7372b9495a,Emaar,Retail,IT,CC-314,Abu Dhabi,CapEx,Facility Management System Upgrade,1846871,2118586,271715,2023,Q1,High,On Hold,Pending,Yousef Al Kaabi
+7c0f69b4-3545-41b2-b4ec-20c4b64da1ae,Majid Al Futtaim,Corporate,Finance,CC-580,Dubai,OpEx,Business Intelligence Dashboard Rollout,461777,394315,-67462,2023,Q3,Low,Planned,Approved,Huda Al Shamsi
+2ca6d58a-933d-4ef1-8428-24dbc78b074c,Majid Al Futtaim,Hospitality,IT,CC-786,Sharjah,CapEx,CRM Implementation,1979585,2179317,199732,2024,Q3,Low,Completed,Pending,Ali Al Zaabi
+a4cdabb6-b35d-41eb-9acd-83b224ca6943,Majid Al Futtaim,Hospitality,Marketing,CC-683,Dubai,CapEx,E-commerce Platform Launch,1843354,1936106,92752,2023,Q2,Low,In Progress,Pending,Ali Al Zaabi
+97366cf0-de59-4102-9640-b49189d95ac2,Dubai Holding,Real Estate,IT,CC-616,Ras Al Khaimah,OpEx,E-commerce Platform Launch,1940918,2284477,343559,2024,Q4,Low,Planned,Approved,Noura Al Suhaili
+d58d393e-6a20-4dd0-9053-d51582b69976,Majid Al Futtaim,Hospitality,Operations,CC-215,Sharjah,CapEx,E-commerce Platform Launch,846110,856302,10192,2023,Q2,Medium,Completed,Rejected,Omar Al Falasi
+a8f992ab-930f-46e6-9ea7-47cdfd6d2eac,Dubai Holding,Retail,Operations,CC-218,Ras Al Khaimah,OpEx,Supply Chain Optimization,1218390,1414633,196243,2025,Q4,High,On Hold,Pending,Ahmed Al Mansoori
+0c7ea825-2933-4904-866b-815b1148e132,Aldar,Retail,IT,CC-113,Ras Al Khaimah,CapEx,CRM Implementation,445910,547749,101839,2026,Q1,High,In Progress,Pending,Ali Al Zaabi
+6a246c05-7350-4b04-8118-393368bc96cf,Dubai Holding,Hospitality,Finance,CC-472,Abu Dhabi,OpEx,Mobile App Revamp,1507598,1651239,143641,2026,Q1,High,On Hold,Rejected,Khalid Al Mazrouei
+d38418c6-6c08-4d84-8d57-4b0d96074bf9,Majid Al Futtaim,Corporate,HR,CC-874,Ras Al Khaimah,OpEx,Retail Digital Transformation,634095,749759,115664,2026,Q4,Low,Completed,Approved,Mohammed Al Ameri
+665a3da6-4856-4ce8-997f-51d8e0d5d311,DAMAC,Construction,Operations,CC-336,Abu Dhabi,CapEx,Mobile App Revamp,1003438,856954,-146484,2023,Q1,Medium,Planned,Approved,Omar Al Falasi
+b7130add-4a25-415f-a10f-8e67a5a4d884,Emaar,Retail,Marketing,CC-738,Dubai,CapEx,E-commerce Platform Launch,1317904,1501886,183982,2026,Q4,High,Completed,Rejected,Rashid Al Qasimi
+4f199736-93a3-480d-bf93-a652585c8043,Majid Al Futtaim,Retail,Marketing,CC-659,Dubai,CapEx,Mobile App Revamp,1078129,1134620,56491,2023,Q4,Medium,Completed,Pending,Yousef Al Kaabi
+623de0ea-f4e0-4e47-aca7-a2e5291fbe74,Emaar,Corporate,HR,CC-823,Abu Dhabi,OpEx,Smart City Integration,1013969,829417,-184552,2024,Q3,Low,On Hold,Pending,Aisha Al Suwaidi
+622461c5-01b3-4598-b397-6316560d79da,Aldar,Corporate,Marketing,CC-685,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,279390,302978,23588,2024,Q1,Medium,Completed,Pending,Noor Al Marri
+2d13f816-c810-4965-ac55-76b0fd1cc7d4,DAMAC,Retail,HR,CC-162,Dubai,CapEx,IoT Integration Project,842299,933663,91364,2025,Q3,Low,Planned,Rejected,Yousef Al Kaabi
+5ed647f6-092a-495a-b839-fbfb46e694d5,DAMAC,Retail,Operations,CC-459,Dubai,CapEx,Cybersecurity Enhancement,848120,719778,-128342,2024,Q3,Low,Planned,Rejected,Abdullah Al Shehhi
+980d41c0-63fb-4c00-b535-b29ac829885a,DAMAC,Hospitality,Finance,CC-651,Sharjah,CapEx,Hotel Renovation Program,1872299,1783282,-89017,2026,Q4,Medium,Planned,Rejected,Rashid Al Qasimi
+59a93aa1-d355-477b-b6cb-bfaf010ce13e,DAMAC,Construction,Marketing,CC-499,Sharjah,CapEx,Hotel Renovation Program,1283102,1040747,-242355,2023,Q2,Medium,On Hold,Rejected,Huda Al Shamsi
+f546e6e0-96b6-4502-a33d-e9293125f55e,Majid Al Futtaim,Retail,HR,CC-546,Abu Dhabi,OpEx,Retail Digital Transformation,1449613,1405790,-43823,2023,Q2,Medium,Completed,Approved,Fatima Al Nuaimi
+23371d03-386f-411e-87bd-1de5f957c251,Emaar,Corporate,Finance,CC-834,Fujairah,CapEx,Mall Expansion Project,1252760,1254029,1269,2025,Q3,High,On Hold,Pending,Latifa Al Balushi
+4c41d71a-365a-4606-bc1a-e778de5f12cb,DAMAC,Corporate,HR,CC-543,Fujairah,OpEx,AI Analytics Platform,778375,932357,153982,2026,Q4,Medium,On Hold,Rejected,Hassan Al Blooshi
+b5831302-bb73-4764-9d96-be865bcdbfe2,Dubai Holding,Corporate,IT,CC-690,Ras Al Khaimah,CapEx,Infrastructure Upgrade,1198321,1066865,-131456,2026,Q3,Low,On Hold,Rejected,Reem Al Ketbi
+cbc3829b-f10e-4299-b86b-df32e22b270c,Emaar,Retail,Operations,CC-251,Abu Dhabi,CapEx,Sustainability & Green Energy Program,1364407,1132377,-232030,2025,Q4,Medium,Completed,Approved,Noor Al Marri
+e6b17cf9-b506-4758-a845-c8572f87aa06,DAMAC,Retail,IT,CC-362,Fujairah,CapEx,Cybersecurity Enhancement,476892,583231,106339,2024,Q1,High,In Progress,Approved,Latifa Al Balushi
+ba0ff3d1-0a90-499d-bda6-eb697efe2c6a,Aldar,Construction,Marketing,CC-546,Ras Al Khaimah,CapEx,ERP Implementation,1721524,2089266,367742,2024,Q3,High,Planned,Pending,Saeed Al Yammahi
+0c77407f-2d31-4817-a3c7-937ff2a29b0d,Dubai Holding,Construction,Finance,CC-156,Dubai,OpEx,Supply Chain Optimization,1431332,1539187,107855,2025,Q1,Medium,Completed,Rejected,Aisha Al Suwaidi
+b25ff126-9b4e-4f31-b4df-cb747ba28348,Emaar,Hospitality,Finance,CC-684,Fujairah,CapEx,Supply Chain Optimization,1907488,1612119,-295369,2025,Q4,High,In Progress,Rejected,Zainab Al Neyadi
+e4776eac-9b97-4f26-8ec5-a381a121879d,DAMAC,Corporate,Operations,CC-925,Abu Dhabi,OpEx,Data Center Modernization,1671498,2011386,339888,2024,Q1,High,In Progress,Pending,Zainab Al Neyadi
+24d73085-dab2-412e-9b05-78f04f37e6e4,Majid Al Futtaim,Real Estate,Operations,CC-646,Sharjah,CapEx,Cloud Migration Initiative,906425,840394,-66031,2026,Q4,Low,In Progress,Pending,Latifa Al Balushi
+5582b888-cd0a-41e4-bf66-64a5e6a4686d,DAMAC,Retail,Finance,CC-760,Fujairah,CapEx,CRM Implementation,811262,841774,30512,2023,Q2,Medium,On Hold,Pending,Reem Al Ketbi
+c5162c53-83d1-4192-a57b-825f0efb4114,Dubai Holding,Corporate,IT,CC-978,Ras Al Khaimah,OpEx,ERP Implementation,1519299,1491081,-28218,2026,Q3,Medium,Planned,Approved,Khalid Al Mazrouei
+45e7a8fa-23c7-44aa-ac6f-c9d8dcbb48ef,Emaar,Construction,HR,CC-931,Ras Al Khaimah,CapEx,Mobile App Revamp,491212,604047,112835,2023,Q4,Medium,On Hold,Pending,Noura Al Suhaili
+4c5401ec-1f25-4fb1-aac3-976489f976f4,Dubai Holding,Hospitality,HR,CC-618,Dubai,OpEx,Smart City Integration,935765,1158833,223068,2025,Q4,Low,Planned,Approved,Yousef Al Kaabi
+a7553155-0cfd-4882-95f4-e181ff774bda,Aldar,Hospitality,Finance,CC-510,Abu Dhabi,OpEx,Retail Digital Transformation,1395517,1244619,-150898,2023,Q1,High,In Progress,Rejected,Hassan Al Blooshi
+85d1f6fa-dbb6-4a52-84ae-8594bfa4ea34,Emaar,Corporate,Operations,CC-911,Sharjah,OpEx,Supply Chain Optimization,1659789,2017159,357370,2024,Q3,High,Completed,Pending,Abdullah Al Shehhi
+d2f3fa76-49bf-4b4e-a3e9-a4bc45558431,Emaar,Construction,Operations,CC-954,Fujairah,CapEx,ERP Implementation,226997,228642,1645,2023,Q2,High,On Hold,Approved,Sara Al Dhaheri
+c6cba6c0-be19-4e83-a486-38be61c24fd5,Dubai Holding,Construction,Marketing,CC-539,Fujairah,OpEx,Mall Expansion Project,1520651,1864189,343538,2023,Q3,High,Planned,Approved,Fatima Al Nuaimi
+31b1ead4-940a-4a2d-8db3-14dab8f3b7c4,Aldar,Construction,Finance,CC-329,Abu Dhabi,CapEx,Customer Experience Enhancement,1152761,1173025,20264,2025,Q4,Medium,In Progress,Pending,Aisha Al Suwaidi
+742d18bd-cc2a-486e-ba2a-e422c594c2ed,DAMAC,Hospitality,Operations,CC-284,Ras Al Khaimah,CapEx,Supply Chain Optimization,1308464,1187801,-120663,2025,Q3,High,On Hold,Approved,Mariam Al Hammadi
+ffc1107b-bfcf-437e-9468-83d85eb9188f,Aldar,Real Estate,Finance,CC-580,Abu Dhabi,OpEx,Smart City Integration,1272436,1453291,180855,2026,Q2,Low,On Hold,Rejected,Sara Al Dhaheri
+c9e8f44a-d250-4eda-8cc6-562a30056b34,Dubai Holding,Real Estate,Marketing,CC-160,Dubai,OpEx,Supply Chain Optimization,1593722,1750859,157137,2026,Q3,Low,Planned,Approved,Reem Al Ketbi
+674a785b-5986-4c29-91db-6a36ea996e39,DAMAC,Construction,HR,CC-235,Fujairah,CapEx,Mobile App Revamp,1108101,1229802,121701,2024,Q3,High,On Hold,Pending,Ahmed Al Mansoori
+6b93ef86-76a0-4c0f-aa12-7d189341ba73,Majid Al Futtaim,Construction,IT,CC-366,Dubai,OpEx,Mall Expansion Project,326655,275965,-50690,2024,Q4,Medium,Completed,Pending,Hassan Al Blooshi
+c26b6e4c-9758-4754-a16b-ee8aa7987270,Majid Al Futtaim,Retail,Marketing,CC-420,Ras Al Khaimah,CapEx,ERP Implementation,1943293,2406706,463413,2026,Q2,Low,On Hold,Approved,Mohammed Al Ameri
+3a4dfb5b-08c6-40a0-8f6f-d2538083146f,Emaar,Real Estate,Operations,CC-366,Abu Dhabi,OpEx,Infrastructure Upgrade,361680,299211,-62469,2023,Q4,High,On Hold,Pending,Yousef Al Kaabi
+60f0cbd9-0c6f-44c9-bafd-5e3f1732a163,Aldar,Real Estate,IT,CC-226,Sharjah,CapEx,Retail Digital Transformation,1226197,1278432,52235,2025,Q2,High,Completed,Rejected,Rashid Al Qasimi
+1ebfb890-2007-497f-b353-2c68896a12c1,Dubai Holding,Corporate,Marketing,CC-284,Ras Al Khaimah,CapEx,Facility Management System Upgrade,1278254,1158351,-119903,2026,Q1,Medium,Planned,Pending,Sara Al Dhaheri
+07b82180-0f12-4deb-a82c-336b78dc16e3,DAMAC,Corporate,Finance,CC-957,Sharjah,CapEx,AI Analytics Platform,1477404,1272038,-205366,2023,Q4,Low,On Hold,Pending,Mariam Al Hammadi
+7cb49bba-b117-4413-958c-349d850819e2,Dubai Holding,Retail,Finance,CC-771,Fujairah,OpEx,E-commerce Platform Launch,614801,674499,59698,2024,Q2,High,Completed,Pending,Zainab Al Neyadi
+3158d0c3-6d96-4304-a7b6-2e850665c1f1,Majid Al Futtaim,Construction,Finance,CC-508,Sharjah,CapEx,Retail Digital Transformation,1609861,1344816,-265045,2026,Q1,High,In Progress,Approved,Reem Al Ketbi
+f416cff1-e56e-4c03-842a-e3e7834a8793,Emaar,Real Estate,HR,CC-602,Ras Al Khaimah,OpEx,Hotel Renovation Program,1684714,1686732,2018,2024,Q3,Low,Planned,Pending,Hassan Al Blooshi
+eec81203-a78d-4405-9eef-9cf7396ef3e4,Aldar,Construction,HR,CC-676,Fujairah,OpEx,Business Intelligence Dashboard Rollout,469160,490183,21023,2026,Q3,Low,In Progress,Pending,Khalid Al Mazrouei
+4c19f07c-228a-4908-bfa2-84fc538c3c69,Majid Al Futtaim,Retail,Operations,CC-792,Abu Dhabi,CapEx,Retail Digital Transformation,943422,798581,-144841,2023,Q3,Medium,On Hold,Approved,Latifa Al Balushi
+381f2d93-ae92-4821-9023-827c7e29a558,Emaar,Retail,IT,CC-635,Ras Al Khaimah,OpEx,Mall Expansion Project,679970,594499,-85471,2023,Q1,High,Planned,Rejected,Fatima Al Nuaimi
+a887b6ad-8f47-41ad-b8e0-514bdbf8d1ca,Majid Al Futtaim,Retail,HR,CC-360,Fujairah,CapEx,Supply Chain Optimization,916164,776212,-139952,2023,Q1,Low,On Hold,Approved,Yousef Al Kaabi
+84adbdf9-655b-4a95-97ed-658450cfe0aa,Dubai Holding,Construction,HR,CC-421,Fujairah,OpEx,Workforce Optimization Program,1817710,1811309,-6401,2026,Q3,Medium,In Progress,Approved,Mariam Al Hammadi
+de194602-1cde-4ced-8e8f-1524805d78dd,Majid Al Futtaim,Retail,Finance,CC-544,Fujairah,CapEx,Facility Management System Upgrade,214040,251179,37139,2026,Q1,High,In Progress,Rejected,Huda Al Shamsi
+b9f0a1f4-ce9b-43b9-bfa8-e550f2c9fe23,Majid Al Futtaim,Construction,HR,CC-733,Fujairah,OpEx,ERP Implementation,1015031,1163127,148096,2026,Q3,High,In Progress,Approved,Noura Al Suhaili
+08f94a64-833b-41eb-aeb4-b55aedc7740c,Dubai Holding,Hospitality,Finance,CC-314,Ras Al Khaimah,CapEx,Retail Digital Transformation,450140,385300,-64840,2024,Q4,Low,In Progress,Approved,Aisha Al Suwaidi
+e901a5c0-73dc-476e-a521-1813e5c5add7,Aldar,Construction,Finance,CC-219,Abu Dhabi,CapEx,Supply Chain Optimization,1664222,1716999,52777,2026,Q4,Medium,Planned,Pending,Fatima Al Nuaimi
+0a8cf066-1f20-4297-a478-37f275f91791,Majid Al Futtaim,Construction,Finance,CC-441,Dubai,CapEx,Facility Management System Upgrade,558831,503321,-55510,2026,Q4,Medium,Completed,Approved,Aisha Al Suwaidi
+d1c1a3d6-d544-4bf5-a3db-f4039df85e7f,Majid Al Futtaim,Corporate,Operations,CC-337,Dubai,CapEx,ERP Implementation,888190,926427,38237,2025,Q1,Medium,On Hold,Pending,Huda Al Shamsi
+c0aae766-eae6-48e0-a477-1819b512e456,DAMAC,Construction,Operations,CC-121,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,1087647,1208754,121107,2024,Q4,Medium,On Hold,Approved,Mohammed Al Ameri
+ea79d1cf-590e-424a-9356-d7300b9c4711,DAMAC,Corporate,Operations,CC-234,Sharjah,OpEx,Cloud Migration Initiative,510749,558672,47923,2025,Q4,High,In Progress,Pending,Ahmed Al Mansoori
+ef656536-d2d4-449b-a118-3b92b7e93026,Aldar,Hospitality,IT,CC-304,Abu Dhabi,OpEx,Customer Experience Enhancement,1621300,1366911,-254389,2026,Q4,Medium,In Progress,Approved,Noura Al Suhaili
+50c8c157-561b-44f4-a8ea-cda7b42a8372,DAMAC,Retail,HR,CC-793,Abu Dhabi,CapEx,Cybersecurity Enhancement,148669,193214,44545,2023,Q1,Medium,On Hold,Approved,Fatima Al Nuaimi
+7760f330-d3fe-4ca2-b247-1aec28e18ee4,Emaar,Construction,HR,CC-448,Sharjah,CapEx,Hotel Renovation Program,525403,452027,-73376,2025,Q2,Low,Planned,Rejected,Hassan Al Blooshi
+2e4a5a8b-2310-47b1-902e-7b1f331d120e,Aldar,Real Estate,Finance,CC-900,Fujairah,CapEx,Customer Experience Enhancement,1993288,2537722,544434,2023,Q1,High,Planned,Approved,Huda Al Shamsi
+16ea4f7f-9b29-42d0-8caa-10a01100d5d4,Aldar,Corporate,Operations,CC-850,Dubai,CapEx,Customer Experience Enhancement,379321,441595,62274,2025,Q3,High,Planned,Approved,Saeed Al Yammahi
+a7bd9363-aaf2-41c8-a7c9-030cd65f1583,Dubai Holding,Hospitality,Operations,CC-449,Sharjah,CapEx,Cloud Migration Initiative,921890,1092079,170189,2025,Q3,Low,On Hold,Pending,Saeed Al Yammahi
+85bbfda2-36ac-4fb7-894b-7ed0ad76d93e,Majid Al Futtaim,Construction,IT,CC-241,Ras Al Khaimah,OpEx,Retail Digital Transformation,1444596,1332965,-111631,2026,Q3,High,On Hold,Approved,Omar Al Falasi
+a135d457-10c7-42ef-8887-ad9f0a0066b4,Majid Al Futtaim,Real Estate,Finance,CC-446,Sharjah,OpEx,Smart City Integration,70863,82116,11253,2024,Q4,High,On Hold,Approved,Sara Al Dhaheri
+f98e6153-f7b8-4cf9-9f02-08eb3a7d59c5,Majid Al Futtaim,Real Estate,Marketing,CC-402,Ras Al Khaimah,OpEx,Cloud Migration Initiative,1984662,2224275,239613,2025,Q3,Medium,Planned,Pending,Sara Al Dhaheri
+02eac3b5-1cf6-453f-87b2-bef42c5e1cfa,Aldar,Construction,IT,CC-657,Fujairah,OpEx,CRM Implementation,1330103,1676229,346126,2025,Q4,High,Completed,Approved,Saeed Al Yammahi
+3d6c7559-da0e-43b7-83d7-5238ffe43b1c,Emaar,Corporate,Marketing,CC-390,Abu Dhabi,CapEx,Workforce Optimization Program,1177079,1138525,-38554,2025,Q3,Low,In Progress,Approved,Noor Al Marri
+635aa74e-20ca-4c1f-912a-ee2efd72c81b,Majid Al Futtaim,Retail,IT,CC-952,Sharjah,OpEx,CRM Implementation,1917134,2297300,380166,2023,Q1,Medium,Completed,Rejected,Ahmed Al Mansoori
+4ad27cc7-d2ac-44bb-8099-838ede797f2a,Dubai Holding,Construction,HR,CC-686,Dubai,OpEx,Customer Experience Enhancement,793384,683822,-109562,2024,Q2,Medium,Completed,Pending,Mohammed Al Ameri
+c2d18e21-88be-4177-aa47-5ba0e24ba36d,Majid Al Futtaim,Hospitality,Operations,CC-632,Abu Dhabi,CapEx,Hotel Renovation Program,1695822,2047772,351950,2024,Q3,Medium,Planned,Approved,Abdullah Al Shehhi
+e33af1ed-3d8c-4d77-82bf-38562beea6a3,Dubai Holding,Real Estate,Finance,CC-535,Abu Dhabi,OpEx,Cloud Migration Initiative,942741,1144693,201952,2026,Q1,Medium,On Hold,Rejected,Saeed Al Yammahi
+25f64c23-29b4-4b23-8300-b07dd87430ac,DAMAC,Corporate,Operations,CC-751,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,1138306,1353915,215609,2026,Q4,High,In Progress,Rejected,Noor Al Marri
+7c3e1fff-afa3-419c-b62b-8b66c6b84bfe,Emaar,Corporate,Marketing,CC-220,Abu Dhabi,OpEx,ERP Implementation,1066624,1232564,165940,2023,Q2,Low,Completed,Approved,Ali Al Zaabi
+f00bc0bb-83b3-4d1a-bc31-6d8bace8bb0d,Dubai Holding,Retail,Marketing,CC-396,Dubai,CapEx,Cloud Migration Initiative,1837439,1845358,7919,2025,Q3,Medium,Completed,Pending,Noura Al Suhaili
+ffc9a549-b967-43af-b184-32172fa5f5f7,Emaar,Corporate,Operations,CC-149,Sharjah,OpEx,Cloud Migration Initiative,108673,129929,21256,2024,Q4,High,Planned,Rejected,Saeed Al Yammahi
+61b0f2c3-57f8-4fad-86e1-7dca827d627e,Aldar,Construction,Marketing,CC-417,Fujairah,OpEx,Cybersecurity Enhancement,191693,236781,45088,2026,Q4,Low,In Progress,Approved,Noura Al Suhaili
+d112b844-d16a-451d-bb60-9c88fa898dc3,Aldar,Construction,IT,CC-987,Sharjah,CapEx,Cybersecurity Enhancement,1384753,1426943,42190,2026,Q4,High,On Hold,Pending,Latifa Al Balushi
+fd2035ac-d2b8-4a97-94da-62a11243eec8,Aldar,Retail,Finance,CC-986,Abu Dhabi,CapEx,Cloud Migration Initiative,146090,186854,40764,2025,Q1,Low,Planned,Approved,Noura Al Suhaili
+2bc683f8-e825-4046-91e3-b7c7105e490a,Dubai Holding,Corporate,Marketing,CC-293,Ras Al Khaimah,CapEx,Customer Experience Enhancement,1186308,1291210,104902,2024,Q1,Medium,In Progress,Approved,Saeed Al Yammahi
+13e0467b-aade-4283-a398-f9406e8cb1ec,Aldar,Real Estate,Marketing,CC-721,Sharjah,OpEx,Smart City Integration,1809337,2250503,441166,2023,Q4,High,Completed,Pending,Ali Al Zaabi
+92a1e575-63a5-490b-8e20-86d645458c1d,Majid Al Futtaim,Retail,Operations,CC-363,Dubai,CapEx,Hotel Renovation Program,920184,747215,-172969,2024,Q3,High,In Progress,Pending,Sara Al Dhaheri
+8559bc00-60d2-4096-97fa-46d5ad19bc17,Aldar,Hospitality,Finance,CC-729,Sharjah,CapEx,Cloud Migration Initiative,237964,208721,-29243,2023,Q3,Medium,Planned,Pending,Reem Al Ketbi
+5ae48125-853e-4c99-abc9-193ec90b43e2,DAMAC,Construction,Finance,CC-153,Abu Dhabi,CapEx,Business Intelligence Dashboard Rollout,915752,1141489,225737,2024,Q4,Low,On Hold,Approved,Noura Al Suhaili
+e9838f9e-3bef-4c1d-add4-d04fb6f4ea6a,Majid Al Futtaim,Construction,Finance,CC-595,Dubai,OpEx,Hotel Renovation Program,177154,169920,-7234,2024,Q1,Medium,Planned,Approved,Noura Al Suhaili
+8af1cc77-bba4-489d-a948-1d7b2c717d21,Emaar,Retail,Marketing,CC-516,Ras Al Khaimah,CapEx,CRM Implementation,1213305,1365908,152603,2024,Q2,Medium,In Progress,Approved,Mohammed Al Ameri
+93d712d7-af49-4d23-9e6e-baad97f9eeec,Majid Al Futtaim,Construction,Finance,CC-101,Ras Al Khaimah,OpEx,Customer Experience Enhancement,938673,1202136,263463,2024,Q1,High,On Hold,Pending,Omar Al Falasi
+3120e8c8-ca0a-47f2-af74-649c957cbef3,Aldar,Retail,IT,CC-699,Fujairah,OpEx,Data Center Modernization,576152,702757,126605,2024,Q1,Medium,Planned,Pending,Hassan Al Blooshi
+90f66682-17aa-4066-89c3-ebb298b19a7c,Majid Al Futtaim,Retail,Operations,CC-315,Fujairah,OpEx,E-commerce Platform Launch,307901,374176,66275,2025,Q3,Low,On Hold,Pending,Sara Al Dhaheri
+27a6eed0-a16e-4d9a-994e-4cfdd2046d91,DAMAC,Hospitality,Operations,CC-713,Sharjah,CapEx,CRM Implementation,1438895,1858348,419453,2024,Q1,Low,On Hold,Approved,Khalid Al Mazrouei
+30a91b50-0e63-4468-b921-e0ffda92ce24,Majid Al Futtaim,Construction,Operations,CC-651,Dubai,CapEx,Sustainability & Green Energy Program,1460767,1295361,-165406,2023,Q4,Low,Planned,Pending,Reem Al Ketbi
+bdbf6b2f-b2c9-4c6a-9c82-aebe4c0cf5c0,Aldar,Hospitality,Finance,CC-227,Ras Al Khaimah,OpEx,Retail Digital Transformation,1785323,1965025,179702,2026,Q1,High,Planned,Pending,Huda Al Shamsi
+65c57879-f5d4-441a-ba6e-6074244c8db6,Emaar,Real Estate,Marketing,CC-740,Sharjah,CapEx,Business Intelligence Dashboard Rollout,1982313,2288776,306463,2026,Q3,High,Completed,Pending,Saeed Al Yammahi
+47a88b90-ca58-441c-9701-1611bd83061d,Dubai Holding,Hospitality,Operations,CC-213,Sharjah,OpEx,Retail Digital Transformation,1532619,1690499,157880,2024,Q2,High,In Progress,Rejected,Ali Al Zaabi
+ab5506bd-81c2-442c-9b13-4a21fee3c3d9,Majid Al Futtaim,Hospitality,Marketing,CC-846,Sharjah,CapEx,Hotel Renovation Program,317241,294974,-22267,2023,Q3,Low,On Hold,Approved,Saeed Al Yammahi
+51874a77-7dd7-4dc2-9e92-bc52c71e3af4,Dubai Holding,Retail,Operations,CC-964,Ras Al Khaimah,OpEx,Infrastructure Upgrade,1394203,1584581,190378,2026,Q4,Medium,Planned,Rejected,Mariam Al Hammadi
+a226d2e0-463c-4ccc-b756-cbb3dd9f719a,Aldar,Corporate,Operations,CC-423,Dubai,OpEx,Supply Chain Optimization,148492,139429,-9063,2025,Q1,Low,Planned,Rejected,Khalid Al Mazrouei
+af439144-5553-4fd7-a757-63e51b07e0d6,Dubai Holding,Hospitality,IT,CC-268,Sharjah,OpEx,Retail Digital Transformation,1496088,1513906,17818,2023,Q1,Medium,On Hold,Approved,Rashid Al Qasimi
+d0248413-d379-4b7a-b34a-829f5c6d71b5,DAMAC,Retail,IT,CC-210,Ras Al Khaimah,CapEx,Workforce Optimization Program,1721893,1916722,194829,2023,Q3,Low,In Progress,Approved,Saeed Al Yammahi
+98f181ca-3095-44d1-8bd4-2a73c331a57b,Dubai Holding,Construction,Marketing,CC-227,Dubai,CapEx,Cybersecurity Enhancement,1308217,1451837,143620,2026,Q3,Low,Planned,Approved,Aisha Al Suwaidi
+96e84a85-375b-4f1f-9f95-55c3eb000132,Dubai Holding,Retail,Marketing,CC-741,Ras Al Khaimah,CapEx,Data Center Modernization,1977525,2375390,397865,2023,Q1,Medium,On Hold,Pending,Sara Al Dhaheri
+6fbf03f7-5e63-4096-ae78-63f4ab4fbd22,Emaar,Corporate,Marketing,CC-110,Ras Al Khaimah,OpEx,Retail Digital Transformation,1344576,1581196,236620,2026,Q1,Medium,Planned,Pending,Ahmed Al Mansoori
+bae66f3b-b7a7-478c-9417-3476fc1e555b,Dubai Holding,Real Estate,Finance,CC-709,Dubai,CapEx,IoT Integration Project,738272,807600,69328,2024,Q3,Medium,On Hold,Pending,Hassan Al Blooshi
+89586025-851b-4020-9b47-8054fcedfdaa,Emaar,Hospitality,Finance,CC-161,Abu Dhabi,OpEx,Mall Expansion Project,1352018,1382184,30166,2026,Q3,Medium,In Progress,Approved,Sara Al Dhaheri
+664e38bb-fef3-4ef0-96f4-01cbe87b904e,DAMAC,Retail,Finance,CC-630,Fujairah,CapEx,Smart City Integration,697337,768231,70894,2024,Q1,Medium,Completed,Approved,Saeed Al Yammahi
+82fd85b4-683b-43de-bd0c-fcc471856f68,Dubai Holding,Retail,IT,CC-783,Ras Al Khaimah,OpEx,CRM Implementation,1393340,1747596,354256,2025,Q3,Low,Completed,Pending,Noura Al Suhaili
+0d27b13a-c8d8-41a2-ae7e-10e64ab70bf1,Dubai Holding,Construction,IT,CC-103,Abu Dhabi,CapEx,Infrastructure Upgrade,390325,332722,-57603,2024,Q2,Medium,Completed,Rejected,Yousef Al Kaabi
+4aa3e23e-56f0-44cc-955f-f86e7cabb40c,Dubai Holding,Retail,Finance,CC-175,Sharjah,CapEx,E-commerce Platform Launch,480579,480654,75,2023,Q2,Medium,On Hold,Approved,Noor Al Marri
+f84974f0-82d0-4794-8e00-d9c3083eab5f,DAMAC,Real Estate,Finance,CC-303,Abu Dhabi,OpEx,Cloud Migration Initiative,1278273,1605963,327690,2024,Q3,Low,In Progress,Pending,Yousef Al Kaabi
+c0a14778-3795-4980-8443-7e58f686bfa1,Dubai Holding,Hospitality,HR,CC-203,Dubai,CapEx,Customer Experience Enhancement,565824,503170,-62654,2023,Q3,High,Completed,Pending,Aisha Al Suwaidi
+973aa731-bec9-44a9-b27a-645282151bba,Emaar,Corporate,Marketing,CC-544,Dubai,CapEx,Infrastructure Upgrade,825192,994145,168953,2024,Q2,High,On Hold,Rejected,Noor Al Marri
+172de9c4-6c98-416f-93a2-888fbf101659,Emaar,Real Estate,Marketing,CC-701,Abu Dhabi,OpEx,Smart City Integration,716792,788309,71517,2025,Q2,High,Completed,Approved,Mariam Al Hammadi
+c6fbfeeb-59db-48a9-a9bc-fa73743aba33,Emaar,Real Estate,Operations,CC-909,Fujairah,CapEx,Cloud Migration Initiative,1274909,1584606,309697,2026,Q3,Medium,On Hold,Approved,Sara Al Dhaheri
+bb4268cc-6ef6-4e5d-a1f4-d0d9fb78f7a2,Aldar,Construction,Operations,CC-374,Fujairah,OpEx,ERP Implementation,1544193,1524024,-20169,2023,Q2,High,In Progress,Pending,Khalid Al Mazrouei
+f8050043-c9a7-492f-9159-27e0e28d3368,Aldar,Construction,Marketing,CC-260,Sharjah,OpEx,Infrastructure Upgrade,880262,800419,-79843,2023,Q2,High,Completed,Pending,Latifa Al Balushi
+1894180c-221e-4df7-b8ca-f8df9d097d33,Dubai Holding,Construction,Marketing,CC-736,Sharjah,OpEx,Mall Expansion Project,787306,720454,-66852,2026,Q4,Medium,Completed,Pending,Ali Al Zaabi
+86e8b5e5-cd07-42c1-974c-e987ffb87bd6,Emaar,Construction,IT,CC-371,Dubai,OpEx,IoT Integration Project,622563,617075,-5488,2025,Q1,Medium,In Progress,Approved,Saeed Al Yammahi
+7b098933-a6c3-488f-856e-fbf2452780fa,Majid Al Futtaim,Hospitality,HR,CC-301,Sharjah,OpEx,Cybersecurity Enhancement,199629,195660,-3969,2025,Q2,Low,In Progress,Rejected,Reem Al Ketbi
+ad4d3cf3-4c25-4eee-8239-22edd7c68e05,Dubai Holding,Retail,HR,CC-942,Sharjah,OpEx,E-commerce Platform Launch,1189017,1493632,304615,2023,Q4,Low,In Progress,Pending,Fatima Al Nuaimi
+5675647d-1951-4e27-b52d-8d961917a27d,Emaar,Construction,IT,CC-628,Fujairah,OpEx,Customer Experience Enhancement,525898,610918,85020,2026,Q3,High,Completed,Approved,Latifa Al Balushi
+83a09302-cd0f-4090-8cd9-f47793cbf1f9,Aldar,Hospitality,Operations,CC-560,Fujairah,CapEx,Data Center Modernization,1665081,2116259,451178,2024,Q2,Medium,Planned,Pending,Noura Al Suhaili
+4aa8c78c-fff2-43a6-a8c7-452588bf6353,Emaar,Construction,Operations,CC-802,Ras Al Khaimah,OpEx,Mall Expansion Project,1799651,1758855,-40796,2023,Q1,High,In Progress,Pending,Ahmed Al Mansoori
+e986a755-cb0d-411b-ade4-526b4bbe8be1,Majid Al Futtaim,Corporate,Operations,CC-490,Abu Dhabi,OpEx,Supply Chain Optimization,1370868,1644456,273588,2026,Q2,Medium,Planned,Pending,Reem Al Ketbi
+2d13a07d-a6c7-434a-a2ff-7f9523e39ad6,DAMAC,Real Estate,IT,CC-206,Fujairah,CapEx,Data Center Modernization,996938,1116073,119135,2026,Q1,High,In Progress,Approved,Zainab Al Neyadi
+ba8bacb4-900f-4ea5-994b-39de35a77336,DAMAC,Corporate,Finance,CC-565,Dubai,OpEx,Customer Experience Enhancement,645208,582588,-62620,2023,Q2,Medium,On Hold,Pending,Khalid Al Mazrouei
+c81be7fa-7d28-4af5-8040-421f26bf3bb5,Aldar,Construction,Finance,CC-498,Abu Dhabi,CapEx,Customer Experience Enhancement,282246,244021,-38225,2025,Q4,Low,On Hold,Approved,Ali Al Zaabi
+8ed5151c-affe-43e6-9f61-1e46ebe1a56c,Majid Al Futtaim,Hospitality,Marketing,CC-833,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,1256054,1594657,338603,2023,Q2,Medium,Planned,Pending,Aisha Al Suwaidi
+5df063bb-383b-4d35-befd-04a2f195adb3,DAMAC,Corporate,Operations,CC-571,Ras Al Khaimah,CapEx,Infrastructure Upgrade,1743588,1610064,-133524,2023,Q3,Low,On Hold,Pending,Mohammed Al Ameri
+33113d40-8502-4e9a-8a03-000206d1e763,DAMAC,Construction,Marketing,CC-943,Abu Dhabi,OpEx,Cybersecurity Enhancement,1817143,2100297,283154,2024,Q4,Medium,On Hold,Rejected,Latifa Al Balushi
+cc3d9650-5065-49ba-a8e9-75231f5804ab,Aldar,Real Estate,IT,CC-991,Abu Dhabi,OpEx,Customer Experience Enhancement,1514906,1642624,127718,2025,Q1,Low,In Progress,Pending,Ahmed Al Mansoori
+47232d4e-e018-4ae1-8479-134062d3038c,DAMAC,Real Estate,Finance,CC-616,Sharjah,OpEx,Mall Expansion Project,1647737,1773643,125906,2024,Q3,High,Planned,Pending,Mohammed Al Ameri
+ec39ede9-6d7c-44e4-a2cc-9c80c04f3001,Aldar,Construction,HR,CC-863,Ras Al Khaimah,CapEx,Supply Chain Optimization,203502,227806,24304,2023,Q1,Medium,Planned,Rejected,Noor Al Marri
+dcb9982e-45f9-480a-b71b-4c4e9906548b,Aldar,Construction,Operations,CC-169,Dubai,CapEx,Retail Digital Transformation,736000,835468,99468,2026,Q2,Medium,Completed,Approved,Yousef Al Kaabi
+fb407b6f-f011-436e-9ec3-f01453027ba0,Dubai Holding,Hospitality,HR,CC-227,Fujairah,OpEx,Mobile App Revamp,1808453,1463098,-345355,2023,Q1,Low,Completed,Approved,Sara Al Dhaheri
+3fd2b2d5-22e4-46ec-aca3-799ee7d9949a,Dubai Holding,Corporate,IT,CC-552,Dubai,CapEx,Mobile App Revamp,800962,712031,-88931,2025,Q4,High,Planned,Approved,Reem Al Ketbi
+d1d24180-fd74-467f-9bb9-fc4d2f8f5932,Emaar,Retail,IT,CC-304,Dubai,CapEx,Cybersecurity Enhancement,841455,995910,154455,2023,Q1,Medium,In Progress,Rejected,Mariam Al Hammadi
+6c86bad1-ba87-44a1-865a-5561a8bf3dba,Dubai Holding,Hospitality,IT,CC-145,Ras Al Khaimah,CapEx,ERP Implementation,182480,166108,-16372,2025,Q2,Low,In Progress,Rejected,Hassan Al Blooshi
+5fbfac93-4cf6-4f84-a560-34d1b2443085,Emaar,Real Estate,HR,CC-431,Abu Dhabi,CapEx,Mall Expansion Project,947330,815084,-132246,2025,Q1,Medium,In Progress,Pending,Noura Al Suhaili
+8e703461-8162-4ab6-bb3c-dbb602ad4e88,DAMAC,Corporate,HR,CC-144,Dubai,CapEx,Retail Digital Transformation,188446,212751,24305,2025,Q4,High,In Progress,Pending,Mariam Al Hammadi
+44b8a45e-48a2-45df-8776-309f6c40504b,Aldar,Hospitality,HR,CC-279,Sharjah,OpEx,Supply Chain Optimization,1308012,1258539,-49473,2025,Q1,Low,On Hold,Pending,Rashid Al Qasimi
+1fb9192e-7275-4ddd-b937-7e8782aa7cc8,Majid Al Futtaim,Corporate,Finance,CC-338,Dubai,CapEx,Business Intelligence Dashboard Rollout,1393418,1631562,238144,2024,Q4,High,Planned,Approved,Noura Al Suhaili
+cecc31a6-22c6-469c-a23e-b7e50f4a8bdb,Emaar,Hospitality,Operations,CC-309,Dubai,CapEx,Mobile App Revamp,835432,876671,41239,2026,Q3,High,Completed,Pending,Huda Al Shamsi
+9394868a-0c6f-4869-91b8-5c45b6106ed8,Majid Al Futtaim,Construction,HR,CC-868,Dubai,CapEx,Customer Experience Enhancement,1700397,2006888,306491,2025,Q3,High,In Progress,Rejected,Mariam Al Hammadi
+2440b70e-9ff0-4480-8d8d-3d689150eb1e,Emaar,Hospitality,Marketing,CC-993,Ras Al Khaimah,OpEx,Supply Chain Optimization,1951345,2456429,505084,2026,Q1,High,On Hold,Approved,Hassan Al Blooshi
+37bf7ef8-33c4-4178-a98c-a5b56303dc42,Emaar,Hospitality,IT,CC-193,Abu Dhabi,CapEx,Facility Management System Upgrade,159276,177940,18664,2023,Q4,Low,On Hold,Pending,Khalid Al Mazrouei
+aece4a09-e476-4cbc-8c83-5df8cc3be302,Aldar,Hospitality,Marketing,CC-354,Sharjah,OpEx,Mall Expansion Project,1563459,1405187,-158272,2026,Q2,Medium,On Hold,Approved,Reem Al Ketbi
+d60dc531-81d6-4b6a-bbf9-3fe9445dcdd9,Aldar,Construction,Operations,CC-617,Fujairah,OpEx,Cloud Migration Initiative,885179,875316,-9863,2024,Q4,High,On Hold,Pending,Ahmed Al Mansoori
+5ff642eb-e6c2-4091-8ad0-73587dbf7602,DAMAC,Corporate,Marketing,CC-256,Fujairah,CapEx,Sustainability & Green Energy Program,1641441,2057100,415659,2026,Q4,Medium,On Hold,Pending,Sara Al Dhaheri
+d657a31c-afc9-4d00-8843-4e598b84d0eb,Dubai Holding,Retail,IT,CC-832,Ras Al Khaimah,CapEx,CRM Implementation,1228897,1355488,126591,2024,Q1,High,Completed,Pending,Ahmed Al Mansoori
+e83dde47-1dae-4917-bda8-fcc43ec33d98,Aldar,Retail,Operations,CC-601,Sharjah,CapEx,Cloud Migration Initiative,1991314,2007065,15751,2023,Q1,Medium,In Progress,Approved,Huda Al Shamsi
+775e454f-e600-43ff-a9ae-94a16f5946b9,DAMAC,Corporate,Operations,CC-750,Sharjah,CapEx,Customer Experience Enhancement,964983,1233777,268794,2026,Q4,Low,In Progress,Approved,Latifa Al Balushi
+758544e9-795b-42e2-ade0-211a1405e220,DAMAC,Real Estate,IT,CC-367,Fujairah,OpEx,AI Analytics Platform,122367,154272,31905,2024,Q3,High,In Progress,Approved,Aisha Al Suwaidi
+37558051-2afe-4161-929f-2c263beb7a5e,Aldar,Construction,Marketing,CC-182,Fujairah,CapEx,Retail Digital Transformation,1666845,1410405,-256440,2024,Q4,Medium,Completed,Rejected,Khalid Al Mazrouei
+5a55703e-8193-4031-9c00-8c446d28cad9,Majid Al Futtaim,Retail,Operations,CC-870,Dubai,CapEx,Workforce Optimization Program,1430945,1779130,348185,2025,Q2,Medium,In Progress,Rejected,Saeed Al Yammahi
+46c152dc-ab59-42fb-96dc-76e7e1c5eefc,Emaar,Construction,Finance,CC-199,Dubai,OpEx,Mobile App Revamp,1515928,1446271,-69657,2026,Q3,Low,On Hold,Approved,Noura Al Suhaili
+85a13745-8204-4479-b7c0-c38ede4b63b7,Emaar,Hospitality,Operations,CC-286,Fujairah,CapEx,IoT Integration Project,835700,746447,-89253,2024,Q2,High,Planned,Rejected,Latifa Al Balushi
+2b77b2ea-0955-4a96-a47f-b4f910f9f621,DAMAC,Construction,Operations,CC-741,Fujairah,CapEx,Data Center Modernization,1746970,2060694,313724,2024,Q1,Medium,Planned,Pending,Rashid Al Qasimi
+7fe421a1-0ad0-4d5b-ac46-cd3814c77870,Dubai Holding,Corporate,IT,CC-589,Ras Al Khaimah,CapEx,IoT Integration Project,630412,524585,-105827,2023,Q3,High,Planned,Approved,Ahmed Al Mansoori
+0338a2a7-9539-4c76-bbe1-dfba7d7e9754,Aldar,Corporate,Marketing,CC-879,Sharjah,OpEx,Mobile App Revamp,1145414,1369792,224378,2025,Q4,Medium,Completed,Rejected,Reem Al Ketbi
+6718da70-0183-4ad7-97d5-8d5f07c8df22,DAMAC,Construction,Operations,CC-725,Dubai,OpEx,Cybersecurity Enhancement,711072,859276,148204,2023,Q1,Medium,On Hold,Rejected,Khalid Al Mazrouei
+41172f91-2ae0-4f00-b31a-3a0200d92e23,Majid Al Futtaim,Retail,IT,CC-477,Ras Al Khaimah,OpEx,Infrastructure Upgrade,103855,114339,10484,2026,Q2,High,Completed,Approved,Ali Al Zaabi
+4a59ab3f-f7be-4156-8141-d5816376f910,DAMAC,Construction,IT,CC-721,Ras Al Khaimah,OpEx,Customer Experience Enhancement,805405,996058,190653,2023,Q3,Medium,On Hold,Rejected,Saeed Al Yammahi
+3d3c75b7-7d89-4cac-a717-9e247d8ac810,Aldar,Retail,Marketing,CC-299,Abu Dhabi,CapEx,Retail Digital Transformation,1948347,1656538,-291809,2026,Q1,Medium,On Hold,Approved,Huda Al Shamsi
+92407965-6d52-45dd-b788-06f9aebf18e6,Majid Al Futtaim,Hospitality,IT,CC-316,Abu Dhabi,CapEx,Mall Expansion Project,292595,304616,12021,2026,Q1,High,Completed,Pending,Reem Al Ketbi
+9c3d7620-980c-4072-b56e-85ff54c6babd,DAMAC,Construction,Finance,CC-781,Abu Dhabi,OpEx,AI Analytics Platform,637953,580657,-57296,2025,Q2,Low,Planned,Rejected,Khalid Al Mazrouei
+9cf6659d-b6eb-4174-a416-aa9c7fb6946e,Aldar,Corporate,Operations,CC-927,Abu Dhabi,CapEx,ERP Implementation,840647,1055082,214435,2023,Q3,High,Planned,Approved,Latifa Al Balushi
+b1af4e0e-0c05-4432-95d5-0e20f7991ac5,Emaar,Real Estate,Marketing,CC-476,Abu Dhabi,OpEx,Customer Experience Enhancement,1603111,1757170,154059,2023,Q3,High,In Progress,Pending,Abdullah Al Shehhi
+53be2392-c927-4621-b38e-e2c91527f3b6,Emaar,Corporate,Marketing,CC-704,Abu Dhabi,CapEx,Mall Expansion Project,720339,854063,133724,2023,Q4,Medium,In Progress,Pending,Omar Al Falasi
+b4139384-6957-4733-ae9b-2fa6a09ffde2,Emaar,Corporate,HR,CC-249,Dubai,OpEx,Customer Experience Enhancement,1098225,1251966,153741,2023,Q3,Low,On Hold,Rejected,Reem Al Ketbi
+ecdb44c1-3df0-4cf8-bfd2-7e3cb359e971,Aldar,Real Estate,HR,CC-256,Abu Dhabi,CapEx,Facility Management System Upgrade,1088143,1029108,-59035,2023,Q2,Medium,On Hold,Pending,Ali Al Zaabi
+6a5ed1c7-404a-4d0c-bb6d-db885065be44,Dubai Holding,Corporate,Operations,CC-445,Ras Al Khaimah,OpEx,Hotel Renovation Program,1963391,2403699,440308,2026,Q4,High,Completed,Pending,Saeed Al Yammahi
+2e7ca3eb-e8c7-45eb-9e56-6fff7bb9854d,Majid Al Futtaim,Construction,Finance,CC-234,Sharjah,CapEx,Workforce Optimization Program,1985805,1782351,-203454,2025,Q4,Low,In Progress,Rejected,Ali Al Zaabi
+24a25d1d-4397-460f-8f40-dc0ccee10470,DAMAC,Hospitality,IT,CC-323,Abu Dhabi,CapEx,Cloud Migration Initiative,976697,1121226,144529,2023,Q2,Medium,On Hold,Rejected,Huda Al Shamsi
+2d3f300a-9898-4f39-93e8-18b5ad540202,DAMAC,Construction,IT,CC-153,Dubai,OpEx,Mobile App Revamp,1991932,1649649,-342283,2026,Q2,Low,On Hold,Approved,Latifa Al Balushi
+8c6a3351-1d02-4ae1-b520-fea1a9ae22f9,Aldar,Retail,Marketing,CC-276,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,299146,275342,-23804,2026,Q4,Medium,On Hold,Pending,Omar Al Falasi
+3a9dc8bf-648a-49db-aa86-504efaebe8be,Dubai Holding,Construction,Marketing,CC-330,Dubai,OpEx,Smart City Integration,301659,258918,-42741,2023,Q2,Medium,On Hold,Rejected,Yousef Al Kaabi
+e83bd58e-d7ff-45ac-8572-e788863c53bd,Emaar,Real Estate,HR,CC-165,Fujairah,CapEx,Facility Management System Upgrade,959443,910685,-48758,2023,Q4,Low,On Hold,Approved,Ahmed Al Mansoori
+a9506352-b897-4648-80d4-cad2fde03708,Dubai Holding,Hospitality,Finance,CC-285,Fujairah,CapEx,Sustainability & Green Energy Program,1805618,1972386,166768,2026,Q3,High,Planned,Approved,Reem Al Ketbi
+d55fe14a-86ff-43c0-af04-588783495acd,Dubai Holding,Corporate,HR,CC-971,Dubai,CapEx,IoT Integration Project,482495,543443,60948,2025,Q3,Low,In Progress,Pending,Zainab Al Neyadi
+29b2606e-0eb4-4447-a86b-0e2a58d2c52d,Dubai Holding,Corporate,HR,CC-774,Fujairah,OpEx,Facility Management System Upgrade,50179,46373,-3806,2026,Q3,Low,Completed,Rejected,Latifa Al Balushi
+a61697fb-3373-4bf7-b019-9da319fd976d,Dubai Holding,Real Estate,IT,CC-137,Abu Dhabi,CapEx,AI Analytics Platform,1120785,1014220,-106565,2024,Q2,Low,In Progress,Rejected,Aisha Al Suwaidi
+902c48b9-2369-42cc-ab86-3ea7f8825c99,Majid Al Futtaim,Construction,Finance,CC-663,Sharjah,OpEx,Hotel Renovation Program,631740,545978,-85762,2024,Q4,Medium,Planned,Pending,Khalid Al Mazrouei
+3b7b7741-d142-49f2-b26b-02e1c9e0c342,Emaar,Corporate,IT,CC-172,Sharjah,CapEx,Smart City Integration,942009,1196445,254436,2025,Q2,Medium,In Progress,Pending,Yousef Al Kaabi
+a14a1877-98a3-4be6-b342-bceb87b8af8c,Majid Al Futtaim,Hospitality,Finance,CC-376,Dubai,CapEx,Business Intelligence Dashboard Rollout,844698,686701,-157997,2026,Q1,Medium,Planned,Pending,Hassan Al Blooshi
+70501507-a02a-47a3-8fa5-8d33944e322d,Emaar,Retail,Finance,CC-200,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,1681733,1575155,-106578,2023,Q1,High,Completed,Rejected,Rashid Al Qasimi
+e50bb1ff-9fec-46fb-b5e1-8ffb757428d8,Majid Al Futtaim,Retail,Marketing,CC-377,Fujairah,CapEx,Hotel Renovation Program,250363,266506,16143,2024,Q3,Medium,In Progress,Pending,Saeed Al Yammahi
+eefe14a2-738c-4219-a46b-7ee2a80be455,Majid Al Futtaim,Corporate,Marketing,CC-970,Ras Al Khaimah,OpEx,CRM Implementation,1471474,1889372,417898,2024,Q3,High,In Progress,Rejected,Rashid Al Qasimi
+12e35ce0-73b0-4a57-aaf4-555c470d7a47,DAMAC,Real Estate,HR,CC-824,Abu Dhabi,OpEx,ERP Implementation,349200,345498,-3702,2026,Q2,Medium,Completed,Pending,Aisha Al Suwaidi
+0725c091-6d2b-48ab-880e-09d1e8129f97,Aldar,Corporate,IT,CC-412,Dubai,OpEx,Workforce Optimization Program,651504,611053,-40451,2025,Q1,Low,Planned,Approved,Abdullah Al Shehhi
+487825a2-bf59-4d4b-b670-7c09bdb9bf5a,Emaar,Corporate,Finance,CC-186,Sharjah,OpEx,Workforce Optimization Program,553393,704155,150762,2026,Q2,Medium,On Hold,Rejected,Yousef Al Kaabi
+1e6d01f4-45f6-4cf5-8cb6-6dc0f6e9845d,Dubai Holding,Construction,Finance,CC-731,Abu Dhabi,CapEx,Supply Chain Optimization,1469298,1827865,358567,2026,Q3,High,Planned,Rejected,Abdullah Al Shehhi
+efd7d722-83e4-4c3d-b85d-0f12619caf2d,Majid Al Futtaim,Hospitality,IT,CC-176,Sharjah,CapEx,Mall Expansion Project,403437,458813,55376,2025,Q1,Medium,On Hold,Pending,Ali Al Zaabi
+865ce657-c479-4f7f-826c-93f0ddd76a50,DAMAC,Hospitality,Marketing,CC-971,Dubai,OpEx,Workforce Optimization Program,832832,1070076,237244,2026,Q3,Medium,In Progress,Approved,Reem Al Ketbi
+9f219bb7-346e-4135-8bf4-67016c465ebb,Emaar,Retail,Marketing,CC-945,Dubai,OpEx,Sustainability & Green Energy Program,1373672,1489638,115966,2026,Q1,Medium,Planned,Rejected,Khalid Al Mazrouei
+9c9899ba-562e-42ba-830e-8154326e8272,Dubai Holding,Real Estate,HR,CC-839,Abu Dhabi,OpEx,Customer Experience Enhancement,739023,701462,-37561,2023,Q1,Medium,On Hold,Approved,Mariam Al Hammadi
+0201bac2-b85a-455f-a2ff-4c342df8f8e3,Emaar,Construction,Finance,CC-599,Dubai,CapEx,Customer Experience Enhancement,1159595,1225876,66281,2025,Q2,Medium,On Hold,Pending,Saeed Al Yammahi
+9ce5da39-2860-45e5-82cb-a878b99fcc35,Emaar,Corporate,HR,CC-211,Ras Al Khaimah,OpEx,Infrastructure Upgrade,814402,825942,11540,2024,Q3,Low,On Hold,Approved,Sara Al Dhaheri
+7e4c35bf-5a9a-4568-8246-501c49e1bbb8,Emaar,Real Estate,IT,CC-391,Dubai,CapEx,E-commerce Platform Launch,1902993,2350685,447692,2026,Q3,High,In Progress,Rejected,Hassan Al Blooshi
+605fe71a-b3fd-4a3c-881e-bc52cdd5b102,DAMAC,Real Estate,Operations,CC-600,Fujairah,OpEx,Cloud Migration Initiative,1055154,1350438,295284,2024,Q3,Medium,On Hold,Approved,Abdullah Al Shehhi
+a6057cfa-7aa9-46f9-b22c-519762f80e1a,Emaar,Hospitality,HR,CC-612,Dubai,CapEx,Data Center Modernization,276239,330480,54241,2025,Q4,Low,Planned,Pending,Fatima Al Nuaimi
+009afd9e-62c2-4321-abdd-885de930cb2d,Dubai Holding,Construction,IT,CC-732,Abu Dhabi,CapEx,Data Center Modernization,657055,618362,-38693,2025,Q1,Medium,In Progress,Rejected,Ahmed Al Mansoori
+4daeba3f-15dc-44a1-b173-87aa80d23339,Dubai Holding,Corporate,Marketing,CC-285,Abu Dhabi,CapEx,AI Analytics Platform,466101,483321,17220,2023,Q2,Medium,Planned,Pending,Noor Al Marri
+51011679-e4da-4d55-a6a4-14304b887ecc,Dubai Holding,Corporate,IT,CC-193,Dubai,OpEx,Smart City Integration,1998460,1744864,-253596,2025,Q2,High,Completed,Pending,Zainab Al Neyadi
+92e7da0d-a1d1-4b1e-86ea-6196084551c3,Dubai Holding,Retail,Finance,CC-375,Sharjah,OpEx,Mall Expansion Project,178659,188473,9814,2026,Q2,Medium,Planned,Approved,Mariam Al Hammadi
+f5c75e9a-c949-4da2-abc6-f5344f59912a,DAMAC,Hospitality,HR,CC-583,Sharjah,CapEx,Sustainability & Green Energy Program,51123,42230,-8893,2024,Q3,Medium,Completed,Pending,Ahmed Al Mansoori
+1da44a5d-6c35-4703-8c78-3c99c1942961,Dubai Holding,Corporate,IT,CC-439,Sharjah,OpEx,Infrastructure Upgrade,283892,240866,-43026,2025,Q2,Low,Completed,Approved,Ahmed Al Mansoori
+bd25d55b-c045-4902-a2f7-eb5ed06e1ede,Dubai Holding,Hospitality,Marketing,CC-223,Dubai,CapEx,Hotel Renovation Program,855409,721636,-133773,2026,Q1,High,Completed,Pending,Hassan Al Blooshi
+48827276-2875-4561-bceb-d74420c6c653,Emaar,Corporate,IT,CC-144,Abu Dhabi,CapEx,Sustainability & Green Energy Program,1044466,1352397,307931,2025,Q3,Medium,On Hold,Rejected,Latifa Al Balushi
+52127702-7ada-4146-897d-fa0f507205e8,Dubai Holding,Construction,Operations,CC-636,Fujairah,CapEx,Hotel Renovation Program,296266,371939,75673,2025,Q2,Medium,Planned,Rejected,Noura Al Suhaili
+47ab224d-3fff-4d24-9c16-5f698e3eb6ee,Emaar,Construction,Operations,CC-801,Fujairah,CapEx,Cloud Migration Initiative,1715957,2207127,491170,2026,Q4,Low,On Hold,Pending,Ali Al Zaabi
+be569bc5-504e-46dc-9e75-0e97d9fa080c,Dubai Holding,Hospitality,Marketing,CC-323,Fujairah,CapEx,Mall Expansion Project,619364,559572,-59792,2026,Q3,Medium,In Progress,Pending,Ali Al Zaabi
+55a31bc6-c3fd-4fa7-b7cf-4905cd326f65,Emaar,Hospitality,Finance,CC-646,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,613116,659759,46643,2024,Q3,High,Completed,Approved,Omar Al Falasi
+15b3d1c1-c7d9-45e5-a9c2-b3563c9ab96c,Emaar,Corporate,Finance,CC-101,Sharjah,OpEx,Mobile App Revamp,572207,740875,168668,2023,Q3,Low,In Progress,Pending,Fatima Al Nuaimi
+8a1c5f8f-3517-4b9d-a7d6-4ed364d37ddc,Dubai Holding,Real Estate,HR,CC-324,Sharjah,CapEx,Cybersecurity Enhancement,668440,643251,-25189,2023,Q1,Low,On Hold,Rejected,Aisha Al Suwaidi
+9780d17c-1688-4879-a1bd-36cf56203d1c,Majid Al Futtaim,Corporate,IT,CC-936,Ras Al Khaimah,CapEx,Facility Management System Upgrade,1874576,2086618,212042,2025,Q2,Low,On Hold,Approved,Ali Al Zaabi
+626e9650-f992-406d-973c-a86fd78ddcbc,Aldar,Retail,IT,CC-590,Dubai,OpEx,Supply Chain Optimization,535958,624340,88382,2026,Q2,High,In Progress,Rejected,Hassan Al Blooshi
+1907eba2-167d-41e4-a474-e57de58788ac,DAMAC,Real Estate,HR,CC-266,Abu Dhabi,OpEx,CRM Implementation,1579830,1406369,-173461,2024,Q1,High,Planned,Pending,Yousef Al Kaabi
+f8a8456a-ca82-482b-a868-e711ffc2eccd,Aldar,Real Estate,Marketing,CC-240,Dubai,CapEx,Mobile App Revamp,1004254,1259902,255648,2026,Q1,High,Planned,Rejected,Omar Al Falasi
+e316ee85-159d-4ab0-a95d-5d8e8af4377d,Dubai Holding,Retail,IT,CC-742,Fujairah,CapEx,Workforce Optimization Program,327199,302387,-24812,2023,Q3,Low,Planned,Approved,Omar Al Falasi
+3c865c5a-b4a2-4358-b8ff-dc7aa8422e47,Aldar,Hospitality,HR,CC-439,Ras Al Khaimah,CapEx,Infrastructure Upgrade,1057525,1247705,190180,2023,Q3,Low,Planned,Approved,Yousef Al Kaabi
+2dedf5ea-e96d-4367-b34b-fea595b37d0e,Dubai Holding,Corporate,Operations,CC-245,Dubai,CapEx,Business Intelligence Dashboard Rollout,265619,284828,19209,2024,Q4,Medium,In Progress,Pending,Noura Al Suhaili
+c4300e5f-0da6-416d-a318-a1f63682c70b,Aldar,Real Estate,Operations,CC-273,Dubai,CapEx,ERP Implementation,651560,594836,-56724,2025,Q3,High,Completed,Approved,Rashid Al Qasimi
+cd40aa41-5246-403a-b191-d1e29c390a4c,Dubai Holding,Real Estate,Marketing,CC-254,Abu Dhabi,OpEx,Mobile App Revamp,1986341,2507459,521118,2025,Q2,Low,On Hold,Approved,Ahmed Al Mansoori
+2945d085-e304-4c10-b286-cb9a77aae1ca,DAMAC,Retail,Finance,CC-377,Ras Al Khaimah,OpEx,CRM Implementation,1491080,1417691,-73389,2023,Q1,High,In Progress,Pending,Fatima Al Nuaimi
+0cf22a2d-5312-4dcb-b281-2a3953618519,Aldar,Real Estate,Finance,CC-691,Ras Al Khaimah,OpEx,Supply Chain Optimization,869146,889438,20292,2023,Q3,High,In Progress,Pending,Omar Al Falasi
+734300ec-337d-4004-9961-a8d53c47fea9,Aldar,Construction,Marketing,CC-912,Sharjah,CapEx,Mobile App Revamp,719653,753550,33897,2024,Q4,Medium,On Hold,Rejected,Ali Al Zaabi
+bf218e94-f144-43ba-b687-62841cb9daef,Emaar,Construction,Finance,CC-694,Ras Al Khaimah,CapEx,Mobile App Revamp,1083060,1154798,71738,2023,Q2,Medium,Planned,Approved,Hassan Al Blooshi
+b466a5db-cedb-4978-a98d-a5570e2cf2c4,Emaar,Real Estate,Finance,CC-457,Sharjah,CapEx,Infrastructure Upgrade,810004,874145,64141,2026,Q2,Low,On Hold,Approved,Fatima Al Nuaimi
+e6a06ccc-4d11-48a9-9b80-494e02f5a7a9,Emaar,Real Estate,IT,CC-486,Dubai,OpEx,Workforce Optimization Program,1786068,1629418,-156650,2023,Q1,Low,Planned,Pending,Noura Al Suhaili
+6239a124-10ed-4c12-aae9-c9634db54db7,Emaar,Retail,IT,CC-180,Abu Dhabi,CapEx,Smart City Integration,1875522,1648746,-226776,2026,Q2,High,On Hold,Rejected,Abdullah Al Shehhi
+f56a553a-5de7-4616-9669-db4ca39dc79d,DAMAC,Construction,Operations,CC-839,Sharjah,OpEx,Sustainability & Green Energy Program,1618894,1722058,103164,2023,Q3,High,In Progress,Approved,Omar Al Falasi
+5a49d6f8-430a-408c-af6b-46f81d18f3d1,Emaar,Corporate,IT,CC-111,Ras Al Khaimah,OpEx,AI Analytics Platform,117358,129338,11980,2026,Q3,Low,Completed,Rejected,Sara Al Dhaheri
+4e5752a4-d2f7-4da9-9b35-3284d8118b4a,DAMAC,Real Estate,Marketing,CC-486,Abu Dhabi,CapEx,Facility Management System Upgrade,938500,1187883,249383,2023,Q2,Medium,In Progress,Rejected,Noura Al Suhaili
+8d105496-39a8-47a4-a2c6-db91eec90a7c,Aldar,Construction,HR,CC-768,Ras Al Khaimah,OpEx,Cloud Migration Initiative,1318951,1610249,291298,2023,Q3,Low,On Hold,Approved,Omar Al Falasi
+c482bcde-e6ee-40e1-8938-7f489aaa8eb3,DAMAC,Corporate,HR,CC-128,Abu Dhabi,OpEx,Customer Experience Enhancement,277333,236343,-40990,2023,Q1,High,Planned,Pending,Rashid Al Qasimi
+adc88b88-c1fa-4255-bc58-176fd86a88aa,Dubai Holding,Hospitality,HR,CC-187,Fujairah,CapEx,AI Analytics Platform,1206980,1087323,-119657,2026,Q1,High,Completed,Approved,Fatima Al Nuaimi
+b268c0c4-0085-4e6d-9929-7d2967856562,DAMAC,Construction,Marketing,CC-299,Sharjah,OpEx,CRM Implementation,67781,87455,19674,2025,Q2,Low,Planned,Pending,Mohammed Al Ameri
+29183cf0-e230-4d7e-b39e-1542ef838daa,Dubai Holding,Corporate,IT,CC-124,Fujairah,OpEx,Workforce Optimization Program,1930120,2259641,329521,2023,Q3,High,In Progress,Rejected,Latifa Al Balushi
+c2df5ac6-d826-41ca-a376-f530e378fe57,Dubai Holding,Hospitality,IT,CC-926,Abu Dhabi,CapEx,Mall Expansion Project,215156,267353,52197,2025,Q4,High,Completed,Pending,Noor Al Marri
+44f7c34f-c1d0-4739-8740-cbb9e4e7de85,Aldar,Real Estate,Operations,CC-344,Abu Dhabi,CapEx,Cloud Migration Initiative,1357512,1666992,309480,2026,Q1,High,In Progress,Pending,Hassan Al Blooshi
+f24a7536-0f50-4ecc-a0b4-2e3055dcae7c,Dubai Holding,Construction,Finance,CC-565,Sharjah,CapEx,Hotel Renovation Program,1869349,2401129,531780,2024,Q1,Medium,Completed,Pending,Yousef Al Kaabi
+82298aa5-0ec0-4281-bffe-b120179ca4b7,Aldar,Retail,Operations,CC-362,Ras Al Khaimah,CapEx,IoT Integration Project,199178,177187,-21991,2026,Q1,Medium,Completed,Pending,Saeed Al Yammahi
+0b63e25e-b39c-4d3a-8cff-2cd11cec13ab,Emaar,Construction,HR,CC-624,Fujairah,OpEx,Hotel Renovation Program,1847261,2050167,202906,2023,Q4,Low,On Hold,Pending,Mohammed Al Ameri
+34c02810-2301-4a40-8465-203be5c0139b,Dubai Holding,Hospitality,Marketing,CC-108,Abu Dhabi,CapEx,Cloud Migration Initiative,139497,154884,15387,2026,Q2,Low,On Hold,Approved,Latifa Al Balushi
+fbdf3a64-aee4-4b37-b33f-d454d3d53531,Dubai Holding,Retail,Operations,CC-579,Fujairah,OpEx,E-commerce Platform Launch,864162,1069037,204875,2023,Q2,Low,Planned,Pending,Khalid Al Mazrouei
+195b31a6-320d-4633-a805-b31ab300921d,DAMAC,Real Estate,HR,CC-450,Fujairah,OpEx,Cloud Migration Initiative,958306,862221,-96085,2026,Q1,Medium,On Hold,Approved,Fatima Al Nuaimi
+3d4a1c87-b972-4f42-9e10-16c2a9f615d1,Emaar,Hospitality,HR,CC-681,Dubai,OpEx,Hotel Renovation Program,376612,479904,103292,2025,Q4,Medium,In Progress,Approved,Huda Al Shamsi
+d1873cef-bc8c-4acb-a5af-60eb9300ecee,Aldar,Retail,HR,CC-750,Abu Dhabi,CapEx,Retail Digital Transformation,1870371,1517752,-352619,2023,Q3,Medium,Planned,Pending,Mariam Al Hammadi
+0aaa897e-b50a-43ae-ab36-f8e17597e368,Majid Al Futtaim,Hospitality,HR,CC-288,Dubai,CapEx,Mall Expansion Project,996698,1231564,234866,2025,Q3,High,In Progress,Pending,Abdullah Al Shehhi
+d14fab8d-97ca-4cfb-8042-57c4143aa60a,Emaar,Construction,HR,CC-809,Fujairah,OpEx,Workforce Optimization Program,1060041,1100057,40016,2024,Q1,Low,In Progress,Pending,Abdullah Al Shehhi
+3386a236-f595-4056-b6f4-aa0459a9623e,DAMAC,Real Estate,IT,CC-569,Abu Dhabi,OpEx,IoT Integration Project,1777012,2255889,478877,2023,Q4,Medium,Planned,Pending,Ahmed Al Mansoori
+d2166f66-934b-408a-9689-a7c5e2e75654,Majid Al Futtaim,Real Estate,Finance,CC-323,Abu Dhabi,OpEx,Sustainability & Green Energy Program,1380208,1414249,34041,2024,Q4,High,Completed,Approved,Zainab Al Neyadi
+d86193b5-b29c-4528-a0d7-b159a23f7533,Dubai Holding,Retail,HR,CC-116,Sharjah,OpEx,Cloud Migration Initiative,1475283,1605724,130441,2023,Q4,Low,On Hold,Pending,Mohammed Al Ameri
+7a897df5-7e5b-4d64-8d28-5a0cb3f368d8,Majid Al Futtaim,Construction,Marketing,CC-883,Sharjah,CapEx,CRM Implementation,787629,768809,-18820,2026,Q4,Medium,In Progress,Rejected,Mohammed Al Ameri
+25ac9ea2-aec0-4110-830a-5b66ef128b80,Aldar,Retail,Operations,CC-749,Sharjah,CapEx,Cybersecurity Enhancement,391116,419034,27918,2023,Q1,Low,Planned,Rejected,Noura Al Suhaili
+95adffb4-123b-4cef-98df-1fb874cf99f0,Majid Al Futtaim,Corporate,Finance,CC-748,Ras Al Khaimah,CapEx,AI Analytics Platform,267422,280312,12890,2025,Q4,High,In Progress,Pending,Sara Al Dhaheri
+af168c70-fff4-4069-b404-6b3e0bf394bf,Aldar,Real Estate,HR,CC-912,Ras Al Khaimah,OpEx,ERP Implementation,849182,727961,-121221,2026,Q1,Medium,In Progress,Rejected,Ali Al Zaabi
+82370059-802b-4731-a4b5-db3be1b0686e,DAMAC,Retail,Operations,CC-789,Abu Dhabi,CapEx,Facility Management System Upgrade,611217,757789,146572,2023,Q1,High,In Progress,Pending,Noor Al Marri
+1bedb478-ddd4-4db1-af25-699324f89e24,DAMAC,Retail,IT,CC-685,Ras Al Khaimah,CapEx,Smart City Integration,1769736,2071693,301957,2026,Q2,Low,On Hold,Approved,Fatima Al Nuaimi
+652c5f6c-7881-4648-9a67-be3c4f547560,Aldar,Hospitality,Operations,CC-425,Fujairah,CapEx,Workforce Optimization Program,949893,821120,-128773,2024,Q1,Low,In Progress,Rejected,Mohammed Al Ameri
+27e8a0af-6bff-4714-b2dc-b9a868a5d23e,Aldar,Retail,Marketing,CC-262,Sharjah,CapEx,E-commerce Platform Launch,1374227,1495800,121573,2023,Q1,Medium,Planned,Rejected,Khalid Al Mazrouei
+7d7d07c7-80fb-4262-84a7-0d71ac4edc1f,Majid Al Futtaim,Corporate,Finance,CC-685,Ras Al Khaimah,CapEx,Hotel Renovation Program,1294215,1134410,-159805,2024,Q4,Low,Completed,Approved,Ali Al Zaabi
+8df9c9b5-56de-40c2-bc12-10ac1a542c86,DAMAC,Hospitality,Marketing,CC-960,Abu Dhabi,OpEx,IoT Integration Project,1418439,1771565,353126,2025,Q1,Medium,Planned,Approved,Latifa Al Balushi
+80d30e36-6808-4884-b881-98b84c0c5f79,Majid Al Futtaim,Real Estate,Finance,CC-570,Fujairah,CapEx,Mall Expansion Project,98529,110272,11743,2024,Q3,Medium,In Progress,Approved,Khalid Al Mazrouei
+c545c1c5-1f63-44c6-9eb4-90dfe2453f84,Emaar,Construction,Finance,CC-602,Dubai,OpEx,E-commerce Platform Launch,1086506,1328049,241543,2026,Q1,High,On Hold,Pending,Noura Al Suhaili
+022f47d0-75e6-4628-8e09-7a35db1a6b18,Emaar,Hospitality,HR,CC-110,Abu Dhabi,CapEx,Cloud Migration Initiative,1378654,1729040,350386,2025,Q3,Medium,Planned,Approved,Khalid Al Mazrouei
+539b6eff-d9e7-42e5-93fc-58d8529b9ff7,Dubai Holding,Hospitality,Marketing,CC-130,Fujairah,CapEx,Mobile App Revamp,1605450,1488654,-116796,2024,Q2,Medium,Planned,Approved,Huda Al Shamsi
+c0143617-8aac-45b6-801b-c591eeaca1aa,Dubai Holding,Hospitality,HR,CC-380,Ras Al Khaimah,CapEx,CRM Implementation,736900,640574,-96326,2025,Q3,Medium,On Hold,Pending,Ahmed Al Mansoori
+21dce78a-7946-413c-87b6-b5e235ab4fee,DAMAC,Hospitality,IT,CC-803,Sharjah,OpEx,Cloud Migration Initiative,888739,1120854,232115,2025,Q2,High,On Hold,Pending,Reem Al Ketbi
+862f6da1-775a-4e31-9f05-f29f3d1cf055,DAMAC,Retail,Marketing,CC-210,Fujairah,OpEx,Customer Experience Enhancement,938641,1030782,92141,2024,Q3,Medium,Planned,Pending,Omar Al Falasi
+3609eb75-48e3-44d1-a749-b2315a02d6da,Majid Al Futtaim,Retail,Marketing,CC-519,Sharjah,OpEx,Supply Chain Optimization,1915311,1564579,-350732,2023,Q1,High,Completed,Pending,Zainab Al Neyadi
+220b9c4d-737b-4bfe-930f-dc0373d9e657,Emaar,Retail,HR,CC-248,Sharjah,CapEx,Mall Expansion Project,800244,738352,-61892,2025,Q1,Low,Completed,Approved,Zainab Al Neyadi
+436e9e91-478a-4bf8-acf1-b949f18ef191,Emaar,Corporate,Finance,CC-494,Sharjah,CapEx,Cloud Migration Initiative,1240069,1485131,245062,2024,Q1,Low,Completed,Rejected,Ali Al Zaabi
+c52d5a50-f80f-4963-92d1-ef8e94130c9e,Dubai Holding,Corporate,Operations,CC-798,Ras Al Khaimah,OpEx,Data Center Modernization,1902540,2290112,387572,2024,Q2,High,On Hold,Pending,Fatima Al Nuaimi
+ba194d5b-4f9d-4d04-9497-774568e81962,Dubai Holding,Construction,IT,CC-715,Sharjah,OpEx,Hotel Renovation Program,625490,632131,6641,2023,Q3,High,Planned,Pending,Noor Al Marri
+c20c1d28-08d2-49a3-976d-ada6df1084ee,Aldar,Real Estate,Marketing,CC-640,Dubai,OpEx,CRM Implementation,324848,396581,71733,2023,Q1,Medium,Planned,Pending,Saeed Al Yammahi
+415c59bb-013f-48b0-b077-60a82eb260d3,DAMAC,Construction,Finance,CC-669,Sharjah,OpEx,ERP Implementation,681239,638550,-42689,2023,Q4,Medium,On Hold,Pending,Noura Al Suhaili
+b26d29b0-ee5b-4f09-88c3-81d2a6a4c881,DAMAC,Corporate,Finance,CC-129,Abu Dhabi,CapEx,Retail Digital Transformation,1959397,1686465,-272932,2024,Q1,Medium,On Hold,Approved,Omar Al Falasi
+cefbf2e9-7b58-40ce-a83b-d73f0b56de52,DAMAC,Corporate,Finance,CC-804,Dubai,OpEx,E-commerce Platform Launch,234584,210088,-24496,2023,Q1,Medium,Planned,Pending,Abdullah Al Shehhi
+5b945a10-1cac-4b54-bf75-31e00de3e5bd,Aldar,Retail,IT,CC-241,Fujairah,OpEx,Hotel Renovation Program,1492676,1651459,158783,2024,Q3,High,On Hold,Rejected,Ahmed Al Mansoori
+622d26b2-4df8-48ee-aee2-ddb2de37c6c6,Majid Al Futtaim,Hospitality,Marketing,CC-589,Ras Al Khaimah,OpEx,Workforce Optimization Program,1451390,1249917,-201473,2026,Q2,High,Completed,Pending,Ali Al Zaabi
+2a708a79-68ec-4107-b445-6796ef4d9cde,Emaar,Hospitality,Finance,CC-176,Ras Al Khaimah,CapEx,CRM Implementation,223632,218377,-5255,2023,Q2,Medium,On Hold,Approved,Hassan Al Blooshi
+c6f01342-8410-44ea-b5b8-e3f8fcf50fcd,Majid Al Futtaim,Corporate,Marketing,CC-979,Sharjah,OpEx,Cloud Migration Initiative,269225,261208,-8017,2026,Q2,Low,Planned,Approved,Reem Al Ketbi
+0920a3fd-5bb4-4bca-9bd3-e98a8e4fbcd5,Aldar,Corporate,Marketing,CC-307,Ras Al Khaimah,CapEx,Sustainability & Green Energy Program,1972453,1936597,-35856,2025,Q4,High,Completed,Rejected,Abdullah Al Shehhi
+609be665-8292-4154-a8b7-dded2e24e7a5,Dubai Holding,Real Estate,IT,CC-116,Ras Al Khaimah,CapEx,Hotel Renovation Program,264044,230680,-33364,2023,Q4,Low,On Hold,Pending,Omar Al Falasi
+030a35d9-19ee-45c1-a955-1efd903d920b,Dubai Holding,Retail,Operations,CC-317,Abu Dhabi,OpEx,CRM Implementation,298148,376699,78551,2026,Q3,High,On Hold,Pending,Yousef Al Kaabi
+53e7ad52-c138-4e27-b457-893fbe1f2319,Aldar,Construction,IT,CC-401,Abu Dhabi,OpEx,Sustainability & Green Energy Program,255128,210370,-44758,2025,Q4,Low,On Hold,Approved,Yousef Al Kaabi
+647b2910-b179-4261-adbd-ab7c3e6fde03,Dubai Holding,Hospitality,Finance,CC-154,Dubai,OpEx,Data Center Modernization,154588,173628,19040,2023,Q1,Medium,In Progress,Rejected,Yousef Al Kaabi
+6ceb5cbb-eca0-4bf3-9103-bd1c624ab3ac,Aldar,Real Estate,IT,CC-851,Sharjah,OpEx,ERP Implementation,1551190,1554726,3536,2024,Q2,Medium,Completed,Rejected,Mohammed Al Ameri
+f9f1e10a-262b-4a03-97b2-f6f9b1e58a1b,Dubai Holding,Hospitality,Marketing,CC-817,Fujairah,OpEx,Hotel Renovation Program,653934,763102,109168,2025,Q2,High,Completed,Rejected,Mariam Al Hammadi
+0a788869-d2fd-4268-a098-c8c33d095cb4,Aldar,Hospitality,Finance,CC-782,Ras Al Khaimah,OpEx,Infrastructure Upgrade,399480,357004,-42476,2023,Q2,Medium,Planned,Approved,Omar Al Falasi
+ff717e0c-4b76-4eb1-99c3-24b74c1ae40c,Majid Al Futtaim,Retail,Operations,CC-697,Dubai,OpEx,Mobile App Revamp,1644382,2016908,372526,2026,Q1,High,Planned,Rejected,Khalid Al Mazrouei
+e0f0ebf8-71c3-4d1c-8726-8a8675d27fb0,Majid Al Futtaim,Corporate,IT,CC-873,Abu Dhabi,CapEx,E-commerce Platform Launch,659555,803126,143571,2025,Q3,Medium,On Hold,Rejected,Rashid Al Qasimi
+3c28e4db-b0e3-4a60-aac6-f393cbe35f2a,Aldar,Retail,HR,CC-569,Dubai,OpEx,AI Analytics Platform,1194447,1109246,-85201,2025,Q4,High,Completed,Rejected,Huda Al Shamsi
+566cfc8b-525f-4ff7-9fff-91eed8c21e5b,Emaar,Construction,IT,CC-775,Abu Dhabi,OpEx,Facility Management System Upgrade,1577178,1766281,189103,2023,Q2,Low,On Hold,Pending,Noor Al Marri
+18a6c783-a0a2-4e7a-8c76-e10c166b642e,Aldar,Real Estate,HR,CC-998,Fujairah,OpEx,Infrastructure Upgrade,1611046,1360749,-250297,2024,Q3,Low,Completed,Pending,Yousef Al Kaabi
+c067ab7a-81cf-48d6-8262-56b1a792ec1e,DAMAC,Retail,IT,CC-142,Fujairah,OpEx,Retail Digital Transformation,1285532,1296648,11116,2023,Q4,Medium,Completed,Pending,Huda Al Shamsi
+c8c754bc-4847-423a-97a9-69994d23322d,Emaar,Construction,IT,CC-635,Sharjah,CapEx,Cybersecurity Enhancement,67479,70816,3337,2026,Q3,High,Completed,Approved,Ali Al Zaabi
+2c90c051-f922-4f8d-839d-9be25de27ce3,Majid Al Futtaim,Real Estate,Finance,CC-600,Sharjah,CapEx,Smart City Integration,135884,123472,-12412,2025,Q1,High,Completed,Approved,Aisha Al Suwaidi
+e82bd09c-2b4a-48f8-a582-00c95fcfb712,Majid Al Futtaim,Corporate,IT,CC-188,Sharjah,CapEx,Cloud Migration Initiative,1892813,1782334,-110479,2024,Q4,Low,Planned,Pending,Mohammed Al Ameri
+39e1841f-d66b-403b-9c1e-483bee5c93f3,DAMAC,Hospitality,Operations,CC-532,Ras Al Khaimah,CapEx,Retail Digital Transformation,117395,121690,4295,2025,Q3,High,On Hold,Rejected,Reem Al Ketbi
+17620f35-e723-4771-aae2-7f95cf279180,Emaar,Retail,IT,CC-526,Fujairah,CapEx,Mall Expansion Project,1736907,1891637,154730,2025,Q1,Medium,On Hold,Rejected,Omar Al Falasi
+25c768d2-15a6-461c-9699-fdf7cc93b910,Aldar,Real Estate,IT,CC-639,Ras Al Khaimah,OpEx,Mall Expansion Project,838457,998772,160315,2025,Q4,Medium,On Hold,Pending,Mohammed Al Ameri
+0f48ff9e-0550-418d-a8f9-17aff6202d80,Majid Al Futtaim,Real Estate,Operations,CC-190,Abu Dhabi,OpEx,Supply Chain Optimization,910374,938269,27895,2025,Q2,Low,Completed,Approved,Ahmed Al Mansoori
+16fa3eeb-305b-4676-9094-7d5e2563c597,Aldar,Real Estate,Operations,CC-926,Fujairah,OpEx,Workforce Optimization Program,1822318,1815629,-6689,2023,Q1,Medium,Planned,Pending,Yousef Al Kaabi
+010544ba-6ab6-4c46-8e7d-5f476e1bf46b,Majid Al Futtaim,Construction,HR,CC-985,Dubai,CapEx,Smart City Integration,254260,307901,53641,2023,Q2,Low,In Progress,Rejected,Noor Al Marri
+9baf2d78-bad5-42b6-9a1b-de3e585e059c,Emaar,Retail,HR,CC-836,Dubai,OpEx,Mobile App Revamp,1088729,945236,-143493,2024,Q1,High,Planned,Approved,Aisha Al Suwaidi
+956f447c-fee7-41f9-a0ef-ee50754a99b8,Dubai Holding,Hospitality,IT,CC-206,Ras Al Khaimah,CapEx,IoT Integration Project,1895282,1630922,-264360,2026,Q4,High,Planned,Pending,Omar Al Falasi
+6f1e96f6-195a-4d9d-a41f-d8ce961184f2,Emaar,Corporate,HR,CC-941,Fujairah,OpEx,E-commerce Platform Launch,1064433,1374553,310120,2023,Q4,High,Planned,Approved,Noura Al Suhaili
+36003161-3704-451a-a269-845d33e145c6,Emaar,Hospitality,Marketing,CC-859,Fujairah,CapEx,Mobile App Revamp,1766623,2071010,304387,2026,Q3,Medium,Planned,Rejected,Noor Al Marri
+26ff4992-6f39-4413-98cb-11ef072acda4,Aldar,Construction,Finance,CC-575,Ras Al Khaimah,OpEx,CRM Implementation,820366,930171,109805,2023,Q3,Medium,Planned,Rejected,Ahmed Al Mansoori
+4f5197d6-9021-417a-91f7-2c87605e436d,Dubai Holding,Corporate,Operations,CC-143,Sharjah,CapEx,Workforce Optimization Program,73109,79708,6599,2026,Q3,High,In Progress,Pending,Ali Al Zaabi
+cb896743-c136-40a6-9138-f5c7aba69ca7,Emaar,Retail,Marketing,CC-499,Fujairah,CapEx,Workforce Optimization Program,1844825,2270077,425252,2024,Q3,Low,Completed,Pending,Aisha Al Suwaidi
+f495bcfb-079c-4e0d-974a-d16bcc8a3310,DAMAC,Retail,Operations,CC-169,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,1850748,2208587,357839,2024,Q3,High,Completed,Rejected,Mariam Al Hammadi
+fffe2c0a-1c31-4109-a5eb-c68bdec807b6,Aldar,Real Estate,Finance,CC-130,Abu Dhabi,CapEx,AI Analytics Platform,780008,851961,71953,2023,Q4,Low,On Hold,Pending,Latifa Al Balushi
+33c862ea-cbbd-4e7d-a31c-d09285a0141d,Emaar,Real Estate,IT,CC-845,Ras Al Khaimah,OpEx,Facility Management System Upgrade,535563,691231,155668,2023,Q3,High,Planned,Rejected,Mariam Al Hammadi
+5b2f2349-0a88-4718-8fe1-41698566bde4,Majid Al Futtaim,Real Estate,IT,CC-428,Dubai,OpEx,Mall Expansion Project,975952,1153259,177307,2024,Q2,High,Completed,Pending,Hassan Al Blooshi
+0e216005-0d9c-487f-a696-ae292dd3e51f,Emaar,Hospitality,Operations,CC-933,Fujairah,CapEx,Retail Digital Transformation,1473649,1389716,-83933,2023,Q1,High,Planned,Approved,Rashid Al Qasimi
+61998d05-bef8-463b-848f-0d9be03d67cf,Majid Al Futtaim,Corporate,Finance,CC-448,Abu Dhabi,OpEx,Cloud Migration Initiative,804054,954567,150513,2024,Q4,Low,Completed,Pending,Khalid Al Mazrouei
+c52e43b2-d8ed-4809-84b0-3ce67c205031,Emaar,Real Estate,Operations,CC-537,Ras Al Khaimah,CapEx,IoT Integration Project,1936924,2090616,153692,2023,Q2,Low,Completed,Approved,Mohammed Al Ameri
+0d44ba97-a8fe-4298-913e-73fb3642201e,Majid Al Futtaim,Corporate,HR,CC-123,Abu Dhabi,OpEx,Mall Expansion Project,1095875,1003039,-92836,2026,Q3,High,In Progress,Pending,Zainab Al Neyadi
+0ada90f1-738e-4cc6-9cfe-a2238cd859fc,Majid Al Futtaim,Corporate,Marketing,CC-419,Ras Al Khaimah,CapEx,Data Center Modernization,1170767,1273417,102650,2023,Q4,Medium,Planned,Approved,Reem Al Ketbi
+1637ae9b-33d9-47be-8836-70fba5aafefb,DAMAC,Real Estate,IT,CC-309,Fujairah,OpEx,Retail Digital Transformation,933751,868799,-64952,2023,Q2,Medium,Planned,Rejected,Saeed Al Yammahi
+3efac947-432b-450d-bb44-23ca42060bb2,Dubai Holding,Retail,Finance,CC-526,Fujairah,CapEx,Retail Digital Transformation,1524488,1856066,331578,2026,Q2,Medium,Planned,Approved,Huda Al Shamsi
+cf78d7ac-d066-46e9-ba74-c8d8bb9db4ff,DAMAC,Construction,Operations,CC-410,Abu Dhabi,CapEx,Business Intelligence Dashboard Rollout,1091438,1150159,58721,2023,Q2,Low,On Hold,Rejected,Ali Al Zaabi
+3e943d41-cbee-4915-9e03-b7902459befb,Aldar,Real Estate,Operations,CC-884,Ras Al Khaimah,CapEx,Cybersecurity Enhancement,1597537,1292483,-305054,2026,Q2,High,On Hold,Approved,Aisha Al Suwaidi
+ac97a5ed-d70a-481f-9d1f-092853b2934a,Emaar,Retail,Operations,CC-159,Abu Dhabi,CapEx,Smart City Integration,1944884,1913482,-31402,2023,Q2,Medium,Planned,Approved,Yousef Al Kaabi
+70f5fc9e-9303-446d-a654-b9bcf2c068cc,Dubai Holding,Real Estate,IT,CC-549,Abu Dhabi,OpEx,CRM Implementation,574125,692573,118448,2025,Q3,Low,In Progress,Pending,Yousef Al Kaabi
+8011d29d-ee47-44ff-aef1-d7c825007bad,Dubai Holding,Real Estate,Finance,CC-356,Fujairah,CapEx,AI Analytics Platform,1321133,1319692,-1441,2025,Q2,Medium,Completed,Pending,Mohammed Al Ameri
+dc464e35-65ba-4925-88fd-5076359c05cd,Emaar,Corporate,HR,CC-426,Fujairah,CapEx,Workforce Optimization Program,1206381,1141648,-64733,2025,Q4,Low,On Hold,Pending,Omar Al Falasi
+4a94ee55-07d0-44b9-8d48-2d0906db9129,Majid Al Futtaim,Hospitality,HR,CC-859,Fujairah,CapEx,Cybersecurity Enhancement,476885,598979,122094,2025,Q2,High,In Progress,Rejected,Reem Al Ketbi
+e5faa1bc-547b-4db4-a1d7-3a5c5542e706,Dubai Holding,Real Estate,Operations,CC-956,Dubai,OpEx,Workforce Optimization Program,1412956,1670249,257293,2026,Q3,High,Planned,Pending,Sara Al Dhaheri
+6edb7a2e-ebdf-41e6-b651-6b7d3a21cf68,Aldar,Construction,Operations,CC-145,Abu Dhabi,CapEx,Customer Experience Enhancement,855172,895945,40773,2024,Q4,Low,Planned,Rejected,Sara Al Dhaheri
+8d82a9bd-ea36-43b8-959b-ea773d0e16f0,DAMAC,Real Estate,Marketing,CC-872,Sharjah,OpEx,ERP Implementation,115653,123838,8185,2024,Q1,Medium,On Hold,Pending,Abdullah Al Shehhi
+f264e072-4c9b-4a2b-8d0e-0382f4abdbed,Dubai Holding,Real Estate,Marketing,CC-497,Sharjah,OpEx,Mobile App Revamp,1997345,2332314,334969,2025,Q2,Medium,On Hold,Rejected,Saeed Al Yammahi
+465419bd-3190-4628-8d66-103310a65e9b,DAMAC,Retail,Finance,CC-355,Fujairah,OpEx,Supply Chain Optimization,326557,409455,82898,2026,Q1,Low,Completed,Pending,Fatima Al Nuaimi
+354781fd-ee45-40b7-affc-fe6d7337fc68,Majid Al Futtaim,Real Estate,Finance,CC-414,Fujairah,OpEx,ERP Implementation,1432505,1325434,-107071,2024,Q4,Medium,Planned,Pending,Noor Al Marri
+398bc972-e0d6-4304-a283-e5c08e925ae0,DAMAC,Construction,Marketing,CC-323,Ras Al Khaimah,CapEx,E-commerce Platform Launch,1028194,841578,-186616,2023,Q3,Low,Completed,Approved,Saeed Al Yammahi
+8c4f1429-0f38-4736-a982-4965f02182ff,DAMAC,Retail,Operations,CC-230,Abu Dhabi,CapEx,Sustainability & Green Energy Program,427076,396755,-30321,2023,Q2,High,Planned,Approved,Rashid Al Qasimi
+3889ef93-6d3b-4914-bccd-9c421ca5995f,Majid Al Futtaim,Retail,Finance,CC-666,Abu Dhabi,CapEx,Customer Experience Enhancement,1112667,1368897,256230,2025,Q3,High,Completed,Rejected,Fatima Al Nuaimi
+d30bf4d0-d939-4f8b-bf8e-2ed637092b8b,DAMAC,Real Estate,Finance,CC-619,Ras Al Khaimah,CapEx,Facility Management System Upgrade,143812,158234,14422,2023,Q2,High,Completed,Rejected,Khalid Al Mazrouei
+d676408b-1930-4f6b-b273-d77be38fe61b,Aldar,Real Estate,Operations,CC-996,Sharjah,CapEx,Mall Expansion Project,1788828,2166890,378062,2025,Q3,Medium,On Hold,Rejected,Ali Al Zaabi
+4dabe482-3401-4d67-8b78-71633bed12ac,DAMAC,Corporate,Finance,CC-264,Sharjah,CapEx,Hotel Renovation Program,1037098,1318400,281302,2024,Q1,High,In Progress,Pending,Sara Al Dhaheri
+227eb1ee-3402-4580-8a71-8a7f5db04169,Majid Al Futtaim,Corporate,HR,CC-320,Ras Al Khaimah,CapEx,Hotel Renovation Program,1551074,1846455,295381,2024,Q4,Low,Planned,Approved,Hassan Al Blooshi
+6afc6c97-3781-4a61-9e08-136626071669,Majid Al Futtaim,Corporate,Operations,CC-651,Dubai,CapEx,AI Analytics Platform,1235734,1299680,63946,2026,Q4,Medium,Completed,Approved,Fatima Al Nuaimi
+42ed5abc-042c-47ef-99c9-d66e9f269d98,DAMAC,Hospitality,HR,CC-336,Ras Al Khaimah,OpEx,Cybersecurity Enhancement,664602,834430,169828,2023,Q2,Medium,On Hold,Pending,Aisha Al Suwaidi
+15692e52-2b78-4aac-911b-7664a1703390,Dubai Holding,Retail,Operations,CC-719,Abu Dhabi,OpEx,Workforce Optimization Program,788165,851398,63233,2024,Q2,Low,In Progress,Pending,Latifa Al Balushi
+7f32ffb0-c99c-4a1d-b2ca-af4cf1ea6f27,Majid Al Futtaim,Retail,HR,CC-449,Sharjah,CapEx,Workforce Optimization Program,1276320,1446008,169688,2026,Q4,Low,In Progress,Rejected,Abdullah Al Shehhi
+903147c0-8463-4e59-b56c-5c426bd45a77,Emaar,Hospitality,Operations,CC-115,Abu Dhabi,CapEx,Cloud Migration Initiative,1376720,1708124,331404,2025,Q4,Low,Planned,Approved,Sara Al Dhaheri
+76b419c8-36af-4c94-a206-e7451078df2d,Emaar,Real Estate,IT,CC-627,Fujairah,OpEx,Infrastructure Upgrade,1798728,1826985,28257,2025,Q2,Medium,In Progress,Rejected,Fatima Al Nuaimi
+02cb3de2-e586-4d4a-af34-11d6840613c9,DAMAC,Corporate,Marketing,CC-731,Dubai,CapEx,Data Center Modernization,299623,290156,-9467,2025,Q4,Medium,On Hold,Rejected,Mariam Al Hammadi
+79f2cc7e-c7e3-4bdb-8448-2e8866a8dcca,Emaar,Hospitality,Marketing,CC-939,Fujairah,CapEx,Supply Chain Optimization,656687,774122,117435,2023,Q3,Low,On Hold,Pending,Mohammed Al Ameri
+44e6ee03-4fd3-4df3-bc1d-f0de31940316,Majid Al Futtaim,Retail,Finance,CC-337,Sharjah,OpEx,Mall Expansion Project,969783,861517,-108266,2023,Q4,Medium,Completed,Pending,Yousef Al Kaabi
+ce6963b1-2e11-4b3d-9a26-c0a7eebdd928,Emaar,Real Estate,IT,CC-540,Fujairah,OpEx,ERP Implementation,1638173,1456676,-181497,2025,Q1,Medium,Completed,Approved,Abdullah Al Shehhi
+cbf02c8f-d616-47d9-a116-64657e26a1ce,Aldar,Hospitality,IT,CC-395,Sharjah,CapEx,Cloud Migration Initiative,653650,612420,-41230,2025,Q2,High,In Progress,Rejected,Aisha Al Suwaidi
+8c831b0f-e541-4eb2-b6fe-32937a01f46b,Majid Al Futtaim,Real Estate,Marketing,CC-650,Abu Dhabi,CapEx,Hotel Renovation Program,1633066,1444326,-188740,2023,Q3,High,Completed,Rejected,Ali Al Zaabi
+da5b1f4c-b9aa-45ac-a348-1da0b79a2ac7,Emaar,Construction,HR,CC-212,Dubai,OpEx,CRM Implementation,1585302,1620832,35530,2026,Q3,High,In Progress,Pending,Zainab Al Neyadi
+289f0eb3-5ea6-44b0-b2be-e8d69827b684,DAMAC,Real Estate,IT,CC-844,Dubai,OpEx,Supply Chain Optimization,1452398,1246493,-205905,2025,Q3,Medium,Planned,Rejected,Reem Al Ketbi
+d40fc947-5c7c-44d1-a4cc-2a049ce6a575,Dubai Holding,Construction,Finance,CC-822,Fujairah,OpEx,Facility Management System Upgrade,710204,885010,174806,2023,Q1,High,In Progress,Rejected,Aisha Al Suwaidi
+13f1a7a0-e469-4a00-a552-d24b692960e3,Emaar,Retail,Operations,CC-255,Ras Al Khaimah,CapEx,CRM Implementation,1878957,2389246,510289,2026,Q3,High,In Progress,Rejected,Khalid Al Mazrouei
+db06bdb2-8037-4715-b13a-19be8f2004e7,Emaar,Real Estate,Operations,CC-168,Ras Al Khaimah,CapEx,Cloud Migration Initiative,1132772,1391699,258927,2024,Q1,Medium,Completed,Rejected,Mohammed Al Ameri
+cfd4f9c5-6e41-49b0-9afa-9cf2cc2f74dc,DAMAC,Construction,Marketing,CC-772,Abu Dhabi,OpEx,AI Analytics Platform,1373358,1499637,126279,2025,Q4,Medium,On Hold,Rejected,Zainab Al Neyadi
+46514ce3-c22e-403c-a805-24d03871ea05,Dubai Holding,Hospitality,Finance,CC-873,Sharjah,OpEx,Hotel Renovation Program,1189620,1237775,48155,2025,Q2,Low,On Hold,Approved,Hassan Al Blooshi
+30147e74-3329-459d-8427-7e85eec1d854,Dubai Holding,Retail,Operations,CC-821,Abu Dhabi,OpEx,Mall Expansion Project,1024621,1309627,285006,2026,Q2,High,Completed,Pending,Noor Al Marri
+1c1a83be-1cd4-4b48-92ef-1a5d0912cc8a,Aldar,Real Estate,Marketing,CC-890,Sharjah,OpEx,AI Analytics Platform,501110,623834,122724,2025,Q4,Medium,On Hold,Pending,Noor Al Marri
+aa51c215-4fd5-438b-ae17-5760f74e3e23,DAMAC,Construction,IT,CC-447,Dubai,OpEx,Supply Chain Optimization,596726,749597,152871,2026,Q2,Low,In Progress,Rejected,Omar Al Falasi
+f5a90dc2-c391-4dd8-aa90-c9c93fa7c2bc,Majid Al Futtaim,Corporate,HR,CC-232,Fujairah,CapEx,Sustainability & Green Energy Program,1684839,1874624,189785,2023,Q4,High,Completed,Pending,Ahmed Al Mansoori
+172a8fac-acc8-43a3-974f-dbd086a47a37,Dubai Holding,Corporate,IT,CC-470,Fujairah,CapEx,IoT Integration Project,1656445,1783075,126630,2026,Q2,Medium,In Progress,Pending,Noor Al Marri
+8b22ef8c-3c31-4405-bd2b-687a89c84942,Emaar,Real Estate,Finance,CC-965,Dubai,CapEx,IoT Integration Project,916952,832415,-84537,2026,Q4,High,In Progress,Pending,Omar Al Falasi
+dd16749c-94d1-44ce-8ac4-c9d5b58c7351,Emaar,Real Estate,HR,CC-867,Dubai,OpEx,ERP Implementation,100844,92272,-8572,2026,Q2,Low,Completed,Approved,Zainab Al Neyadi
+45c36f41-9044-4e81-9273-010ad5cbcfd8,Aldar,Real Estate,Finance,CC-860,Fujairah,CapEx,Supply Chain Optimization,204959,215669,10710,2026,Q2,Low,Completed,Pending,Saeed Al Yammahi
+d36d73a8-4af8-45eb-9353-084c3b7b9520,DAMAC,Retail,Operations,CC-307,Dubai,OpEx,AI Analytics Platform,1124487,1317608,193121,2026,Q4,Medium,On Hold,Approved,Reem Al Ketbi
+6c97cbe1-33c5-48ce-9e4d-7252a9ae93c3,Aldar,Retail,Marketing,CC-618,Abu Dhabi,OpEx,Supply Chain Optimization,902137,974757,72620,2026,Q4,Medium,Planned,Pending,Noor Al Marri
+922d8f8b-f84b-4f43-9ff6-77c0ef54f4a1,Aldar,Hospitality,Operations,CC-478,Ras Al Khaimah,CapEx,Mall Expansion Project,1261901,1624817,362916,2025,Q3,High,Planned,Approved,Aisha Al Suwaidi
+12ccf523-9077-4fac-854b-98f006edaea8,Aldar,Corporate,IT,CC-185,Abu Dhabi,OpEx,Data Center Modernization,404954,366013,-38941,2026,Q2,High,On Hold,Pending,Yousef Al Kaabi
+ff5d2eba-c651-4087-86cc-fced374dcbf5,Emaar,Real Estate,HR,CC-805,Fujairah,OpEx,Sustainability & Green Energy Program,703168,822886,119718,2025,Q2,Low,On Hold,Rejected,Abdullah Al Shehhi
+4883fe91-cdec-4d2a-95de-0f4d6da1fb65,Emaar,Retail,Operations,CC-825,Ras Al Khaimah,CapEx,ERP Implementation,706442,904060,197618,2026,Q1,Medium,In Progress,Approved,Hassan Al Blooshi
+1cbd680e-5da3-4fac-830f-274da30acbc6,Emaar,Hospitality,Operations,CC-990,Dubai,CapEx,Data Center Modernization,1140391,1338903,198512,2026,Q2,Low,On Hold,Approved,Latifa Al Balushi
+86e76aec-746d-4fca-a1b6-d67fd197afdf,Aldar,Real Estate,HR,CC-220,Ras Al Khaimah,OpEx,Smart City Integration,1883361,2021868,138507,2025,Q3,Low,Completed,Rejected,Noor Al Marri
+9d16b358-d02a-4780-abc9-e546e6770e27,Majid Al Futtaim,Hospitality,Marketing,CC-831,Sharjah,OpEx,Hotel Renovation Program,398013,346573,-51440,2026,Q2,Medium,In Progress,Approved,Saeed Al Yammahi
+8989147e-b8da-483b-955b-8f965620fa59,Dubai Holding,Retail,Operations,CC-283,Abu Dhabi,OpEx,AI Analytics Platform,1549634,1882346,332712,2023,Q3,Low,In Progress,Approved,Reem Al Ketbi
+517a71dd-cd98-4595-b369-6a3ef17caa7c,DAMAC,Real Estate,Finance,CC-739,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,246813,263809,16996,2025,Q2,Medium,Planned,Approved,Rashid Al Qasimi
+43374d5d-34ed-41e3-be42-7c27a32114fa,Aldar,Corporate,HR,CC-476,Fujairah,OpEx,Business Intelligence Dashboard Rollout,645984,781884,135900,2024,Q1,Low,In Progress,Approved,Zainab Al Neyadi
+bc49cb6a-3233-417f-83a9-3d1dbf7c29eb,DAMAC,Corporate,Finance,CC-229,Fujairah,OpEx,E-commerce Platform Launch,503910,473671,-30239,2025,Q4,High,In Progress,Approved,Noura Al Suhaili
+d1b3a9c3-a76a-462c-9dc4-81b2c39fbcac,Majid Al Futtaim,Hospitality,IT,CC-268,Ras Al Khaimah,CapEx,Hotel Renovation Program,503914,426144,-77770,2023,Q1,High,On Hold,Pending,Mohammed Al Ameri
+19b2ce5c-1a64-4540-b00e-2ac78575ed20,Majid Al Futtaim,Real Estate,IT,CC-673,Ras Al Khaimah,OpEx,Supply Chain Optimization,1039203,1001318,-37885,2026,Q4,Medium,Completed,Rejected,Mariam Al Hammadi
+b3f76bf3-720c-4eb3-8ccf-c16f4f2138bb,Majid Al Futtaim,Hospitality,IT,CC-748,Sharjah,CapEx,Infrastructure Upgrade,1162928,975812,-187116,2026,Q4,Low,Completed,Rejected,Latifa Al Balushi
+878add41-9432-4276-814b-8c22f5de894f,DAMAC,Hospitality,Finance,CC-986,Sharjah,OpEx,Business Intelligence Dashboard Rollout,1220011,1524868,304857,2025,Q4,High,In Progress,Pending,Mariam Al Hammadi
+fe8924fa-5b76-4ac8-aa46-af24c858126f,Dubai Holding,Hospitality,Operations,CC-469,Fujairah,CapEx,Facility Management System Upgrade,425401,538811,113410,2025,Q3,High,Completed,Pending,Reem Al Ketbi
+90b3e7d7-f49f-43a2-8f62-32c7b087c87c,DAMAC,Real Estate,HR,CC-757,Ras Al Khaimah,OpEx,Cybersecurity Enhancement,1982659,1599009,-383650,2025,Q3,Low,Planned,Rejected,Mariam Al Hammadi
+d0ef93af-3df9-4563-94bf-efd04f1d7213,Aldar,Corporate,Operations,CC-602,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,1860230,2156034,295804,2023,Q1,Medium,Planned,Rejected,Aisha Al Suwaidi
+0bad92a6-7c9d-405e-acd1-6cd0139948ad,Emaar,Hospitality,Finance,CC-529,Dubai,CapEx,E-commerce Platform Launch,371266,428002,56736,2023,Q3,High,Completed,Approved,Hassan Al Blooshi
+660b7925-ae83-4bff-a65a-6d6f95eff65f,DAMAC,Retail,IT,CC-700,Sharjah,CapEx,Facility Management System Upgrade,1337659,1563357,225698,2026,Q4,Low,Planned,Approved,Noor Al Marri
+1cbb60f0-05f4-4b91-a3aa-6cd12babbd84,Emaar,Retail,Finance,CC-276,Ras Al Khaimah,CapEx,Sustainability & Green Energy Program,1780250,2101845,321595,2024,Q4,High,Planned,Pending,Reem Al Ketbi
+c57a90f6-9290-4635-8353-799af3fdca87,DAMAC,Construction,Marketing,CC-956,Dubai,OpEx,ERP Implementation,1225578,1195358,-30220,2023,Q1,High,Planned,Approved,Rashid Al Qasimi
+0ae6353d-636f-4b62-83c3-2d21a3756206,Dubai Holding,Hospitality,Finance,CC-322,Sharjah,OpEx,Retail Digital Transformation,1289728,1435870,146142,2024,Q3,Low,In Progress,Rejected,Latifa Al Balushi
+c2418bc9-3457-43a4-b460-d28948dcc816,Dubai Holding,Construction,HR,CC-282,Sharjah,CapEx,CRM Implementation,1597929,1384393,-213536,2025,Q4,High,In Progress,Pending,Ahmed Al Mansoori
+b95587aa-998d-4278-8a6f-0f7880cd728d,DAMAC,Construction,HR,CC-194,Ras Al Khaimah,OpEx,Supply Chain Optimization,421430,543492,122062,2025,Q3,Low,On Hold,Rejected,Rashid Al Qasimi
+31df1df4-28d0-4222-b67b-a3c65f8c37a8,Majid Al Futtaim,Construction,IT,CC-650,Fujairah,CapEx,CRM Implementation,1794265,1588350,-205915,2026,Q3,Low,Completed,Approved,Mariam Al Hammadi
+4aee327d-dbc5-4a40-9e58-696d200a9789,Majid Al Futtaim,Retail,Finance,CC-625,Abu Dhabi,OpEx,Cloud Migration Initiative,1517280,1948559,431279,2026,Q3,High,Planned,Rejected,Saeed Al Yammahi
+e704375c-5ef0-43c9-807f-497a4070edd6,Emaar,Construction,Marketing,CC-430,Sharjah,OpEx,Workforce Optimization Program,1373541,1226864,-146677,2023,Q3,Low,Planned,Rejected,Mohammed Al Ameri
+d848f95b-4211-451c-afce-2a82074a2a4a,Emaar,Construction,Operations,CC-442,Sharjah,CapEx,Cybersecurity Enhancement,1873115,2342352,469237,2025,Q3,High,On Hold,Rejected,Ahmed Al Mansoori
+5138a8ed-6772-4bd2-b85f-0077c80a58d8,Majid Al Futtaim,Construction,Marketing,CC-689,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,1627153,1319417,-307736,2024,Q3,Low,Completed,Rejected,Zainab Al Neyadi
+c44f146b-3525-40a5-9202-0928c463c2ec,DAMAC,Real Estate,IT,CC-881,Fujairah,CapEx,IoT Integration Project,1061996,1209908,147912,2026,Q3,Low,On Hold,Rejected,Saeed Al Yammahi
+c6dee47f-b429-429f-b0b7-236b949c0111,DAMAC,Corporate,Marketing,CC-303,Fujairah,CapEx,Infrastructure Upgrade,393987,416090,22103,2025,Q1,High,Completed,Approved,Reem Al Ketbi
+2fb6c45d-2289-432c-b24b-b8e222213f5a,Aldar,Real Estate,IT,CC-305,Abu Dhabi,OpEx,Cloud Migration Initiative,1011991,1009963,-2028,2023,Q2,High,In Progress,Pending,Latifa Al Balushi
+529f18a1-e60e-465f-8078-866f51fcff32,Majid Al Futtaim,Retail,Finance,CC-588,Abu Dhabi,OpEx,Workforce Optimization Program,1568619,1446841,-121778,2026,Q4,Low,In Progress,Pending,Ali Al Zaabi
+a10ae309-2525-4a3c-abc9-104740a18176,Emaar,Real Estate,Operations,CC-231,Sharjah,CapEx,Cybersecurity Enhancement,839140,1020120,180980,2025,Q3,Low,On Hold,Rejected,Aisha Al Suwaidi
+771a066f-7d15-4136-9855-4ad23520d3f8,Aldar,Corporate,Finance,CC-327,Fujairah,CapEx,Cloud Migration Initiative,1170120,978019,-192101,2024,Q3,Medium,Completed,Rejected,Mohammed Al Ameri
+42b7ee1a-7266-4d9a-895d-f444cf18cef7,Aldar,Real Estate,IT,CC-241,Ras Al Khaimah,CapEx,Customer Experience Enhancement,1330450,1462942,132492,2024,Q3,Medium,Planned,Pending,Zainab Al Neyadi
+1177c808-c83a-4928-b1d2-957f1b312b3f,Emaar,Retail,HR,CC-496,Ras Al Khaimah,CapEx,Retail Digital Transformation,1421631,1265163,-156468,2026,Q2,High,On Hold,Rejected,Fatima Al Nuaimi
+306d560a-33c8-4807-87b4-f699136cbdf4,Dubai Holding,Retail,Finance,CC-771,Ras Al Khaimah,CapEx,Facility Management System Upgrade,1799512,1535371,-264141,2025,Q2,Low,On Hold,Rejected,Ali Al Zaabi
+895e1651-4f93-48c6-a489-11bd0fa62700,Aldar,Construction,Finance,CC-410,Ras Al Khaimah,OpEx,Infrastructure Upgrade,74303,77503,3200,2023,Q4,Low,Completed,Pending,Zainab Al Neyadi
+97c33241-f424-49a1-b11d-588979b2cb67,DAMAC,Real Estate,IT,CC-534,Fujairah,OpEx,Hotel Renovation Program,752679,919837,167158,2023,Q2,High,Completed,Rejected,Mariam Al Hammadi
+33a3e8df-c9bf-4553-a0ea-d68be7cb1b87,Majid Al Futtaim,Construction,Operations,CC-149,Ras Al Khaimah,OpEx,Facility Management System Upgrade,590722,530944,-59778,2023,Q4,Medium,Completed,Approved,Ali Al Zaabi
+3343c930-a359-469d-b894-19192343554f,Aldar,Retail,HR,CC-885,Dubai,OpEx,Facility Management System Upgrade,1489459,1466593,-22866,2025,Q3,Medium,Planned,Pending,Hassan Al Blooshi
+696abc75-be46-4006-bae2-b23cc4c63b42,Majid Al Futtaim,Real Estate,HR,CC-849,Dubai,OpEx,Supply Chain Optimization,674287,753847,79560,2024,Q1,Low,Planned,Approved,Khalid Al Mazrouei
+c24d605b-2a67-49e6-aac0-759c1e6ec01b,Aldar,Retail,HR,CC-569,Fujairah,CapEx,AI Analytics Platform,353341,394491,41150,2026,Q1,High,Completed,Pending,Ahmed Al Mansoori
+436385bc-d057-4cfa-9855-ff1709fa1600,Dubai Holding,Construction,Marketing,CC-842,Dubai,OpEx,Sustainability & Green Energy Program,357757,395205,37448,2025,Q4,Medium,Planned,Approved,Huda Al Shamsi
+822418b2-762a-478f-b530-91476c62bbbe,Dubai Holding,Construction,Finance,CC-912,Abu Dhabi,OpEx,Sustainability & Green Energy Program,588670,683326,94656,2024,Q1,Medium,On Hold,Approved,Ahmed Al Mansoori
+cf8781f9-93c1-4c32-a61f-8ba7034ea80e,Emaar,Retail,Marketing,CC-787,Dubai,OpEx,Smart City Integration,966341,905841,-60500,2025,Q3,High,On Hold,Approved,Ali Al Zaabi
+c2d4b0f8-7c23-4ae7-a9cf-59a90a4e1973,Emaar,Retail,HR,CC-573,Fujairah,OpEx,Data Center Modernization,1690078,1702183,12105,2024,Q2,High,Completed,Approved,Reem Al Ketbi
+c7fb582c-59fa-4649-a52f-e6f0763b618d,Majid Al Futtaim,Construction,Marketing,CC-530,Fujairah,OpEx,Workforce Optimization Program,1332169,1257455,-74714,2026,Q4,Low,Planned,Pending,Khalid Al Mazrouei
+a76c2a38-fd52-489e-9c0d-a4ad3b7f461a,Aldar,Hospitality,Operations,CC-974,Ras Al Khaimah,CapEx,Smart City Integration,720339,701021,-19318,2024,Q4,Medium,On Hold,Approved,Omar Al Falasi
+6118fd53-080e-4eff-9afe-a8160710f252,Dubai Holding,Construction,Marketing,CC-453,Dubai,CapEx,Retail Digital Transformation,1837385,1994769,157384,2025,Q3,Medium,Completed,Pending,Noor Al Marri
+2d3c12f5-e9a2-41d1-85d0-eb470de9eaa6,Majid Al Futtaim,Corporate,IT,CC-739,Sharjah,OpEx,E-commerce Platform Launch,1030167,839361,-190806,2023,Q3,Low,On Hold,Approved,Noor Al Marri
+f0f8d49d-e7ca-4bf8-ba10-c49cfbd2706f,Aldar,Corporate,Finance,CC-199,Ras Al Khaimah,CapEx,Supply Chain Optimization,1981846,2118189,136343,2023,Q3,High,In Progress,Rejected,Mariam Al Hammadi
+76523762-7021-4ef3-858b-7ec4fb8a5dcd,Emaar,Construction,Marketing,CC-385,Sharjah,OpEx,Business Intelligence Dashboard Rollout,1203581,1208705,5124,2023,Q3,Low,On Hold,Approved,Huda Al Shamsi
+d2362427-5122-4b04-8af9-f70c7cd3d1f8,DAMAC,Construction,IT,CC-994,Abu Dhabi,OpEx,Infrastructure Upgrade,1087740,1281808,194068,2023,Q3,Medium,In Progress,Rejected,Rashid Al Qasimi
+19e5097a-09e2-45f7-b941-6a66e27e8497,Aldar,Construction,Operations,CC-293,Dubai,CapEx,Supply Chain Optimization,853950,930872,76922,2023,Q4,High,Completed,Rejected,Noor Al Marri
+3c964c68-ff6b-4298-ba10-a7b7a562ecac,Aldar,Real Estate,HR,CC-123,Fujairah,OpEx,Supply Chain Optimization,399089,432873,33784,2024,Q2,Medium,Completed,Rejected,Omar Al Falasi
+46a668e1-4126-41fe-bd36-0e0cb883a1e3,Emaar,Retail,IT,CC-400,Dubai,CapEx,Cloud Migration Initiative,417444,432507,15063,2026,Q4,High,On Hold,Approved,Ali Al Zaabi
+7638eacf-d595-438c-80c0-795d4501aa3d,Dubai Holding,Corporate,HR,CC-993,Abu Dhabi,CapEx,Business Intelligence Dashboard Rollout,1017638,1068629,50991,2023,Q1,Low,Planned,Rejected,Huda Al Shamsi
+16babea1-17af-47f9-8191-dd9a9bc155d4,Aldar,Construction,Finance,CC-901,Ras Al Khaimah,OpEx,CRM Implementation,902170,1112854,210684,2023,Q1,Medium,On Hold,Rejected,Ahmed Al Mansoori
+a50b979d-4cd1-4c27-bdb8-b6b67c78d7d5,Dubai Holding,Retail,Operations,CC-833,Fujairah,OpEx,Mall Expansion Project,664388,801139,136751,2023,Q1,High,Completed,Rejected,Rashid Al Qasimi
+41c350b2-e783-4837-99ab-310bbb0a8f74,Emaar,Retail,Operations,CC-772,Sharjah,CapEx,ERP Implementation,1710144,1463698,-246446,2026,Q2,Medium,Planned,Pending,Reem Al Ketbi
+6ccb380d-3ea4-4eff-a62c-f2c67fab2e51,Aldar,Hospitality,HR,CC-450,Sharjah,OpEx,AI Analytics Platform,1504828,1259593,-245235,2026,Q3,Low,Completed,Rejected,Mohammed Al Ameri
+a149dc67-a85d-4387-af73-a806395e632a,Majid Al Futtaim,Retail,Finance,CC-326,Sharjah,OpEx,Smart City Integration,1646609,1432567,-214042,2025,Q3,Low,In Progress,Rejected,Aisha Al Suwaidi
+5b6cc579-f827-4d0a-91b7-0acb9fb5d0dd,Aldar,Retail,IT,CC-861,Abu Dhabi,CapEx,Workforce Optimization Program,689088,715026,25938,2025,Q4,Medium,In Progress,Approved,Abdullah Al Shehhi
+342c201a-e98c-460e-be85-14d8d7430049,Majid Al Futtaim,Real Estate,HR,CC-472,Fujairah,OpEx,Customer Experience Enhancement,1273122,1211347,-61775,2024,Q3,Low,In Progress,Rejected,Ali Al Zaabi
+4cfb4849-35f5-453d-abee-0b4285cec50c,Aldar,Construction,IT,CC-991,Fujairah,OpEx,Mall Expansion Project,709126,752856,43730,2026,Q4,High,Planned,Pending,Saeed Al Yammahi
+0b45e5d3-1375-4b7f-bea8-e74dfbcbb2e3,Emaar,Retail,Marketing,CC-896,Dubai,CapEx,Retail Digital Transformation,698666,631045,-67621,2026,Q4,Low,Planned,Rejected,Khalid Al Mazrouei
+79bc9a9c-2be4-4d96-8ed5-30fb5d2fefa0,Emaar,Retail,Finance,CC-508,Dubai,OpEx,CRM Implementation,1933524,1767599,-165925,2023,Q3,Low,Planned,Approved,Omar Al Falasi
+61a394da-01b1-44ce-b4ca-924f6b010e52,Emaar,Retail,IT,CC-806,Abu Dhabi,CapEx,Hotel Renovation Program,1238460,1314593,76133,2026,Q2,High,Completed,Rejected,Hassan Al Blooshi
+7d2e1012-4749-4e7d-a495-ccff03137678,Dubai Holding,Hospitality,Marketing,CC-410,Dubai,CapEx,E-commerce Platform Launch,241594,283040,41446,2024,Q4,Medium,Planned,Rejected,Noor Al Marri
+954efa02-4964-4880-a17f-28a1c6c2f623,Dubai Holding,Hospitality,Operations,CC-219,Ras Al Khaimah,CapEx,CRM Implementation,718694,858845,140151,2024,Q1,Low,In Progress,Rejected,Omar Al Falasi
+aa39668e-d138-420a-995c-9ed1c4995828,Majid Al Futtaim,Construction,Finance,CC-837,Ras Al Khaimah,CapEx,IoT Integration Project,679063,736555,57492,2026,Q1,Medium,On Hold,Rejected,Saeed Al Yammahi
+c645b4eb-18ff-4a0e-965b-90a2c6db098e,DAMAC,Corporate,Operations,CC-626,Sharjah,OpEx,Smart City Integration,1083067,1208230,125163,2024,Q3,Medium,Completed,Rejected,Khalid Al Mazrouei
+aa08fcfa-34cf-4285-8ac0-4d2ea7249194,Emaar,Construction,Finance,CC-426,Fujairah,OpEx,Cloud Migration Initiative,283769,365668,81899,2024,Q2,High,On Hold,Rejected,Rashid Al Qasimi
+5bbf90e3-9673-40d4-b46e-03e4d613c7b8,Aldar,Retail,Marketing,CC-942,Abu Dhabi,CapEx,ERP Implementation,248323,313544,65221,2023,Q2,High,Completed,Rejected,Saeed Al Yammahi
+8f95e83b-4183-4021-96e3-a5ce6fac8f34,Aldar,Real Estate,HR,CC-724,Abu Dhabi,CapEx,Workforce Optimization Program,721121,853237,132116,2024,Q2,Medium,In Progress,Approved,Ali Al Zaabi
+7977fb95-60fc-4d10-9e4e-9c46832d86c2,Majid Al Futtaim,Construction,Marketing,CC-907,Ras Al Khaimah,OpEx,Hotel Renovation Program,1439553,1264742,-174811,2025,Q4,Medium,Completed,Approved,Mohammed Al Ameri
+cfbc7ff5-e1bf-4cc2-bd20-830ca95a1885,DAMAC,Construction,HR,CC-535,Fujairah,OpEx,Smart City Integration,749866,872360,122494,2026,Q1,Medium,Planned,Pending,Noura Al Suhaili
+7502caef-eb87-4bb9-9313-25110e4eba84,Aldar,Retail,Finance,CC-938,Abu Dhabi,CapEx,Mall Expansion Project,1404325,1688961,284636,2025,Q3,Medium,Planned,Pending,Fatima Al Nuaimi
+8cc2ee39-c689-4f19-bd02-8798eb7deeb2,Majid Al Futtaim,Corporate,IT,CC-916,Abu Dhabi,OpEx,AI Analytics Platform,1708679,1693648,-15031,2023,Q1,High,In Progress,Pending,Reem Al Ketbi
+bff801b8-74ed-48fa-8dc7-808b1a7ad251,Majid Al Futtaim,Construction,Finance,CC-899,Ras Al Khaimah,OpEx,Cloud Migration Initiative,1055967,1341866,285899,2025,Q4,High,Planned,Approved,Saeed Al Yammahi
+e5f178d9-90b7-4dfe-9483-7740c83b8fb2,DAMAC,Construction,HR,CC-213,Ras Al Khaimah,CapEx,IoT Integration Project,768677,721036,-47641,2023,Q3,Low,On Hold,Approved,Reem Al Ketbi
+8ad5bd55-a625-4e76-be4a-8895827cf6bb,Emaar,Corporate,Finance,CC-548,Abu Dhabi,OpEx,ERP Implementation,1286917,1221834,-65083,2025,Q3,Low,Planned,Approved,Abdullah Al Shehhi
+d83ae965-0db8-4b7d-9ee6-5df5701eb4a4,DAMAC,Retail,Operations,CC-865,Abu Dhabi,CapEx,Sustainability & Green Energy Program,1664609,1388287,-276322,2026,Q2,Medium,Completed,Pending,Mariam Al Hammadi
+26e0abac-9c52-45f3-b2f3-237cacb645cd,DAMAC,Retail,Marketing,CC-865,Dubai,CapEx,Mobile App Revamp,1471174,1891516,420342,2026,Q4,Medium,On Hold,Approved,Latifa Al Balushi
+33aae0b0-7bd8-46cd-b188-04661cd86ba1,Majid Al Futtaim,Retail,Finance,CC-679,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,176429,221681,45252,2025,Q4,Medium,Completed,Rejected,Noura Al Suhaili
+b89e42d8-ae66-4c63-ae9b-cc2554433845,Dubai Holding,Corporate,Finance,CC-644,Abu Dhabi,CapEx,Supply Chain Optimization,1590219,1332247,-257972,2026,Q2,High,On Hold,Pending,Noura Al Suhaili
+dfb6ecb8-fc64-467f-8724-1e2f2a3f1b30,Emaar,Retail,Finance,CC-286,Fujairah,OpEx,E-commerce Platform Launch,996420,1240221,243801,2026,Q1,Medium,Completed,Approved,Reem Al Ketbi
+0a962500-1283-41f7-ab18-58fb6c755935,Dubai Holding,Hospitality,HR,CC-537,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,1786908,1777926,-8982,2025,Q4,Low,In Progress,Rejected,Sara Al Dhaheri
+e3ec61d0-747a-43ff-99ed-756bb188f6e4,Majid Al Futtaim,Hospitality,IT,CC-891,Abu Dhabi,CapEx,E-commerce Platform Launch,1923267,2385150,461883,2024,Q1,High,Planned,Approved,Reem Al Ketbi
+108a9522-4866-46a5-ace2-dd3a76f5d516,DAMAC,Retail,IT,CC-773,Abu Dhabi,CapEx,Supply Chain Optimization,780898,997464,216566,2024,Q4,Medium,In Progress,Approved,Ahmed Al Mansoori
+02f8ce10-4d54-4e15-8155-aa48877afd55,Aldar,Real Estate,Operations,CC-126,Ras Al Khaimah,CapEx,CRM Implementation,795211,647022,-148189,2023,Q4,Medium,On Hold,Approved,Noor Al Marri
+4e6470d4-2eb7-4b4a-9748-114451a56033,Dubai Holding,Real Estate,IT,CC-618,Fujairah,CapEx,Customer Experience Enhancement,1666870,1650622,-16248,2024,Q1,Medium,Completed,Rejected,Khalid Al Mazrouei
+aa4cc289-9da0-404d-a835-febcba247d8f,Dubai Holding,Corporate,HR,CC-589,Sharjah,CapEx,Cloud Migration Initiative,920586,824376,-96210,2023,Q1,Medium,On Hold,Pending,Fatima Al Nuaimi
+81bb5f47-15ee-460a-b83b-8d9102b8d7ba,DAMAC,Real Estate,Operations,CC-968,Sharjah,CapEx,ERP Implementation,793820,778099,-15721,2023,Q4,Medium,Planned,Pending,Rashid Al Qasimi
+79c938bc-d69c-4d85-89c3-32af4cf628a7,Dubai Holding,Hospitality,IT,CC-281,Fujairah,CapEx,CRM Implementation,1407611,1757635,350024,2024,Q2,Low,On Hold,Approved,Fatima Al Nuaimi
+aed2c237-be7f-4b50-bfda-3346b69150fc,DAMAC,Retail,Marketing,CC-524,Abu Dhabi,OpEx,Mall Expansion Project,1300331,1561944,261613,2024,Q2,Low,In Progress,Pending,Noura Al Suhaili
+47e83112-5493-4f7b-9db2-0271c8e27b50,Aldar,Hospitality,HR,CC-513,Sharjah,OpEx,IoT Integration Project,1699529,1497602,-201927,2025,Q1,High,Completed,Approved,Mariam Al Hammadi
+d000f398-f265-4eb0-a905-3ebd7687cb7b,Emaar,Construction,Finance,CC-652,Ras Al Khaimah,CapEx,E-commerce Platform Launch,121770,142163,20393,2023,Q1,Medium,In Progress,Approved,Reem Al Ketbi
+7cf33f6b-53b6-46a9-bf44-60bfc172951f,Aldar,Construction,Operations,CC-976,Fujairah,OpEx,Supply Chain Optimization,189095,161904,-27191,2023,Q3,Medium,On Hold,Pending,Latifa Al Balushi
+b960ec14-2009-4e5a-b4a9-0ac6b055db12,DAMAC,Corporate,Finance,CC-589,Ras Al Khaimah,CapEx,Infrastructure Upgrade,727121,820328,93207,2024,Q2,High,In Progress,Rejected,Noura Al Suhaili
+20b82484-9143-4c5d-8266-65f56c023796,Aldar,Retail,Marketing,CC-207,Abu Dhabi,CapEx,E-commerce Platform Launch,1608572,1363095,-245477,2024,Q3,Medium,On Hold,Rejected,Abdullah Al Shehhi
+4d2fd569-f452-4ce9-916a-1d6fb049b21c,DAMAC,Hospitality,HR,CC-532,Sharjah,CapEx,Mall Expansion Project,1140344,1206999,66655,2023,Q4,Low,Planned,Approved,Hassan Al Blooshi
+1782a0aa-6be8-4821-836d-10228ec8c324,Dubai Holding,Hospitality,IT,CC-506,Sharjah,CapEx,ERP Implementation,80034,69747,-10287,2026,Q4,Medium,In Progress,Rejected,Sara Al Dhaheri
+e961d76c-ce9c-4c19-8283-167560418251,Emaar,Construction,Marketing,CC-369,Fujairah,OpEx,IoT Integration Project,900724,924189,23465,2025,Q3,Medium,In Progress,Pending,Khalid Al Mazrouei
+9e485c58-4138-46c4-b55c-3b13fcf66f37,Majid Al Futtaim,Construction,Finance,CC-784,Sharjah,OpEx,Cybersecurity Enhancement,1742377,2153552,411175,2025,Q4,Low,Planned,Rejected,Sara Al Dhaheri
+3d18b60c-def3-4c00-a764-530bb9b98eb7,Aldar,Real Estate,Finance,CC-663,Sharjah,CapEx,AI Analytics Platform,248356,226888,-21468,2025,Q4,Medium,Planned,Rejected,Noura Al Suhaili
+a86960fd-a485-4e36-842f-3f7cb0bd980a,Majid Al Futtaim,Hospitality,IT,CC-960,Abu Dhabi,CapEx,Infrastructure Upgrade,883739,1069335,185596,2025,Q2,Low,Planned,Rejected,Rashid Al Qasimi
+f9a8a737-a744-4d94-8887-229b08abd903,Majid Al Futtaim,Hospitality,HR,CC-262,Dubai,CapEx,IoT Integration Project,1181323,1081160,-100163,2024,Q2,Low,On Hold,Approved,Noura Al Suhaili
+79709287-9edd-40d3-952b-4449111fe3e5,Aldar,Retail,Operations,CC-634,Ras Al Khaimah,OpEx,Customer Experience Enhancement,152576,195225,42649,2025,Q2,Low,Completed,Approved,Hassan Al Blooshi
+a011a74a-baa2-4590-9398-6ef981221eb7,DAMAC,Hospitality,Marketing,CC-708,Dubai,CapEx,Smart City Integration,577075,666042,88967,2026,Q2,High,On Hold,Approved,Reem Al Ketbi
+bf680667-984c-43d3-846d-367e67fd1469,Emaar,Construction,IT,CC-761,Ras Al Khaimah,OpEx,Cloud Migration Initiative,1742377,2244578,502201,2024,Q2,Medium,Planned,Approved,Omar Al Falasi
+a09ad6ee-f264-4a07-8b43-e1cc2db8bfdc,Dubai Holding,Corporate,IT,CC-310,Ras Al Khaimah,CapEx,CRM Implementation,344524,429386,84862,2025,Q3,High,Planned,Rejected,Omar Al Falasi
+591594e4-e3ef-4e9d-9f1c-38cc55eeeb7a,Majid Al Futtaim,Construction,IT,CC-776,Ras Al Khaimah,OpEx,Mobile App Revamp,1149412,978501,-170911,2026,Q2,High,Completed,Pending,Sara Al Dhaheri
+4e3e7903-6c48-4944-a2c0-7a3bb9e6bcc5,DAMAC,Real Estate,Operations,CC-536,Fujairah,CapEx,E-commerce Platform Launch,850067,1036222,186155,2026,Q3,High,Planned,Approved,Huda Al Shamsi
+ec4df1c0-e14d-47e3-a1db-9dabff560998,DAMAC,Hospitality,Operations,CC-956,Ras Al Khaimah,OpEx,E-commerce Platform Launch,1315245,1683338,368093,2023,Q3,Low,Completed,Pending,Mohammed Al Ameri
+6d980374-b3a4-46ec-b215-d701dc442121,DAMAC,Retail,Finance,CC-113,Dubai,OpEx,Sustainability & Green Energy Program,1114983,1075306,-39677,2026,Q2,Low,On Hold,Rejected,Reem Al Ketbi
+90df1b91-f031-48ec-ac10-626a89e1466a,Aldar,Corporate,Marketing,CC-957,Fujairah,OpEx,Supply Chain Optimization,268031,348078,80047,2026,Q1,Low,Planned,Rejected,Hassan Al Blooshi
+3ba9c7db-13f7-4df3-b1ed-6c93cb50714a,Dubai Holding,Hospitality,HR,CC-694,Fujairah,OpEx,CRM Implementation,256730,279274,22544,2023,Q3,Low,On Hold,Pending,Mohammed Al Ameri
+a870024a-538b-41f0-8fce-289ffb334b5c,Aldar,Construction,Finance,CC-321,Fujairah,CapEx,E-commerce Platform Launch,1860704,1974919,114215,2025,Q1,Medium,On Hold,Approved,Fatima Al Nuaimi
+af881542-1cdf-4c73-a649-bb3a1e14f3ec,DAMAC,Retail,HR,CC-460,Abu Dhabi,OpEx,Mobile App Revamp,1007608,1234032,226424,2023,Q3,Medium,Completed,Approved,Mohammed Al Ameri
+ee4c630f-6a20-4b45-86c4-976b32f5ab66,Majid Al Futtaim,Retail,Operations,CC-871,Sharjah,CapEx,CRM Implementation,1221212,1447630,226418,2023,Q3,Medium,In Progress,Pending,Omar Al Falasi
+50439f82-f473-415d-9122-90291cccfb3f,Dubai Holding,Construction,HR,CC-736,Ras Al Khaimah,CapEx,Mall Expansion Project,262437,329905,67468,2026,Q2,Medium,On Hold,Pending,Huda Al Shamsi
+08362e52-3f3f-498e-a51e-740b3c7f3286,DAMAC,Hospitality,IT,CC-430,Dubai,CapEx,IoT Integration Project,1740089,1772949,32860,2025,Q3,Low,In Progress,Pending,Noor Al Marri
+55f5de71-9830-4f3a-99eb-2d0239ac4e07,Dubai Holding,Real Estate,Marketing,CC-997,Ras Al Khaimah,OpEx,Smart City Integration,1508854,1264370,-244484,2025,Q3,Medium,In Progress,Pending,Mariam Al Hammadi
+2dff80b7-ae29-4abb-a78d-8b09f6c56e02,DAMAC,Corporate,Marketing,CC-184,Sharjah,CapEx,Hotel Renovation Program,1822113,2328728,506615,2023,Q2,Low,In Progress,Rejected,Reem Al Ketbi
+d58200c0-5b46-4794-a7fa-e6aa62eef5f9,Emaar,Hospitality,IT,CC-550,Abu Dhabi,CapEx,Mall Expansion Project,105279,110253,4974,2025,Q2,High,On Hold,Pending,Ali Al Zaabi
+307ca88d-2f84-4d4f-8302-8bb56db28877,Majid Al Futtaim,Hospitality,Operations,CC-290,Fujairah,OpEx,AI Analytics Platform,1216692,1308689,91997,2026,Q3,Low,Completed,Pending,Mohammed Al Ameri
+c1c1af29-69a4-4638-9789-a4ac3946e827,Emaar,Retail,Marketing,CC-465,Dubai,CapEx,IoT Integration Project,826425,811761,-14664,2024,Q2,High,On Hold,Rejected,Ali Al Zaabi
+508d3e0c-d1cc-48bb-a870-531078dac56e,Majid Al Futtaim,Hospitality,HR,CC-834,Fujairah,CapEx,Hotel Renovation Program,269797,324734,54937,2025,Q1,Medium,On Hold,Pending,Zainab Al Neyadi
+ca53caf3-62e1-49b0-8bdd-5978752f1c18,Emaar,Real Estate,Marketing,CC-559,Fujairah,CapEx,Workforce Optimization Program,964744,802984,-161760,2026,Q2,High,Completed,Approved,Yousef Al Kaabi
+1c2612e0-3fa5-4d10-afed-5540574529aa,Dubai Holding,Corporate,Operations,CC-541,Abu Dhabi,OpEx,Facility Management System Upgrade,629003,682390,53387,2026,Q3,Low,Completed,Pending,Reem Al Ketbi
+ee53d55a-1a16-456a-ae79-b6dda57bc106,Majid Al Futtaim,Construction,IT,CC-884,Fujairah,OpEx,Data Center Modernization,1245077,1493106,248029,2023,Q3,Low,Planned,Approved,Noor Al Marri
+92cff69b-aae2-45ff-85ef-ea30186b6db2,Emaar,Hospitality,IT,CC-715,Abu Dhabi,CapEx,Facility Management System Upgrade,183439,195341,11902,2026,Q1,Medium,Planned,Approved,Ahmed Al Mansoori
+3d85b7d2-272d-41c6-9cfe-1f287fb2b1a2,Aldar,Construction,Operations,CC-813,Ras Al Khaimah,CapEx,ERP Implementation,1253771,1442418,188647,2024,Q1,Medium,Completed,Approved,Noura Al Suhaili
+dc8de513-897f-48e1-87ea-8c77f71e6d9e,Aldar,Real Estate,IT,CC-366,Ras Al Khaimah,CapEx,Smart City Integration,952532,1180694,228162,2025,Q1,Medium,On Hold,Approved,Mohammed Al Ameri
+ce114b13-3382-4240-8c58-c00878af8d8e,Majid Al Futtaim,Real Estate,Marketing,CC-160,Sharjah,CapEx,Retail Digital Transformation,590578,478486,-112092,2023,Q1,High,Completed,Pending,Abdullah Al Shehhi
+1456ec68-f409-4915-aa2d-b8ba4195c289,Majid Al Futtaim,Corporate,HR,CC-979,Dubai,CapEx,Cybersecurity Enhancement,107993,129593,21600,2026,Q2,Low,In Progress,Pending,Ali Al Zaabi
+d4c65745-0a7b-4d34-8437-c8329481324a,Emaar,Corporate,HR,CC-687,Abu Dhabi,OpEx,Supply Chain Optimization,1878920,2144957,266037,2024,Q2,Medium,Planned,Rejected,Omar Al Falasi
+7bb4525a-bd9e-4a7e-96d2-a7df7c070a2c,Dubai Holding,Retail,HR,CC-210,Sharjah,CapEx,ERP Implementation,1177407,1464831,287424,2024,Q1,Medium,In Progress,Rejected,Noura Al Suhaili
+a2fe9ec1-3f7a-4ea4-ac9b-97566e0e4bae,Aldar,Corporate,Operations,CC-902,Ras Al Khaimah,CapEx,Infrastructure Upgrade,1335956,1683303,347347,2023,Q3,High,Completed,Approved,Omar Al Falasi
+d916818e-179c-4a6f-a6fb-74bc1a898933,Aldar,Real Estate,HR,CC-160,Ras Al Khaimah,CapEx,Business Intelligence Dashboard Rollout,1764601,1844685,80084,2023,Q3,Low,On Hold,Rejected,Mohammed Al Ameri
+c9a8cfda-bf24-4579-acb5-ebe35f4b03ca,Emaar,Construction,IT,CC-399,Ras Al Khaimah,OpEx,Cybersecurity Enhancement,471385,443705,-27680,2026,Q1,Medium,Planned,Pending,Zainab Al Neyadi
+12f9341a-2b02-4dbf-9ff2-6c0fd337664a,Majid Al Futtaim,Construction,HR,CC-609,Sharjah,CapEx,ERP Implementation,724264,782658,58394,2023,Q2,High,Completed,Rejected,Noura Al Suhaili
+a37ad29a-8e0e-44d1-848d-8030f5ff15b8,Emaar,Retail,Finance,CC-647,Dubai,CapEx,ERP Implementation,1938016,2103982,165966,2026,Q2,Medium,Planned,Rejected,Reem Al Ketbi
+54b91e0a-d2ec-42b0-a939-e7a9c18134eb,Emaar,Corporate,HR,CC-797,Dubai,CapEx,Smart City Integration,1598830,1685466,86636,2026,Q2,High,Completed,Approved,Zainab Al Neyadi
+c9a018d3-7179-4a0f-9cbd-6ff454c0772d,Majid Al Futtaim,Corporate,Finance,CC-146,Ras Al Khaimah,CapEx,E-commerce Platform Launch,476997,499719,22722,2023,Q3,High,In Progress,Rejected,Ali Al Zaabi
+550bf7b5-9eda-43d2-8475-5161bf154d26,Emaar,Retail,Operations,CC-145,Abu Dhabi,CapEx,Facility Management System Upgrade,421317,544991,123674,2024,Q3,Medium,Completed,Approved,Reem Al Ketbi
+7a62679b-e092-4ed6-909c-09fe2c93472a,Aldar,Real Estate,Operations,CC-943,Ras Al Khaimah,OpEx,Supply Chain Optimization,1594832,2004493,409661,2024,Q4,Medium,Planned,Rejected,Khalid Al Mazrouei
+ffb5b279-6f92-4eb8-9140-3adea2f9a4ff,Aldar,Hospitality,IT,CC-172,Dubai,CapEx,AI Analytics Platform,879357,721863,-157494,2026,Q1,High,Completed,Approved,Noura Al Suhaili
+6af113b7-ab3e-42ea-b7e3-d11d43d60c84,Aldar,Retail,Marketing,CC-393,Sharjah,OpEx,Smart City Integration,587917,751157,163240,2023,Q4,High,Planned,Rejected,Saeed Al Yammahi
+73de4676-3424-44cd-a138-c468fb09d60c,Dubai Holding,Construction,Operations,CC-211,Dubai,CapEx,Business Intelligence Dashboard Rollout,471083,406807,-64276,2026,Q2,High,Planned,Approved,Latifa Al Balushi
+9019cfb1-e74e-4250-855b-c297ddc5a1c7,Emaar,Construction,Marketing,CC-887,Dubai,CapEx,Workforce Optimization Program,1340421,1320919,-19502,2024,Q3,High,Planned,Approved,Hassan Al Blooshi
+423511ec-892b-4675-810c-9b57e728e37a,Emaar,Retail,Operations,CC-305,Dubai,OpEx,IoT Integration Project,1852476,2362290,509814,2024,Q3,Low,Planned,Approved,Zainab Al Neyadi
+3b9581a6-5467-43d6-9742-e2d1e4970182,Aldar,Real Estate,Operations,CC-171,Abu Dhabi,OpEx,E-commerce Platform Launch,1365362,1224961,-140401,2024,Q2,Low,Completed,Approved,Khalid Al Mazrouei
+cf110237-35cb-40e5-b20b-de6dcfd2b699,Majid Al Futtaim,Corporate,Finance,CC-733,Abu Dhabi,OpEx,Customer Experience Enhancement,1486051,1237235,-248816,2023,Q2,High,In Progress,Approved,Khalid Al Mazrouei
+0ec3c820-75af-46e7-bd07-20d9ed6260cf,Aldar,Corporate,Finance,CC-977,Abu Dhabi,CapEx,CRM Implementation,57174,61825,4651,2023,Q1,Low,On Hold,Rejected,Rashid Al Qasimi
+3e2d8ca9-c506-43d4-99e4-3ce10a344804,Majid Al Futtaim,Construction,Operations,CC-866,Abu Dhabi,OpEx,Cybersecurity Enhancement,859615,809099,-50516,2025,Q3,Low,On Hold,Pending,Hassan Al Blooshi
+08914071-894e-45f0-9a6b-35bd12cc8c96,DAMAC,Hospitality,IT,CC-393,Abu Dhabi,OpEx,Supply Chain Optimization,1002575,1070978,68403,2024,Q3,Low,Planned,Pending,Saeed Al Yammahi
+f8d70f15-cfb4-4866-b791-6bb67185525b,Aldar,Corporate,IT,CC-511,Abu Dhabi,OpEx,Facility Management System Upgrade,351955,289052,-62903,2026,Q4,Medium,On Hold,Rejected,Yousef Al Kaabi
+f201b5b8-ac4f-46b1-b34d-eb50642254f1,Aldar,Retail,HR,CC-433,Ras Al Khaimah,CapEx,Hotel Renovation Program,980910,1251824,270914,2024,Q2,High,In Progress,Rejected,Zainab Al Neyadi
+c9b89417-1d74-45ba-8e6e-50c70a014dc2,Majid Al Futtaim,Retail,Operations,CC-661,Ras Al Khaimah,OpEx,AI Analytics Platform,1882084,2191975,309891,2025,Q2,Medium,In Progress,Pending,Fatima Al Nuaimi
+0c403409-8b1f-457f-a710-57cb3ac4731a,DAMAC,Corporate,Operations,CC-152,Abu Dhabi,CapEx,Hotel Renovation Program,1188394,1338272,149878,2024,Q4,Low,On Hold,Approved,Reem Al Ketbi
+96c22fcc-bba6-4f92-89b9-c517118d5f10,Aldar,Corporate,IT,CC-379,Fujairah,CapEx,Supply Chain Optimization,99986,114682,14696,2026,Q2,High,On Hold,Pending,Rashid Al Qasimi
+9d1a56dd-b6c6-473f-9470-7adc2f2bf396,Emaar,Construction,HR,CC-725,Fujairah,CapEx,Mobile App Revamp,565267,697547,132280,2023,Q1,High,Planned,Approved,Hassan Al Blooshi
+98b6be6d-90af-43c0-ac0a-9fa36046ca6f,DAMAC,Retail,IT,CC-861,Abu Dhabi,CapEx,Sustainability & Green Energy Program,745223,913867,168644,2023,Q3,Low,Completed,Rejected,Ahmed Al Mansoori
+5440f4a6-9701-4c2d-8d91-c2dc40a83e69,Emaar,Retail,HR,CC-203,Fujairah,CapEx,Cloud Migration Initiative,1046330,1014218,-32112,2024,Q4,High,On Hold,Approved,Ali Al Zaabi
+7a6fbe1d-d5a3-4b43-a353-b1bcde3781e5,DAMAC,Hospitality,Finance,CC-779,Abu Dhabi,OpEx,AI Analytics Platform,1208301,1346459,138158,2023,Q2,Medium,On Hold,Pending,Noor Al Marri
+3e1f4df4-8ee9-4439-9ecc-449bf66d20bd,Majid Al Futtaim,Retail,Operations,CC-698,Fujairah,CapEx,ERP Implementation,407476,482275,74799,2023,Q4,Low,Completed,Pending,Mariam Al Hammadi
+3f751ca7-61f4-4607-867e-09dd99a40bff,Emaar,Hospitality,Marketing,CC-407,Ras Al Khaimah,CapEx,Supply Chain Optimization,1909105,1880438,-28667,2024,Q3,Medium,Planned,Pending,Huda Al Shamsi
+f6249dc0-f5ad-493e-91d0-966a362d837f,Majid Al Futtaim,Corporate,Operations,CC-273,Sharjah,OpEx,Workforce Optimization Program,1726290,1808072,81782,2025,Q1,Medium,Completed,Approved,Fatima Al Nuaimi
+d020f593-936f-4108-b3d6-0ac199a38409,DAMAC,Retail,Operations,CC-543,Sharjah,CapEx,Cloud Migration Initiative,1411901,1298104,-113797,2026,Q1,Medium,Planned,Approved,Abdullah Al Shehhi
+12c3a019-95f3-4055-ac8a-f0ae7e5b61ff,Dubai Holding,Retail,Operations,CC-304,Ras Al Khaimah,OpEx,Mobile App Revamp,72393,84505,12112,2023,Q3,Low,On Hold,Pending,Ahmed Al Mansoori
+327764bf-a2be-4808-8c5c-d3fafa25a7ff,Aldar,Construction,HR,CC-235,Sharjah,OpEx,Workforce Optimization Program,1734319,1831947,97628,2024,Q4,Medium,Completed,Approved,Huda Al Shamsi
+62ba584b-877f-4683-b166-6e03f68b9266,DAMAC,Corporate,Finance,CC-123,Abu Dhabi,CapEx,Hotel Renovation Program,1976813,2245469,268656,2023,Q2,Medium,Planned,Approved,Ali Al Zaabi
+5ab1d687-f260-47c6-a3c7-81e4ba984ed6,Dubai Holding,Real Estate,Finance,CC-840,Dubai,OpEx,Facility Management System Upgrade,1730777,1589671,-141106,2023,Q2,Low,On Hold,Rejected,Ali Al Zaabi
+53cafa15-d896-43c8-a026-d9a78eefeefa,Majid Al Futtaim,Real Estate,Finance,CC-821,Abu Dhabi,CapEx,IoT Integration Project,1698637,1923653,225016,2023,Q2,High,Planned,Approved,Noura Al Suhaili
+856a4c04-389e-4b3d-a5c9-e54098cc4937,Emaar,Real Estate,Finance,CC-496,Sharjah,CapEx,Sustainability & Green Energy Program,1710090,1954291,244201,2024,Q4,Low,In Progress,Pending,Rashid Al Qasimi
+b4dcdbcf-fd80-42d4-8edb-c1a875e78f7a,Dubai Holding,Construction,IT,CC-619,Dubai,CapEx,Smart City Integration,1584202,1802948,218746,2024,Q3,High,In Progress,Rejected,Mohammed Al Ameri
+bb6e3698-9c0e-4e6a-9feb-0f57599449c7,Emaar,Hospitality,HR,CC-874,Abu Dhabi,CapEx,Facility Management System Upgrade,1524021,1799614,275593,2025,Q4,Low,Completed,Approved,Saeed Al Yammahi
+ddf78996-7a66-4f8a-8389-b61bb9ab4c65,Emaar,Corporate,Finance,CC-770,Sharjah,OpEx,Infrastructure Upgrade,576279,698585,122306,2024,Q1,High,Planned,Pending,Fatima Al Nuaimi
+9b67046c-6993-4d8f-a43a-789376a65743,Majid Al Futtaim,Construction,Finance,CC-790,Ras Al Khaimah,CapEx,IoT Integration Project,1943085,2266525,323440,2023,Q3,Low,Completed,Rejected,Ahmed Al Mansoori
+cc200995-f493-48ae-aa1d-b74f15e1c4c0,Dubai Holding,Corporate,HR,CC-844,Sharjah,OpEx,IoT Integration Project,1319839,1503425,183586,2026,Q3,Medium,Completed,Pending,Aisha Al Suwaidi
+76c1326e-7dfb-4385-989a-408952fb3e8b,Emaar,Hospitality,Marketing,CC-274,Dubai,OpEx,Sustainability & Green Energy Program,1194870,1552791,357921,2026,Q4,Medium,On Hold,Pending,Noor Al Marri
+4b7031a6-9b7e-4142-9b48-1e80078db753,Aldar,Construction,Finance,CC-994,Abu Dhabi,OpEx,Data Center Modernization,998282,874836,-123446,2024,Q4,Medium,Planned,Pending,Abdullah Al Shehhi
+b75f6d28-2db8-4b46-91c0-574303d87f34,Majid Al Futtaim,Hospitality,IT,CC-197,Dubai,OpEx,Cybersecurity Enhancement,1948682,1727292,-221390,2024,Q3,Medium,In Progress,Approved,Reem Al Ketbi
+c0d08953-f6e5-45d6-a180-bb8ca99fde8c,Majid Al Futtaim,Retail,IT,CC-294,Ras Al Khaimah,OpEx,Mobile App Revamp,872569,767126,-105443,2026,Q2,Medium,Planned,Pending,Noor Al Marri
+d1bfc3da-4a08-41d0-a1d4-92a11e3ea2ce,Aldar,Corporate,HR,CC-244,Abu Dhabi,OpEx,Cloud Migration Initiative,190312,242928,52616,2026,Q4,High,Completed,Rejected,Rashid Al Qasimi
+e3c56d27-4a31-4311-848f-9d3594023541,Majid Al Futtaim,Construction,Marketing,CC-224,Fujairah,CapEx,CRM Implementation,760054,847634,87580,2025,Q3,Low,Completed,Rejected,Huda Al Shamsi
+0d6ff8e3-7b7d-41a9-ab4c-f8bf8da46365,Aldar,Real Estate,Finance,CC-557,Sharjah,OpEx,Supply Chain Optimization,825039,893239,68200,2024,Q3,Low,In Progress,Pending,Abdullah Al Shehhi
+da7de250-b50b-4381-ae50-2f2949012c5b,Aldar,Retail,Marketing,CC-448,Fujairah,OpEx,Cybersecurity Enhancement,1970441,2464864,494423,2024,Q2,Medium,In Progress,Rejected,Abdullah Al Shehhi
+00565d3c-ca41-4bd6-bb9e-54129d9eb22b,Emaar,Construction,Marketing,CC-581,Dubai,OpEx,Smart City Integration,1327977,1219758,-108219,2023,Q4,High,Completed,Approved,Noor Al Marri
+41114863-8c65-4a23-8fa7-8eb1d26f44ec,DAMAC,Real Estate,Operations,CC-498,Abu Dhabi,OpEx,Infrastructure Upgrade,1079576,1113414,33838,2024,Q3,High,On Hold,Approved,Hassan Al Blooshi
+e73ce069-6254-4709-aafb-5e1f8aa5c4b4,DAMAC,Corporate,Operations,CC-675,Abu Dhabi,OpEx,Hotel Renovation Program,1377643,1104217,-273426,2026,Q3,Low,In Progress,Rejected,Ali Al Zaabi
+1f1a0a02-3f03-49f2-a1be-e2f304a61b52,Dubai Holding,Retail,Finance,CC-853,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,1987158,2183476,196318,2026,Q4,Low,Planned,Pending,Mohammed Al Ameri
+9601126b-d2ec-4799-832b-d8b984b3d251,Dubai Holding,Real Estate,Operations,CC-180,Sharjah,OpEx,Workforce Optimization Program,478322,417111,-61211,2024,Q4,Low,On Hold,Rejected,Saeed Al Yammahi
+8aabac94-3b11-46bf-99db-4c93fc8206e5,DAMAC,Real Estate,HR,CC-566,Sharjah,CapEx,Infrastructure Upgrade,1295383,1323971,28588,2026,Q3,High,In Progress,Pending,Ali Al Zaabi
+c28e031b-2706-46c9-af17-a4e4a17e69c1,DAMAC,Corporate,Operations,CC-477,Abu Dhabi,OpEx,Business Intelligence Dashboard Rollout,309868,256016,-53852,2026,Q1,Low,On Hold,Rejected,Yousef Al Kaabi
+cec80f63-451d-4fe4-a5a7-9e9cbad2c0e4,Majid Al Futtaim,Real Estate,HR,CC-431,Fujairah,CapEx,Cybersecurity Enhancement,879502,781876,-97626,2023,Q2,Medium,Planned,Approved,Khalid Al Mazrouei
+0b715c7e-5cba-4cf1-98fd-f2a2567efaae,Emaar,Hospitality,Finance,CC-872,Sharjah,OpEx,Cybersecurity Enhancement,367865,313099,-54766,2023,Q4,Medium,Planned,Pending,Huda Al Shamsi
+e2654862-1ec3-41d0-8916-3bde2d4d1abd,Aldar,Construction,IT,CC-661,Dubai,CapEx,IoT Integration Project,1193181,991623,-201558,2024,Q1,Medium,In Progress,Approved,Noura Al Suhaili
+2fd6c0bf-19b8-491a-b025-598182367822,Dubai Holding,Real Estate,IT,CC-590,Dubai,CapEx,Sustainability & Green Energy Program,1402156,1600926,198770,2024,Q2,High,Completed,Pending,Sara Al Dhaheri
+ba457175-5e15-48f6-ba19-e3f8450f0f2a,Aldar,Real Estate,Marketing,CC-883,Sharjah,OpEx,AI Analytics Platform,1635369,1826977,191608,2026,Q1,High,In Progress,Rejected,Noor Al Marri
+e1f9d93c-baa5-446e-8d4e-a17abf2f4ff5,Aldar,Real Estate,HR,CC-818,Dubai,OpEx,Business Intelligence Dashboard Rollout,487962,446364,-41598,2024,Q4,High,In Progress,Rejected,Mariam Al Hammadi
+85597422-8ad1-4aa2-a8cc-bd73ecba737f,Majid Al Futtaim,Retail,HR,CC-669,Sharjah,OpEx,Workforce Optimization Program,1969314,2193500,224186,2024,Q3,Medium,In Progress,Pending,Khalid Al Mazrouei
+42fd1773-41e8-4c03-9e3d-c9f3ca7ecf59,DAMAC,Construction,Finance,CC-556,Fujairah,OpEx,Mall Expansion Project,873409,750768,-122641,2024,Q1,High,On Hold,Approved,Reem Al Ketbi
+5f0bbac7-afbc-4f39-82b2-d29ef3ab545d,Majid Al Futtaim,Retail,IT,CC-707,Sharjah,OpEx,AI Analytics Platform,1883402,1700319,-183083,2023,Q2,Low,Completed,Approved,Saeed Al Yammahi
+f2f575d8-3e5a-40ad-844e-d4241b0451b9,Emaar,Hospitality,HR,CC-311,Ras Al Khaimah,OpEx,CRM Implementation,99938,95435,-4503,2025,Q4,Medium,In Progress,Pending,Abdullah Al Shehhi
+e23d8099-c3ca-4831-bf84-8de00c53a7ab,Emaar,Real Estate,Marketing,CC-209,Dubai,CapEx,E-commerce Platform Launch,1226145,1346761,120616,2023,Q1,Medium,Planned,Pending,Ali Al Zaabi
+16523ea6-3e0d-4a19-be3b-6e994d884e71,Emaar,Real Estate,Finance,CC-476,Abu Dhabi,CapEx,Infrastructure Upgrade,849897,989598,139701,2025,Q1,Medium,On Hold,Rejected,Mariam Al Hammadi
+c55fe1e5-3bc0-4caa-9ee7-c9e0858fffea,Dubai Holding,Retail,IT,CC-369,Ras Al Khaimah,CapEx,Customer Experience Enhancement,673839,798648,124809,2023,Q4,High,Planned,Approved,Yousef Al Kaabi
+88ab5aeb-04ee-4c54-a491-8b43012161e5,Majid Al Futtaim,Corporate,HR,CC-376,Dubai,OpEx,ERP Implementation,1570034,1440351,-129683,2024,Q2,High,On Hold,Rejected,Reem Al Ketbi
+f36a3bac-b1ac-4481-ab96-0d798ac41336,Aldar,Construction,Operations,CC-279,Dubai,CapEx,CRM Implementation,112700,92254,-20446,2023,Q3,Low,Completed,Rejected,Saeed Al Yammahi
+f054c6a8-fcd1-49fd-94ec-8ab2ed802705,Dubai Holding,Retail,IT,CC-340,Ras Al Khaimah,CapEx,Mall Expansion Project,475089,570567,95478,2023,Q4,Low,On Hold,Approved,Aisha Al Suwaidi
+b230f4d5-e606-4f6f-ac2f-d7de4d50d51a,DAMAC,Retail,Finance,CC-712,Sharjah,OpEx,Customer Experience Enhancement,1829342,2142640,313298,2024,Q3,Low,Completed,Rejected,Rashid Al Qasimi
+cb4686bb-eb41-4e2b-b225-cf8f020ceeb7,DAMAC,Construction,IT,CC-694,Ras Al Khaimah,OpEx,IoT Integration Project,1184070,1033512,-150558,2025,Q3,High,On Hold,Rejected,Ali Al Zaabi
+76660e93-b5c8-44ab-baa4-1965eaeb05cc,Aldar,Real Estate,Marketing,CC-359,Abu Dhabi,OpEx,Data Center Modernization,905272,887315,-17957,2026,Q4,Low,In Progress,Approved,Noor Al Marri
+88881bcd-043e-48fd-85b4-e87c1cbe821b,Emaar,Corporate,HR,CC-653,Abu Dhabi,CapEx,Cloud Migration Initiative,1111898,1400045,288147,2026,Q1,Medium,Planned,Rejected,Abdullah Al Shehhi
+3903bad3-393b-4796-a176-90b536e563b4,Majid Al Futtaim,Real Estate,HR,CC-663,Abu Dhabi,CapEx,Cybersecurity Enhancement,138035,146287,8252,2025,Q4,High,Completed,Rejected,Omar Al Falasi
+ff76e94c-738d-4148-be99-b150ea640ad3,Majid Al Futtaim,Construction,IT,CC-690,Sharjah,OpEx,Customer Experience Enhancement,1200184,1522390,322206,2023,Q2,Low,On Hold,Approved,Rashid Al Qasimi
+ded4d462-d1bb-45cd-a7dc-c20e8fb228a6,Dubai Holding,Corporate,Finance,CC-607,Abu Dhabi,CapEx,Smart City Integration,1927442,2267942,340500,2025,Q2,Medium,Completed,Approved,Noor Al Marri
+74cc5599-1306-487e-b4c9-8affb9d39f15,Emaar,Real Estate,Finance,CC-131,Sharjah,CapEx,Mobile App Revamp,1388504,1177859,-210645,2024,Q1,High,Completed,Pending,Reem Al Ketbi
+463ac118-8e2b-46c2-8022-f99ef81e8e66,Aldar,Real Estate,Marketing,CC-407,Sharjah,OpEx,Supply Chain Optimization,934825,1189506,254681,2024,Q3,Medium,On Hold,Rejected,Rashid Al Qasimi
+3cfa6a39-3dfa-462e-82f6-272808ef3689,Aldar,Real Estate,Operations,CC-427,Sharjah,CapEx,Sustainability & Green Energy Program,1294316,1062552,-231764,2026,Q4,Low,Planned,Pending,Zainab Al Neyadi
+04e26762-0f46-4f01-b4ed-a901af1b48fc,DAMAC,Construction,Finance,CC-489,Dubai,OpEx,Workforce Optimization Program,1281289,1422379,141090,2023,Q4,Medium,Planned,Approved,Noor Al Marri
+c1446836-0a6a-4ceb-a7f2-b87ef4ae29d8,Dubai Holding,Construction,Operations,CC-867,Sharjah,CapEx,AI Analytics Platform,1568922,1906734,337812,2026,Q1,Medium,Completed,Rejected,Rashid Al Qasimi
+fda54e49-4e8c-48a6-aef6-6e65c90a8afd,Emaar,Corporate,Operations,CC-197,Dubai,CapEx,IoT Integration Project,1526479,1873479,347000,2023,Q4,High,In Progress,Pending,Ali Al Zaabi
+8794aec0-27e3-46e4-84d1-da7925ac20d9,Majid Al Futtaim,Real Estate,HR,CC-699,Dubai,OpEx,IoT Integration Project,1511989,1636765,124776,2026,Q3,High,Planned,Pending,Noor Al Marri
+8174e0ac-96f2-4c7e-9361-b36fd8a244c8,Emaar,Real Estate,IT,CC-593,Ras Al Khaimah,CapEx,Customer Experience Enhancement,745028,754985,9957,2026,Q2,Medium,Planned,Pending,Saeed Al Yammahi
+6ccb2324-1606-4da0-9478-6dc10e95c7d8,Majid Al Futtaim,Construction,IT,CC-830,Ras Al Khaimah,CapEx,Mall Expansion Project,518551,503012,-15539,2024,Q2,High,Planned,Pending,Noor Al Marri
+91a47109-a8a5-457f-8e7f-1704a486e0de,Aldar,Real Estate,Marketing,CC-810,Sharjah,CapEx,E-commerce Platform Launch,818974,980450,161476,2026,Q1,Medium,On Hold,Rejected,Ali Al Zaabi
+be1beb4b-0fb7-4535-b103-106cc4e14ef8,Dubai Holding,Retail,HR,CC-586,Ras Al Khaimah,CapEx,Supply Chain Optimization,935533,779738,-155795,2023,Q1,High,Planned,Rejected,Saeed Al Yammahi
+54711f99-2570-4b79-a9dd-8a44f9573229,Majid Al Futtaim,Retail,Marketing,CC-369,Ras Al Khaimah,CapEx,Sustainability & Green Energy Program,1443853,1296953,-146900,2024,Q4,High,Planned,Approved,Mariam Al Hammadi
+ef434654-9cd5-4e17-af54-815a3180bec7,Aldar,Real Estate,HR,CC-161,Fujairah,CapEx,AI Analytics Platform,359093,341199,-17894,2025,Q1,Medium,In Progress,Pending,Mariam Al Hammadi
+e93d479a-f6ce-4168-8627-d638d8c0f568,Emaar,Hospitality,Operations,CC-589,Ras Al Khaimah,CapEx,IoT Integration Project,1854778,1929330,74552,2024,Q4,Low,Planned,Approved,Rashid Al Qasimi
+05ea51da-a9ba-4c56-9451-cea833a77c00,Emaar,Real Estate,Operations,CC-625,Dubai,CapEx,Cybersecurity Enhancement,316245,388640,72395,2026,Q3,High,Completed,Pending,Hassan Al Blooshi
+dccaa9a2-9590-48e1-bfac-1867d2f1fd96,DAMAC,Construction,Finance,CC-297,Sharjah,OpEx,IoT Integration Project,1627836,1653776,25940,2024,Q2,Medium,On Hold,Rejected,Noura Al Suhaili
+c3899c5b-1db8-4a67-8340-dcb28d22b724,Majid Al Futtaim,Corporate,HR,CC-609,Dubai,OpEx,E-commerce Platform Launch,1382413,1214646,-167767,2023,Q4,High,Planned,Rejected,Huda Al Shamsi
+cef7f36a-d543-46c5-8eb3-2fa1afb9dfda,Dubai Holding,Retail,HR,CC-502,Sharjah,OpEx,Sustainability & Green Energy Program,355269,421512,66243,2025,Q3,Low,Completed,Pending,Aisha Al Suwaidi
+ee0f3d74-b41f-4d31-90d6-d202da161740,Majid Al Futtaim,Corporate,Marketing,CC-713,Fujairah,CapEx,Business Intelligence Dashboard Rollout,1122567,1171840,49273,2025,Q1,Low,On Hold,Pending,Mariam Al Hammadi
+384a69b5-a518-457e-a39f-50c888b7f6b7,Dubai Holding,Retail,HR,CC-377,Sharjah,CapEx,Hotel Renovation Program,1134222,1256925,122703,2025,Q2,Low,In Progress,Pending,Hassan Al Blooshi
+6ce0321c-24fd-4491-b17d-db28f6f2f640,Majid Al Futtaim,Construction,HR,CC-370,Fujairah,OpEx,Workforce Optimization Program,452331,548617,96286,2024,Q2,Low,Completed,Approved,Aisha Al Suwaidi
+610ef56c-3c09-4d4d-836e-11efd35504de,Majid Al Futtaim,Corporate,HR,CC-309,Ras Al Khaimah,CapEx,Customer Experience Enhancement,1488603,1459937,-28666,2025,Q2,High,Completed,Approved,Reem Al Ketbi
+797d9482-d63c-495d-ae23-30fc5320fb45,Emaar,Construction,Operations,CC-834,Sharjah,OpEx,AI Analytics Platform,1747807,1832536,84729,2025,Q2,Medium,Planned,Pending,Ali Al Zaabi
+4836aba5-0207-4a1a-92b5-79b22277346c,Aldar,Real Estate,Finance,CC-293,Sharjah,OpEx,Cybersecurity Enhancement,839707,1013154,173447,2025,Q4,High,Completed,Approved,Huda Al Shamsi
+22185dcd-86a9-4e4b-a411-82bac3c9f6db,Majid Al Futtaim,Real Estate,Operations,CC-547,Ras Al Khaimah,OpEx,Facility Management System Upgrade,1367247,1764908,397661,2024,Q2,High,Completed,Approved,Huda Al Shamsi
+5f4327e2-6ebc-4136-b729-973d8b8b70e2,Dubai Holding,Corporate,Marketing,CC-374,Abu Dhabi,CapEx,Customer Experience Enhancement,1826654,1525511,-301143,2026,Q2,High,Planned,Approved,Ahmed Al Mansoori
+d7b156be-f300-4c17-b3a9-111abe564ac5,DAMAC,Retail,Operations,CC-346,Abu Dhabi,CapEx,E-commerce Platform Launch,758010,976633,218623,2025,Q3,High,In Progress,Approved,Zainab Al Neyadi
+58d95e1f-2056-4854-83ba-1bd5c33a253c,Emaar,Hospitality,Operations,CC-308,Fujairah,CapEx,CRM Implementation,1274988,1221896,-53092,2023,Q3,Medium,Planned,Approved,Hassan Al Blooshi
+bf74001b-70e4-47e7-90e2-b655abb59cbf,Emaar,Construction,Marketing,CC-269,Abu Dhabi,CapEx,Business Intelligence Dashboard Rollout,1822895,1828730,5835,2023,Q1,High,Completed,Pending,Abdullah Al Shehhi
+3cb73973-a3ff-4ad8-81f4-9791f541ef5f,Aldar,Construction,IT,CC-337,Dubai,CapEx,Supply Chain Optimization,1855428,2040707,185279,2026,Q4,High,On Hold,Rejected,Ali Al Zaabi
+5bd5e2ee-1488-4464-9528-0edfc7831d61,DAMAC,Hospitality,Operations,CC-547,Fujairah,OpEx,ERP Implementation,847258,687561,-159697,2023,Q4,Low,On Hold,Pending,Reem Al Ketbi
+0b661f58-de98-4700-af89-731010355351,Dubai Holding,Corporate,Operations,CC-272,Ras Al Khaimah,CapEx,Workforce Optimization Program,480900,474398,-6502,2025,Q3,Medium,Completed,Approved,Rashid Al Qasimi
+00b108d1-3716-43fc-ae07-0b360a8fad70,Aldar,Corporate,Operations,CC-124,Fujairah,CapEx,Mall Expansion Project,659597,823985,164388,2023,Q4,Low,Planned,Pending,Ahmed Al Mansoori
+b6c9657e-213f-490e-9e19-0dbe5398a23d,Dubai Holding,Construction,Operations,CC-841,Ras Al Khaimah,OpEx,Business Intelligence Dashboard Rollout,773903,758239,-15664,2026,Q3,Medium,In Progress,Pending,Noura Al Suhaili
+a741bb98-227d-4443-80a8-a262b05ad78f,Aldar,Hospitality,IT,CC-324,Fujairah,CapEx,ERP Implementation,1961760,2547442,585682,2026,Q3,High,In Progress,Approved,Rashid Al Qasimi
+7ca04bd7-4e7e-4ce6-bf51-154b86aee4e5,Majid Al Futtaim,Corporate,Finance,CC-356,Dubai,OpEx,ERP Implementation,1970676,1732966,-237710,2024,Q3,High,On Hold,Pending,Zainab Al Neyadi
+e9503268-05e8-4e04-98ff-f03675f4d847,Emaar,Corporate,Finance,CC-337,Dubai,CapEx,Infrastructure Upgrade,530433,532943,2510,2024,Q3,Low,On Hold,Pending,Sara Al Dhaheri
+f8873fb0-5c76-4ca9-8bf2-61d2ac960fa6,Emaar,Corporate,Finance,CC-168,Dubai,OpEx,ERP Implementation,545442,441039,-104403,2023,Q4,Low,Completed,Rejected,Abdullah Al Shehhi
+c3f2ad3f-8f95-48bc-8d98-3a5d9c46f7ba,Emaar,Hospitality,Finance,CC-433,Abu Dhabi,OpEx,Retail Digital Transformation,370274,395018,24744,2023,Q1,Medium,In Progress,Approved,Mariam Al Hammadi
+7bf81fee-f4e3-45b5-b293-e4395ee3b1e5,Emaar,Hospitality,Marketing,CC-954,Sharjah,OpEx,Cloud Migration Initiative,1033704,907545,-126159,2024,Q4,High,Planned,Rejected,Ahmed Al Mansoori
+36702089-b2a4-406b-8a7f-98f213a8ca92,Dubai Holding,Real Estate,Operations,CC-239,Dubai,OpEx,Supply Chain Optimization,389920,436736,46816,2026,Q4,Low,On Hold,Rejected,Yousef Al Kaabi
+8509dae2-15b2-463c-96ff-7459114589c0,DAMAC,Corporate,Marketing,CC-835,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,1407598,1789961,382363,2026,Q2,Low,On Hold,Approved,Sara Al Dhaheri
+365cd91b-4926-48e2-8366-445c8ddc633a,DAMAC,Retail,Finance,CC-718,Ras Al Khaimah,OpEx,Mobile App Revamp,483886,404871,-79015,2025,Q3,High,Completed,Pending,Noura Al Suhaili
+a716dbe5-71eb-4203-a7dc-8244b505e8df,Aldar,Hospitality,Operations,CC-985,Fujairah,CapEx,Business Intelligence Dashboard Rollout,1623517,1311835,-311682,2025,Q4,High,In Progress,Approved,Aisha Al Suwaidi
+fd62af56-cc59-461b-8f9a-818fd64ddbbf,Aldar,Construction,Operations,CC-829,Ras Al Khaimah,OpEx,Smart City Integration,1945120,1983075,37955,2026,Q2,Medium,Planned,Approved,Hassan Al Blooshi
+12d27daa-e804-4deb-8cab-313887429105,Dubai Holding,Retail,HR,CC-154,Sharjah,OpEx,Retail Digital Transformation,1931226,2162995,231769,2026,Q1,Low,Completed,Pending,Saeed Al Yammahi
+0e21899b-b5cd-47d4-8b59-d02d8f2bd324,Aldar,Real Estate,HR,CC-439,Abu Dhabi,OpEx,Workforce Optimization Program,1206803,1253330,46527,2024,Q1,High,In Progress,Rejected,Omar Al Falasi
+a709a63b-b5fa-46d0-b4c5-9fd98680fc92,Dubai Holding,Corporate,IT,CC-745,Fujairah,OpEx,Cloud Migration Initiative,1227739,1147695,-80044,2026,Q4,Medium,On Hold,Pending,Aisha Al Suwaidi
+1e5454d6-7d25-460e-8ecd-eb0d6c8b4b74,Dubai Holding,Corporate,Marketing,CC-226,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,734813,692534,-42279,2023,Q1,High,On Hold,Pending,Zainab Al Neyadi
+9cc17654-92f7-451f-a936-6bfdcf414d0f,DAMAC,Hospitality,IT,CC-880,Abu Dhabi,CapEx,Retail Digital Transformation,1547935,1578786,30851,2026,Q3,Medium,In Progress,Approved,Noura Al Suhaili
+7f02fa62-515c-4df6-a454-1bb4dbff4190,Emaar,Hospitality,Operations,CC-682,Abu Dhabi,OpEx,Facility Management System Upgrade,685248,552349,-132899,2026,Q3,High,Planned,Approved,Zainab Al Neyadi
+d11c9be0-2f96-476a-8834-cff6b2ab2779,Aldar,Real Estate,IT,CC-579,Abu Dhabi,OpEx,Workforce Optimization Program,1851119,1515567,-335552,2023,Q4,Medium,Completed,Pending,Noor Al Marri
+a6e2e7ba-79ea-4691-b76e-bf221ca40b16,DAMAC,Retail,Marketing,CC-259,Fujairah,OpEx,Mall Expansion Project,1260147,1360056,99909,2024,Q2,High,On Hold,Pending,Fatima Al Nuaimi
+ff9b943d-1ca5-4cca-9b41-c1a0a0e03ca6,DAMAC,Construction,Operations,CC-152,Fujairah,OpEx,Data Center Modernization,738188,937476,199288,2023,Q2,Low,In Progress,Approved,Yousef Al Kaabi
+27b7a3db-ab52-44db-903f-056124005fcd,Dubai Holding,Corporate,Marketing,CC-471,Ras Al Khaimah,OpEx,Smart City Integration,1023807,1282407,258600,2025,Q3,High,In Progress,Approved,Hassan Al Blooshi
+d16fcb52-2034-4589-b810-71bcfeefbec9,Dubai Holding,Retail,Finance,CC-546,Ras Al Khaimah,OpEx,Sustainability & Green Energy Program,1059094,1349546,290452,2026,Q4,High,Completed,Pending,Rashid Al Qasimi
+6f65c371-a589-4c1b-a9dc-95c72271234f,Aldar,Construction,Marketing,CC-319,Ras Al Khaimah,OpEx,Hotel Renovation Program,695938,638760,-57178,2025,Q2,Low,In Progress,Pending,Saeed Al Yammahi
+0dc9e470-4a6b-400e-967c-c0eeb1eb3bf9,Aldar,Real Estate,Finance,CC-184,Dubai,CapEx,AI Analytics Platform,1304059,1256554,-47505,2026,Q4,High,In Progress,Approved,Mariam Al Hammadi
+23b92e1b-b37f-405c-8d00-d9c9b8c925d7,Emaar,Retail,HR,CC-795,Sharjah,CapEx,Data Center Modernization,1038195,922733,-115462,2024,Q3,Medium,Planned,Approved,Abdullah Al Shehhi
+b3eab8d3-0573-4f38-8735-a4a3d528228b,Majid Al Futtaim,Real Estate,IT,CC-908,Abu Dhabi,OpEx,IoT Integration Project,222691,288182,65491,2023,Q3,Low,Completed,Rejected,Fatima Al Nuaimi
+7113b999-1fad-402d-9260-248fdfa80791,DAMAC,Hospitality,Finance,CC-573,Fujairah,OpEx,E-commerce Platform Launch,200330,243581,43251,2023,Q4,Low,In Progress,Rejected,Omar Al Falasi
+70cbfd90-60c5-43d8-844f-882c6e578575,DAMAC,Hospitality,Operations,CC-929,Ras Al Khaimah,OpEx,Cloud Migration Initiative,117179,116791,-388,2025,Q3,Low,On Hold,Pending,Huda Al Shamsi
+e7407db1-52a3-4c53-bbed-158594f272e8,DAMAC,Retail,IT,CC-346,Ras Al Khaimah,CapEx,Cybersecurity Enhancement,1715678,2217169,501491,2024,Q1,High,Planned,Rejected,Yousef Al Kaabi
+795f07cd-d711-490b-ac56-5a6890ff9146,Aldar,Hospitality,IT,CC-840,Dubai,OpEx,Data Center Modernization,359707,307131,-52576,2025,Q3,Low,In Progress,Rejected,Ali Al Zaabi
+a94b0c40-3342-4d2d-bf49-1a4e2b71168e,Majid Al Futtaim,Corporate,HR,CC-826,Abu Dhabi,OpEx,Mall Expansion Project,962963,967720,4757,2023,Q3,High,On Hold,Approved,Sara Al Dhaheri
+93d096b4-1496-4b1b-bfc4-c7c00178b2a7,DAMAC,Construction,IT,CC-932,Ras Al Khaimah,OpEx,Smart City Integration,188528,155433,-33095,2026,Q3,Medium,In Progress,Pending,Omar Al Falasi
+20a2df13-b30c-453d-bea7-4a888b71af54,DAMAC,Corporate,IT,CC-107,Abu Dhabi,OpEx,Mobile App Revamp,1533492,1550627,17135,2023,Q4,Medium,In Progress,Approved,Rashid Al Qasimi
+4eae8064-1224-4cfe-b01e-7d0ffe269536,Aldar,Retail,IT,CC-838,Abu Dhabi,OpEx,AI Analytics Platform,553365,584570,31205,2023,Q3,Low,Completed,Rejected,Sara Al Dhaheri
+8398ea3e-cf31-459a-9dbc-b1472501f275,Aldar,Corporate,IT,CC-316,Abu Dhabi,OpEx,Infrastructure Upgrade,757117,606729,-150388,2025,Q4,Low,In Progress,Pending,Mohammed Al Ameri
+e0d6c09b-da5a-4b83-8fb3-1a7f195e48a4,Aldar,Corporate,Marketing,CC-397,Fujairah,OpEx,Facility Management System Upgrade,1583586,1900524,316938,2025,Q3,High,On Hold,Rejected,Aisha Al Suwaidi
+011cee08-6033-4e92-89e5-ca955daf756a,Aldar,Construction,Marketing,CC-685,Abu Dhabi,OpEx,Customer Experience Enhancement,1710605,1422195,-288410,2024,Q4,Medium,Completed,Rejected,Rashid Al Qasimi
+ccca23ee-c53b-4179-beca-6494a9df7dfa,Majid Al Futtaim,Retail,Operations,CC-371,Dubai,CapEx,AI Analytics Platform,1762820,1612515,-150305,2024,Q4,High,On Hold,Approved,Rashid Al Qasimi
+bf3e7818-babb-489c-b62f-945cd1339c2c,DAMAC,Corporate,Marketing,CC-526,Dubai,OpEx,Cloud Migration Initiative,150167,192111,41944,2023,Q4,Low,In Progress,Rejected,Yousef Al Kaabi
+4590e2ee-8eb1-4d2f-a0af-2aabb961e66f,Dubai Holding,Hospitality,Operations,CC-674,Sharjah,CapEx,Business Intelligence Dashboard Rollout,1208381,1140444,-67937,2024,Q1,Low,On Hold,Approved,Aisha Al Suwaidi
+b0710ce4-e7f0-4684-aa1b-5036e11f965f,Aldar,Real Estate,Finance,CC-232,Sharjah,CapEx,Cloud Migration Initiative,1406528,1297941,-108587,2025,Q3,Medium,In Progress,Pending,Yousef Al Kaabi
+25c4aa63-6f3f-4b25-8f54-ddee5281429c,Dubai Holding,Retail,HR,CC-655,Fujairah,CapEx,Workforce Optimization Program,1579163,1392748,-186415,2024,Q1,High,In Progress,Approved,Noor Al Marri
+e38b0f90-441d-4013-b29f-8fea0ae6b7fa,DAMAC,Hospitality,Finance,CC-883,Ras Al Khaimah,OpEx,Data Center Modernization,1665518,1993980,328462,2026,Q1,Medium,Completed,Approved,Huda Al Shamsi
+377bb985-e50a-456c-9fd8-cb4ef20db484,Emaar,Construction,IT,CC-658,Sharjah,CapEx,Hotel Renovation Program,1704652,1442161,-262491,2023,Q1,High,In Progress,Pending,Noura Al Suhaili
+70a390e4-652f-4c60-868c-f321a3ee7d2a,Majid Al Futtaim,Hospitality,Operations,CC-875,Sharjah,CapEx,Retail Digital Transformation,1144895,1382585,237690,2026,Q4,High,On Hold,Approved,Yousef Al Kaabi
+b3f873a1-e88d-4ff6-87d6-dc23a22ef639,Aldar,Corporate,Finance,CC-862,Abu Dhabi,OpEx,Infrastructure Upgrade,448760,498364,49604,2026,Q4,Medium,Completed,Approved,Latifa Al Balushi
+5fdab062-978e-4597-9938-f423b2a189c8,Dubai Holding,Corporate,HR,CC-117,Sharjah,OpEx,AI Analytics Platform,126293,129634,3341,2023,Q3,Medium,Planned,Approved,Zainab Al Neyadi
+5c78ac34-9432-4727-8c31-ab13649cbb14,Dubai Holding,Corporate,IT,CC-584,Ras Al Khaimah,OpEx,Mall Expansion Project,1297068,1375225,78157,2023,Q3,High,Completed,Rejected,Hassan Al Blooshi
+4632644c-b34d-4109-8ee8-812913f89413,Dubai Holding,Real Estate,HR,CC-780,Abu Dhabi,OpEx,Supply Chain Optimization,665412,545284,-120128,2024,Q3,Medium,On Hold,Approved,Aisha Al Suwaidi
+b6b86bf0-0c07-4ff2-9397-0440788b423c,DAMAC,Retail,Operations,CC-123,Dubai,OpEx,Workforce Optimization Program,812912,680859,-132053,2024,Q1,High,Planned,Pending,Mariam Al Hammadi
+ba77029c-9e53-400e-be4c-257d02c7a2df,DAMAC,Retail,Finance,CC-287,Fujairah,CapEx,Cybersecurity Enhancement,249559,321262,71703,2023,Q2,High,Completed,Pending,Latifa Al Balushi
+f00840b6-b44c-41aa-b426-05889658cf2f,Dubai Holding,Corporate,Marketing,CC-991,Fujairah,OpEx,ERP Implementation,1203870,1417460,213590,2025,Q1,Medium,Planned,Pending,Mohammed Al Ameri
+ca7f496e-f4cb-422f-9b30-b4357b6d75af,DAMAC,Real Estate,IT,CC-170,Dubai,CapEx,Facility Management System Upgrade,244966,276554,31588,2026,Q1,Medium,Completed,Pending,Rashid Al Qasimi
+fd9f5f3f-a50f-4e2e-bb3c-b531d008967f,Majid Al Futtaim,Corporate,IT,CC-183,Sharjah,CapEx,Facility Management System Upgrade,274166,255561,-18605,2023,Q1,Medium,In Progress,Rejected,Fatima Al Nuaimi
+39c367ad-22ee-4944-9ef2-3bbd6d22c8c1,Majid Al Futtaim,Hospitality,Operations,CC-105,Fujairah,OpEx,ERP Implementation,315628,279231,-36397,2024,Q4,Low,In Progress,Approved,Ahmed Al Mansoori
+18b8eaca-08ae-4d61-93ba-553fb1f26e3f,Aldar,Hospitality,Marketing,CC-399,Sharjah,CapEx,E-commerce Platform Launch,492514,545030,52516,2026,Q3,Medium,In Progress,Rejected,Noura Al Suhaili
+4f47b90a-a26f-4474-8e24-50cfcb173367,Majid Al Futtaim,Construction,Finance,CC-217,Ras Al Khaimah,CapEx,Customer Experience Enhancement,1532485,1547981,15496,2025,Q2,Low,In Progress,Rejected,Abdullah Al Shehhi
+c8f9c361-5b6d-4543-a585-f8847f6d2497,Emaar,Hospitality,Finance,CC-336,Abu Dhabi,CapEx,AI Analytics Platform,301610,387142,85532,2023,Q4,High,In Progress,Pending,Khalid Al Mazrouei
+ff488f86-32e7-4bc4-90e2-226446cce791,Emaar,Real Estate,Finance,CC-523,Dubai,OpEx,Business Intelligence Dashboard Rollout,1254970,1005744,-249226,2026,Q2,High,Planned,Pending,Aisha Al Suwaidi
+3d098aeb-6521-4a44-9375-a8ce36b506b8,Majid Al Futtaim,Retail,Operations,CC-779,Abu Dhabi,CapEx,IoT Integration Project,912195,902491,-9704,2026,Q3,High,In Progress,Pending,Sara Al Dhaheri
+5a599e0f-69e6-40c0-b8cf-900a381c6788,DAMAC,Real Estate,Operations,CC-574,Abu Dhabi,CapEx,Supply Chain Optimization,624404,636096,11692,2026,Q3,High,On Hold,Approved,Omar Al Falasi
+a08d6fd8-f24d-413e-9388-d47eda358339,Emaar,Construction,Finance,CC-584,Fujairah,CapEx,IoT Integration Project,345064,324954,-20110,2026,Q3,Medium,In Progress,Pending,Fatima Al Nuaimi
+ac326720-a6a4-42a6-9432-b2d7557395af,Aldar,Construction,HR,CC-264,Ras Al Khaimah,CapEx,Hotel Renovation Program,1493744,1840178,346434,2024,Q1,High,On Hold,Pending,Huda Al Shamsi
+7abf869b-920b-4c59-b02e-f8035a48cb9d,Emaar,Real Estate,HR,CC-838,Sharjah,OpEx,IoT Integration Project,1207096,1273303,66207,2023,Q3,Low,Completed,Rejected,Noor Al Marri
+978e25c2-40e4-4a8b-b237-9ee9e54952f9,Dubai Holding,Hospitality,HR,CC-358,Abu Dhabi,CapEx,IoT Integration Project,92571,76971,-15600,2026,Q1,High,Planned,Pending,Mohammed Al Ameri
+caca46c8-9b5b-4fde-96df-eec81364ab5c,Aldar,Corporate,HR,CC-101,Ras Al Khaimah,CapEx,Mall Expansion Project,1496275,1772851,276576,2023,Q3,Low,On Hold,Pending,Ali Al Zaabi
+d71f9b0c-69a4-4489-891c-ba5e690fad08,Emaar,Construction,Marketing,CC-678,Fujairah,OpEx,Cybersecurity Enhancement,1737354,1626112,-111242,2026,Q4,Low,In Progress,Approved,Noura Al Suhaili
+8924828a-9ae1-4ed3-b504-a7f831b35aca,DAMAC,Construction,IT,CC-645,Sharjah,OpEx,CRM Implementation,146056,179487,33431,2026,Q1,Low,Planned,Approved,Hassan Al Blooshi
+587f8c7f-f89a-44c8-9f58-633929673d6c,Aldar,Real Estate,IT,CC-578,Ras Al Khaimah,CapEx,IoT Integration Project,1928891,1675237,-253654,2026,Q2,High,In Progress,Approved,Aisha Al Suwaidi
+a3a2f5b6-b534-495d-b904-09766894b86b,Dubai Holding,Corporate,Operations,CC-223,Sharjah,OpEx,Customer Experience Enhancement,253122,207131,-45991,2023,Q3,High,Planned,Approved,Saeed Al Yammahi
+d98a0b63-9e4f-40ce-a782-480f9b8c6f85,Emaar,Real Estate,Operations,CC-805,Sharjah,CapEx,Cloud Migration Initiative,1709055,1878527,169472,2023,Q4,High,On Hold,Pending,Hassan Al Blooshi
+61c2991e-8121-4b8e-ac72-0723b2c08774,Emaar,Corporate,HR,CC-100,Ras Al Khaimah,OpEx,AI Analytics Platform,236038,248276,12238,2026,Q2,High,Planned,Rejected,Zainab Al Neyadi
+97bcfb28-4b3a-439d-8f2f-e79a3cbd1111,Emaar,Hospitality,IT,CC-339,Dubai,CapEx,ERP Implementation,94798,107467,12669,2024,Q2,High,Completed,Pending,Reem Al Ketbi
+1a0d06d9-a7bb-41ac-9760-8cf070a12335,Majid Al Futtaim,Hospitality,Finance,CC-220,Abu Dhabi,OpEx,CRM Implementation,1437604,1473160,35556,2025,Q4,High,Planned,Approved,Fatima Al Nuaimi
+62af906f-32bd-4edb-b112-3b0d02a25ae8,DAMAC,Real Estate,Marketing,CC-279,Ras Al Khaimah,CapEx,AI Analytics Platform,842904,677535,-165369,2024,Q2,High,In Progress,Pending,Noura Al Suhaili
+25882443-ad49-4480-86cf-1e020e083891,Emaar,Retail,Marketing,CC-830,Fujairah,OpEx,Workforce Optimization Program,961460,879378,-82082,2024,Q2,Medium,On Hold,Approved,Khalid Al Mazrouei
+6e43e9fb-fb2e-4634-a7cf-12d4785eb950,DAMAC,Retail,HR,CC-720,Abu Dhabi,CapEx,E-commerce Platform Launch,1804666,2160831,356165,2026,Q3,Medium,On Hold,Approved,Zainab Al Neyadi
+11a34b72-0b3a-4c7a-828a-7b8270b0c5d7,Emaar,Real Estate,IT,CC-854,Fujairah,CapEx,Cloud Migration Initiative,291901,349785,57884,2026,Q4,Low,In Progress,Approved,Ahmed Al Mansoori
+b1a2613c-05ca-4338-b479-68eec77faa1e,Emaar,Hospitality,IT,CC-151,Fujairah,CapEx,Sustainability & Green Energy Program,427052,456737,29685,2023,Q3,Low,Planned,Pending,Abdullah Al Shehhi
+e8ee0dbb-7a54-4af4-9375-9c49e75afd06,Emaar,Real Estate,Operations,CC-602,Abu Dhabi,CapEx,Data Center Modernization,746413,801986,55573,2023,Q2,Low,On Hold,Approved,Huda Al Shamsi
+c16f2367-7d8b-435b-9362-34770d548a29,Dubai Holding,Retail,Operations,CC-268,Sharjah,OpEx,Business Intelligence Dashboard Rollout,1561878,1744504,182626,2023,Q1,High,Planned,Rejected,Khalid Al Mazrouei
+a7a647a9-a587-4944-b6d9-2689eb85ae3e,Majid Al Futtaim,Real Estate,Finance,CC-804,Abu Dhabi,OpEx,Smart City Integration,225392,216657,-8735,2026,Q3,High,Planned,Rejected,Mariam Al Hammadi
+932f118b-df95-4191-aeba-70e6abc79217,Dubai Holding,Corporate,HR,CC-870,Sharjah,OpEx,Cybersecurity Enhancement,791001,756530,-34471,2023,Q2,Low,On Hold,Pending,Hassan Al Blooshi
+cdbc388d-f694-4d82-bd70-5d45556124a1,Dubai Holding,Hospitality,IT,CC-944,Sharjah,CapEx,Cybersecurity Enhancement,1145179,1437344,292165,2026,Q4,High,On Hold,Pending,Hassan Al Blooshi
+00d518d2-291e-430c-a4e4-af66591ea864,Dubai Holding,Retail,IT,CC-486,Sharjah,OpEx,AI Analytics Platform,142581,156782,14201,2025,Q3,Low,In Progress,Pending,Reem Al Ketbi
+eb6c3921-159b-42f9-9aab-4e58398c37f4,Aldar,Hospitality,HR,CC-623,Abu Dhabi,OpEx,IoT Integration Project,1230699,1060211,-170488,2023,Q3,Medium,In Progress,Rejected,Huda Al Shamsi

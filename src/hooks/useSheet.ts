@@ -1,7 +1,8 @@
+import { useCallback } from "react"
 import { read, utils } from "xlsx"
 
 export const useSheet = () => {
-  const readFile = async (file: File) => {
+  const readFile = useCallback(async (file: File) => {
     const extracted = await file.arrayBuffer()
     const fileRead = read(extracted, { type: "array" })
 
@@ -11,7 +12,7 @@ export const useSheet = () => {
     })
 
     return sheetValue
-  }
+  }, [])
 
   return { readFile }
 }

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useCallback, useState } from "react"
 
 import {
   defaultFilters,
@@ -29,36 +29,39 @@ export const useFilters = () => {
   const goNext = (totalPages: number) => goTo(page + 1, totalPages)
   const goPrev = (totalPages: number) => goTo(page - 1, totalPages)
 
-  const getFilterOptions = (data: Record<string, string | number>[]) => {
-    const companies: string[] = []
-    const department: string[] = []
-    const priority: string[] = []
-    const expenseType: string[] = []
-    const status: string[] = []
-    const approvedStatus: string[] = []
+  const getFilterOptions = useCallback(
+    (data: Record<string, string | number>[]) => {
+      const companies: string[] = []
+      const department: string[] = []
+      const priority: string[] = []
+      const expenseType: string[] = []
+      const status: string[] = []
+      const approvedStatus: string[] = []
 
-    data?.forEach((dataItem) => {
-      Object.keys(dataItem).forEach((keyValue) => {
-        const value = dataItem[keyValue] as string
+      data?.forEach((dataItem) => {
+        Object.keys(dataItem).forEach((keyValue) => {
+          const value = dataItem[keyValue] as string
 
-        if (keyValue === "Company_Name") companies.push(value)
-        if (keyValue === "Department") department.push(value)
-        if (keyValue === "Priority") priority.push(value)
-        if (keyValue === "Expense_Type") expenseType.push(value)
-        if (keyValue === "Status") status.push(value)
-        if (keyValue === "Approval_Status") approvedStatus.push(value)
+          if (keyValue === "Company_Name") companies.push(value)
+          if (keyValue === "Department") department.push(value)
+          if (keyValue === "Priority") priority.push(value)
+          if (keyValue === "Expense_Type") expenseType.push(value)
+          if (keyValue === "Status") status.push(value)
+          if (keyValue === "Approval_Status") approvedStatus.push(value)
+        })
       })
-    })
 
-    setOptions({
-      Company_Name: [...new Set(companies)],
-      Department: [...new Set(department)],
-      Priority: [...new Set(priority)],
-      Expense_Type: [...new Set(expenseType)],
-      Status: [...new Set(status)],
-      Approval_Status: [...new Set(approvedStatus)],
-    })
-  }
+      setOptions({
+        Company_Name: [...new Set(companies)],
+        Department: [...new Set(department)],
+        Priority: [...new Set(priority)],
+        Expense_Type: [...new Set(expenseType)],
+        Status: [...new Set(status)],
+        Approval_Status: [...new Set(approvedStatus)],
+      })
+    },
+    []
+  )
 
   return {
     goTo,

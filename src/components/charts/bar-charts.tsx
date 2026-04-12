@@ -1,62 +1,84 @@
-import { useMemo } from "react"
+import { useMemo, useState } from "react"
 import {
   Bar,
   BarChart,
   CartesianGrid,
+  Cell,
   XAxis,
   YAxis,
 } from "recharts"
+import type { BarRectangleItem } from "recharts/types/cartesian/Bar"
 
+import { ChartIcon } from "@/components/charts/chart-icon"
+import { ApprovalStatusDetailsModal } from "@/components/modals/approval-details-modal"
 import {
   ChartContainer,
-  ChartLegend,
-  ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart"
+import type { ISheetsData } from "@/interfaces/app.interface"
+import { statusColors } from "@/lib/constants"
 import { Card } from "../ui/card"
 import { Label } from "../ui/label"
 
-const SERIES_COLORS: Record<string, string> = {
-  Pending: "var(--chart-3)",
-  Approved: "var(--chart-2)",
-  Rejected: "var(--destructive)",
+type ApprovalBarDatum = {
+  status: string
+  count: number
+  fill: string
 }
 
-const FALLBACK_CHART_COLORS = [
-  "var(--chart-1)",
-  "var(--chart-2)",
-  "var(--chart-3)",
-  "var(--chart-4)",
-  "var(--chart-5)",
-] as const
+const chartConfig = {
+  Approved: {
+    label: "Approved",
+    color: statusColors.Approved,
+  },
+  Pending: {
+    label: "Pending",
+    color: statusColors.Pending,
+  },
+  Rejected: {
+    label: "Rejected",
+    color: statusColors.Rejected,
+  },
+} satisfies ChartConfig
+
+const buildApprovalBarData = (rows: ISheetsData[]): ApprovalBarDatum[] => {
+  if (!rows?.length) return []
+
+  const counts: Record<string, number> = {}
+  for (const item of rows) {
+    const approvalStatusVal = item.Approval_Status
+    if (approvalStatusVal) {
+      const k = String(approvalStatusVal)
+      counts[k] = (counts[k] ?? 0) + 1
+    }
+  }
+
+  return Object.entries(counts)
+    .map(([status, count]) => ({ status, count, fill: statusColors[status as keyof typeof statusColors], }))
+    .sort((a, b) => a.status.localeCompare(b.status))
+}
 
 const BarChartUI = ({
   title,
   data,
 }: {
   title: string
-  data: Record<string, string | number>[]
+  data: ISheetsData[]
 }) => {
-  const seriesKeys = useMemo(() => {
-    const row = data[0]
-    if (!row) return []
-    return Object.keys(row).filter((k) => k !== "name")
-  }, [data])
+  const [selectedApprovalStatus, setSelectedApprovalStatus] = useState<
+    string | null
+  >(null)
 
-  const chartConfig = useMemo(() => {
-    const cfg: ChartConfig = {}
-    seriesKeys.forEach((key, i) => {
-      cfg[key] = {
-        label: key.replace(/_/g, " "),
-        color:
-          SERIES_COLORS[key] ??
-          FALLBACK_CHART_COLORS[i % FALLBACK_CHART_COLORS.length],
-      }
-    })
-    return cfg
-  }, [seriesKeys])
+  const chartData = useMemo(() => buildApprovalBarData(data), [data])
+
+  const onBarClick = (item: BarRectangleItem) => {
+    const status = item.payload?.status
+    setSelectedApprovalStatus(status)
+  }
+
+  const closeApprovalModal = () => setSelectedApprovalStatus(null)
 
   return (
     <Card className="items-center gap-10">
@@ -67,7 +89,7 @@ const BarChartUI = ({
       >
         <BarChart
           accessibilityLayer
-          data={data}
+          data={chartData}
           margin={{
             top: 5,
             right: 12,
@@ -76,20 +98,38 @@ const BarChartUI = ({
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
+          <XAxis dataKey="status" tickLine={false} axisLine={false} />
           <YAxis width="auto" />
           <ChartTooltip content={<ChartTooltipContent />} />
-          <ChartLegend content={<ChartLegendContent />} />
-          {seriesKeys.map((key) => (
-            <Bar
-              key={key}
-              dataKey={key}
-              fill={`var(--color-${key})`}
-              radius={[10, 10, 0, 0]}
-            />
-          ))}
+          <Bar
+            dataKey="count"
+            fill="var(--color-count)"
+            radius={[10, 10, 0, 0]}
+            cursor="pointer"
+            onClick={onBarClick}
+          >
+            {chartData.map((entry) => (
+              <Cell key={entry.status} fill={entry.fill} />
+            ))}
+          </Bar>
         </BarChart>
       </ChartContainer>
+      <div className="flex w-full flex-wrap items-center justify-center gap-2">
+        {chartData.map((item) => (
+          <ChartIcon
+            key={item.status}
+            title={item.status}
+            color={item.fill}
+            onCardClick={() => setSelectedApprovalStatus(item.status)}
+          />
+        ))}
+      </div>
+      <ApprovalStatusDetailsModal
+        open={selectedApprovalStatus != null}
+        approvalStatus={selectedApprovalStatus}
+        rows={data}
+        onClose={closeApprovalModal}
+      />
     </Card>
   )
 }

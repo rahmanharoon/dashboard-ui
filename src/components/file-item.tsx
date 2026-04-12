@@ -1,9 +1,7 @@
-import { File, Upload } from "lucide-react"
+import { File, } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
 import {
   Item,
-  ItemActions,
   ItemContent,
   ItemDescription,
   ItemMedia,
@@ -14,10 +12,9 @@ import { formatFileSize } from "@/lib/utils"
 
 interface IFileItemProps {
   file: File
-  onChangeFile: () => void
 }
 
-const FileItem = ({ file, onChangeFile }: IFileItemProps) => {
+const FileItem = ({ file, }: IFileItemProps) => {
   return (
     <div className="flex w-full flex-col gap-6">
       <Item variant="outline">
@@ -30,12 +27,6 @@ const FileItem = ({ file, onChangeFile }: IFileItemProps) => {
             <ItemDescription>{formatFileSize(file?.size)}</ItemDescription>
           ) : null}
         </ItemContent>
-        <ItemActions>
-          <Button onClick={onChangeFile} size="sm" variant="outline">
-            <Upload />
-            Change File
-          </Button>
-        </ItemActions>
       </Item>
     </div>
   )

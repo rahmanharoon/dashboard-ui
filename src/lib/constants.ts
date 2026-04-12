@@ -30,6 +30,24 @@ const defaultOptions = {
   Approval_Status: [],
 }
 
+const statusColors = {
+  Completed: "var(--chart-2)",
+  Planned: "var(--chart-3)",
+  Rejected: "var(--destructive)",
+  "In Progress": "var(--chart-4)",
+  "On Hold": "var(--chart-5)",
+  Pending: "var(--chart-3)",
+  Approved: "var(--chart-2)",
+} as const
+
+const FALLBACK_CHART_COLORS = [
+  "var(--chart-1)",
+  "var(--chart-2)",
+  "var(--chart-3)",
+  "var(--chart-4)",
+  "var(--chart-5)",
+] as const
+
 const tableHeaders = {
   Company_Name: "Company",
   Owner: "Owner",
@@ -49,6 +67,8 @@ const tableHeaders = {
 }
 
 export {
+  statusColors,
+  FALLBACK_CHART_COLORS,
   defaultOptions,
   defaultFilters,
   tableHeaders,

@@ -30,7 +30,7 @@ const Main = () => {
 
   const [view, setView] = useState<"dashboard" | "list">("dashboard")
   const [file, setFile] = useState<File | null>(null)
-  const [loading, setLoading] = useState<boolean>(false)
+  const [loading, setLoading] = useState<boolean>(true)
   const [data, setData] = useState<ISheetsData[]>([])
   const [filteredData, setFilterData] = useState<ISheetsData[]>([])
   const [totalItems, setTotalItems] = useState<number>(0)
@@ -100,6 +100,38 @@ const Main = () => {
     getFilterData()
   }, [getFilterData])
 
+  const loadDefaultCsv = useCallback(
+    async (signal: AbortSignal) => {
+      const csvPath = `${import.meta.env.BASE_URL}files/uae_capex_opex_dashboard.csv`
+      try {
+        const res = await fetch(csvPath, { signal })
+        if (!res.ok) return
+        const blob = await res.blob()
+        if (signal.aborted) return
+        const defaultFile = new File([blob], "uae_capex_opex_dashboard.csv", {
+          type: blob.type || "text/csv",
+        })
+        const fileData = await readFile(defaultFile)
+        if (signal.aborted) return
+        const files = fileData as unknown as ISheetsData[]
+        setFile(defaultFile)
+        setData(files)
+        getFilterOptions(files)
+      } catch (e) {
+        if (e instanceof DOMException && e.name === "AbortError") return
+      } finally {
+        if (!signal.aborted) setLoading(false)
+      }
+    },
+    [readFile, getFilterOptions],
+  )
+
+  useEffect(() => {
+    const controller = new AbortController()
+    void loadDefaultCsv(controller.signal)
+    return () => controller.abort()
+  }, [loadDefaultCsv])
+
   const onChooseFile = async (file?: File) => {
     if (!file) {
       return
@@ -125,25 +157,27 @@ const Main = () => {
       ) : (
         <div className="flex flex-col gap-4">
           <MenuTabs view={view} onChangeView={onChangeView} />
-          <FileItem file={file as File} onChangeFile={onClickFile} />
-          <FilterList
-            filters={filters}
-            onChangeFilterVal={onChangeFilterVal}
-            options={options}
-          />
+          <FileItem file={file as File} />
           {view === "list" ? (
-            <TableUI
-              data={filteredData}
-              goNext={goNext}
-              goPrev={goPrev}
-              goTo={goTo}
-              pageNo={page}
-              size={size}
-              totalItems={totalItems}
-              onChangeSize={onChangeSize}
-            />
+            <>
+              <FilterList
+                filters={filters}
+                onChangeFilterVal={onChangeFilterVal}
+                options={options}
+              />
+              <TableUI
+                data={filteredData}
+                goNext={goNext}
+                goPrev={goPrev}
+                goTo={goTo}
+                pageNo={page}
+                size={size}
+                totalItems={totalItems}
+                onChangeSize={onChangeSize}
+              />
+            </>
           ) : (
-            <ChartsView data={filteredData} />
+            <ChartsView data={data} />
           )}
         </div>
       )}

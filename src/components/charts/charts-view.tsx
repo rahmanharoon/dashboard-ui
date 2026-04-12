@@ -1,4 +1,3 @@
-import { useChartsData } from "@/hooks/useChartsData"
 import type { ISheetsData } from "@/interfaces/app.interface"
 
 import BarChartUI from "./bar-charts"
@@ -8,31 +7,25 @@ import PieChartWithPaddingAngle from "./pie-charts"
 import { SpendingHorizontalChart } from "./spending-horizontal-chart"
 
 const ChartsView = ({ data }: { data: ISheetsData[] }) => {
-  const { chartsData } = useChartsData(data)
-
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-      <PieChartWithPaddingAngle title="Status" data={chartsData.status} />
-      <BarChartUI
-        title="Approved Status"
-        data={[chartsData.approvedStatus]}
-      />
+      <PieChartWithPaddingAngle title="Status" data={data} />
+      <BarChartUI title="Approved Status" data={data} />
       <SpendingHorizontalChart
         title="Spending by owner"
-        data={chartsData.spendingByOwner}
+        data={data}
+        groupBy="owner"
       />
       <SpendingHorizontalChart
         title="Spending by department"
-        data={chartsData.spendingByDepartment}
+        data={data}
+        groupBy="department"
       />
       <BudgetAreaChart
         title="Actual vs expected budget (by period)"
-        data={chartsData.budgetByPeriod}
+        data={data}
       />
-      <BudgetLineChart
-        title="Delta (by period)"
-        data={chartsData.budgetByPeriod}
-      />
+      <BudgetLineChart title="Delta (by period)" data={data} />
     </div>
   )
 }

@@ -1,14 +1,23 @@
+import { useMemo, useState } from "react"
 import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts"
 
+import { BudgetPeriodClickDot } from "@/components/charts/budget-period-click-dot"
+import { BudgetPeriodDetailsModal } from "@/components/modals/budget-period-details-modal"
 import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart"
-import type { BudgetPeriodRow } from "@/hooks/useChartsData"
+import type { ISheetsData } from "@/interfaces/app.interface"
+import {
+  buildBudgetPeriodChartData,
+  type BudgetPeriodRow,
+} from "@/lib/budget-period-chart-data"
 import { Card } from "../ui/card"
 import { Label } from "../ui/label"
+
+export type { BudgetPeriodRow } from "@/lib/budget-period-chart-data"
 
 const chartConfig = {
   delta: {
@@ -22,13 +31,19 @@ export function BudgetLineChart({
   data,
 }: {
   title: string
-  data: BudgetPeriodRow[]
+  data: ISheetsData[]
 }) {
+  const [selectedPeriod, setSelectedPeriod] = useState<string | null>(null)
+
+  const chartData = useMemo(() => buildBudgetPeriodChartData(data), [data])
+
+  const closeModal = () => setSelectedPeriod(null)
+
   return (
     <Card className="flex flex-col gap-3 p-4">
       <Label className="text-base">{title}</Label>
       <ChartContainer config={chartConfig} className="min-h-[260px] w-full">
-        <LineChart accessibilityLayer data={data} margin={{ left: 0, right: 12 }}>
+        <LineChart accessibilityLayer data={chartData} margin={{ left: 0, right: 12 }}>
           <CartesianGrid vertical={false} strokeDasharray="3 3" />
           <XAxis
             dataKey="period"
@@ -53,11 +68,35 @@ export function BudgetLineChart({
             type="natural"
             stroke="var(--color-delta)"
             strokeWidth={2}
-            dot={{ r: 3 }}
-            activeDot={{ r: 5 }}
+            dot={(props) => (
+              <BudgetPeriodClickDot
+                cx={props.cx}
+                cy={props.cy}
+                payload={props.payload as BudgetPeriodRow}
+                fill="var(--color-delta)"
+                onPickPeriod={setSelectedPeriod}
+              />
+            )}
+            activeDot={(props) => (
+              <BudgetPeriodClickDot
+                cx={props.cx}
+                cy={props.cy}
+                r={typeof props.r === "number" ? props.r : 6}
+                payload={props.payload as BudgetPeriodRow}
+                fill="var(--color-delta)"
+                onPickPeriod={setSelectedPeriod}
+              />
+            )}
           />
         </LineChart>
       </ChartContainer>
+      <BudgetPeriodDetailsModal
+        open={selectedPeriod != null}
+        period={selectedPeriod}
+        variant="delta"
+        rows={data}
+        onClose={closeModal}
+      />
     </Card>
   )
 }
