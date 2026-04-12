@@ -11,18 +11,16 @@ export const formatFileSize = (bytes: number): string => {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`
 }
 
-const aedFormatter = new Intl.NumberFormat("en-AE", {
-  style: "currency",
-  currency: "AED",
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 2,
-})
-
-export const formatAed = (value: string | number): string => {
+export const currencyFormatter = (amount: string | number): string => {
   const num =
-    typeof value === "number" ? value : Number(String(value).replace(/,/g, ""))
-  if (Number.isNaN(num)) return String(value)
-  return aedFormatter.format(num)
+    typeof amount === "number"
+      ? amount
+      : Number(String(amount).replace(/,/g, ""))
+  if (Number.isNaN(num)) return ""
+  return num.toLocaleString("en-US", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
+  })
 }
 
 export const aedHeaderKeys = new Set([

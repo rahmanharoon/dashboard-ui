@@ -8,8 +8,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts"
+import type { YAxisTickContentProps } from "recharts/types/util/types"
 
 import { BudgetPeriodClickDot } from "@/components/charts/budget-period-click-dot"
+import { DirhamSymbol } from "@/components/dirham-symbol"
 import { BudgetPeriodDetailsModal } from "@/components/modals/budget-period-details-modal"
 import {
   ChartContainer,
@@ -22,18 +24,24 @@ import {
   buildBudgetPeriodChartData,
   type BudgetPeriodRow,
 } from "@/lib/budget-period-chart-data"
-import { Card } from "../ui/card"
-import { Label } from "../ui/label"
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 
 export type { BudgetPeriodRow } from "@/lib/budget-period-chart-data"
 
+const deltaSeriesLabel = (
+  <span className="inline-flex items-baseline gap-1">
+    <DirhamSymbol />
+    <span>Delta</span>
+  </span>
+)
+
 const chartConfig = {
   delta: {
-    label: "Delta (AED)",
+    label: deltaSeriesLabel,
     color: "var(--chart-4)",
   },
   deltaNegative: {
-    label: "Delta (AED)",
+    label: deltaSeriesLabel,
     color: "var(--destructive)",
   },
 } satisfies ChartConfig
@@ -46,6 +54,26 @@ const formatDeltaYAxisTick = (v: unknown): string => {
   if (n === 0) return "0"
   const body = Math.abs(n).toLocaleString("en-US")
   return n < 0 ? `-${body}` : body
+}
+
+const BudgetDeltaYAxisTick = (props: YAxisTickContentProps) => {
+  const { x, y, payload } = props
+  const text = formatDeltaYAxisTick(payload.value)
+  return (
+    <g transform={`translate(${x},${y})`}>
+      <text
+        textAnchor="end"
+        className="fill-muted-foreground text-xs"
+        dy={3}
+        dx={-2}
+      >
+        <tspan className="dirham-symbol">{"\uE000"}</tspan>
+        <tspan dx={3} className="tabular-nums">
+          {text}
+        </tspan>
+      </text>
+    </g>
+  )
 }
 
 const yAtDeltaZero = (
@@ -151,58 +179,74 @@ export function BudgetLineChart({
     row.delta < 0 ? "var(--color-deltaNegative)" : "var(--color-delta)"
 
   return (
-    <Card className="flex flex-col gap-3 p-4">
-      <Label className="text-base">{title}</Label>
-      <ChartContainer config={chartConfig} className="min-h-[260px] w-full">
-        <LineChart accessibilityLayer data={chartData} margin={{ left: 0, right: 12 }}>
-          <CartesianGrid vertical={false} strokeDasharray="3 3" />
-          <XAxis
-            dataKey="period"
-            tickLine={false}
-            axisLine={false}
-            tickMargin={8}
-            tickFormatter={(v) =>
-              String(v).length > 18 ? `${String(v).slice(0, 16)}…` : String(v)
-            }
-          />
-          <YAxis
-            tickLine={false}
-            axisLine={false}
-            width={68}
-            tickFormatter={formatDeltaYAxisTick}
-          />
-          <ChartTooltip content={<ChartTooltipContent />} />
-          <Line
-            dataKey="delta"
-            type="natural"
-            stroke="var(--color-delta)"
-            strokeWidth={2}
-            isAnimationActive={false}
-            shape={(curveProps) => (
-              <DeltaZeroSplitCurve {...curveProps} clipIdBase={splitClipId} />
-            )}
-            dot={(props) => (
-              <BudgetPeriodClickDot
-                cx={props.cx}
-                cy={props.cy}
-                payload={props.payload as BudgetPeriodRow}
-                fill={dotFill(props.payload as BudgetPeriodRow)}
-                onPickPeriod={setSelectedPeriod}
-              />
-            )}
-            activeDot={(props) => (
-              <BudgetPeriodClickDot
-                cx={props.cx}
-                cy={props.cy}
-                r={typeof props.r === "number" ? props.r : 6}
-                payload={props.payload as BudgetPeriodRow}
-                fill={dotFill(props.payload as BudgetPeriodRow)}
-                onPickPeriod={setSelectedPeriod}
-              />
-            )}
-          />
-        </LineChart>
-      </ChartContainer>
+    <Card className="flex flex-col gap-3">
+      <CardHeader className="items-center justify-center w-full">
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent className="h-full w-full">
+        <ChartContainer config={chartConfig}>
+          <LineChart accessibilityLayer data={chartData} margin={{ left: 0, right: 12, top: 20 }}>
+            <CartesianGrid vertical={false} strokeDasharray="3 3" />
+            <XAxis
+              dataKey="period"
+              tickLine={false}
+              axisLine={false}
+              tickMargin={8}
+              tickFormatter={(v) =>
+                String(v).length > 18 ? `${String(v).slice(0, 16)}…` : String(v)
+              }
+            />
+            <YAxis
+              tickLine={false}
+              axisLine={false}
+              width={80}
+              tick={BudgetDeltaYAxisTick}
+            />
+            <ChartTooltip
+              content={
+                <ChartTooltipContent
+                  formatter={(value) => (
+                    <span className="flex items-baseline gap-1 font-mono font-medium tabular-nums">
+                      <DirhamSymbol />
+                      {formatDeltaYAxisTick(value)}
+                    </span>
+                  )}
+                />
+              }
+            />
+            <Line
+              dataKey="delta"
+              name="Delta"
+              type="natural"
+              stroke="var(--color-delta)"
+              strokeWidth={2}
+              isAnimationActive={false}
+              shape={(curveProps) => (
+                <DeltaZeroSplitCurve {...curveProps} clipIdBase={splitClipId} />
+              )}
+              dot={(props) => (
+                <BudgetPeriodClickDot
+                  cx={props.cx}
+                  cy={props.cy}
+                  payload={props.payload as BudgetPeriodRow}
+                  fill={dotFill(props.payload as BudgetPeriodRow)}
+                  onPickPeriod={setSelectedPeriod}
+                />
+              )}
+              activeDot={(props) => (
+                <BudgetPeriodClickDot
+                  cx={props.cx}
+                  cy={props.cy}
+                  r={typeof props.r === "number" ? props.r : 6}
+                  payload={props.payload as BudgetPeriodRow}
+                  fill={dotFill(props.payload as BudgetPeriodRow)}
+                  onPickPeriod={setSelectedPeriod}
+                />
+              )}
+            />
+          </LineChart>
+        </ChartContainer>
+      </CardContent>
       <BudgetPeriodDetailsModal
         open={selectedPeriod != null}
         period={selectedPeriod}

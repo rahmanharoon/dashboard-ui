@@ -5,7 +5,6 @@ import {
   CartesianGrid,
   Cell,
   XAxis,
-  YAxis,
 } from "recharts"
 import type { BarRectangleItem } from "recharts/types/cartesian/Bar"
 
@@ -19,8 +18,7 @@ import {
 } from "@/components/ui/chart"
 import type { ISheetsData } from "@/interfaces/app.interface"
 import { statusColors } from "@/lib/constants"
-import { Card } from "../ui/card"
-import { Label } from "../ui/label"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card"
 
 type ApprovalBarDatum = {
   status: string
@@ -81,40 +79,36 @@ const BarChartUI = ({
   const closeApprovalModal = () => setSelectedApprovalStatus(null)
 
   return (
-    <Card className="items-center gap-10">
-      <Label>{title}</Label>
-      <ChartContainer
-        config={chartConfig}
-        className="aspect-[1.618] max-h-[70vh] min-h-[280px] w-full max-w-[700px]"
-      >
-        <BarChart
-          accessibilityLayer
-          data={chartData}
-          margin={{
-            top: 5,
-            right: 12,
-            left: 12,
-            bottom: 5,
-          }}
+    <Card className="flex flex-col">
+      <CardHeader className="items-center justify-center w-full">
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent className="h-full justify-center items-center">
+        <ChartContainer
+          config={chartConfig}
         >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="status" tickLine={false} axisLine={false} />
-          <YAxis width="auto" />
-          <ChartTooltip content={<ChartTooltipContent />} />
-          <Bar
-            dataKey="count"
-            fill="var(--color-count)"
-            radius={[10, 10, 0, 0]}
-            cursor="pointer"
-            onClick={onBarClick}
+          <BarChart
+            accessibilityLayer
+            data={chartData}
           >
-            {chartData.map((entry) => (
-              <Cell key={entry.status} fill={entry.fill} />
-            ))}
-          </Bar>
-        </BarChart>
-      </ChartContainer>
-      <div className="flex w-full flex-wrap items-center justify-center gap-2">
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="status" tickLine={false} axisLine={false} />
+            <ChartTooltip content={<ChartTooltipContent />} />
+            <Bar
+              dataKey="count"
+              fill="var(--color-count)"
+              radius={[10, 10, 10, 10]}
+              cursor="pointer"
+              onClick={onBarClick}
+            >
+              {chartData.map((entry) => (
+                <Cell key={entry.status} fill={entry.fill} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ChartContainer>
+      </CardContent>
+      <CardFooter className="flex flex-wrap items-center justify-center gap-2 w-full">
         {chartData.map((item) => (
           <ChartIcon
             key={item.status}
@@ -123,7 +117,7 @@ const BarChartUI = ({
             onCardClick={() => setSelectedApprovalStatus(item.status)}
           />
         ))}
-      </div>
+      </CardFooter>
       <ApprovalStatusDetailsModal
         open={selectedApprovalStatus != null}
         approvalStatus={selectedApprovalStatus}

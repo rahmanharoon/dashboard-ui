@@ -25,6 +25,7 @@ const Main = () => {
     options,
     getFilterOptions,
     onChangeFilterVal,
+    resetFn,
   } = useFilters()
 
   const [view, setView] = useState<"dashboard" | "list">("dashboard")
@@ -162,6 +163,7 @@ const Main = () => {
                 filters={filters}
                 onChangeFilterVal={onChangeFilterVal}
                 options={options}
+                resetFn={resetFn}
               />
               <TableUI
                 data={filteredData}

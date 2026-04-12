@@ -12,8 +12,7 @@ import {
 import { ChartIcon } from "@/components/charts/chart-icon"
 import type { ISheetsData } from "@/interfaces/app.interface"
 import { statusColors } from "@/lib/constants"
-import { Card } from "../ui/card"
-import { Label } from "../ui/label"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card"
 
 export type StatusPieDatum = {
   name: string
@@ -74,37 +73,40 @@ const PieChartWithPaddingAngle = ({ data, title }: IChartsProps) => {
   const closeStatusModal = () => setSelectedStatus(null)
 
   return (
-    <Card className="items-center gap-10">
-      <Label id="charts-title">{title}</Label>
-      <ChartContainer
-        config={chartConfig}
-        className="mx-auto aspect-square max-h-[250px] min-h-[250px] w-full max-w-[500px]"
-      >
-        <PieChart>
-          <ChartTooltip content={<ChartTooltipContent nameKey="sliceId" />} />
-          <Pie
-            data={pieData}
-            dataKey="value"
-            nameKey="sliceId"
-            innerRadius="80%"
-            outerRadius="100%"
-            cornerRadius="50%"
-            paddingAngle={5}
-            strokeWidth={0}
-            isAnimationActive
-            cursor="pointer"
-            onClick={onPieClick}
-          >
-            {pieData.map((entry) => (
-              <Cell
-                key={entry.sliceId}
-                fill={`var(--color-${entry.sliceId})`}
-              />
-            ))}
-          </Pie>
-        </PieChart>
-      </ChartContainer>
-      <div className="flex w-full flex-wrap items-center justify-center gap-2">
+    <Card className="flex flex-col">
+      <CardHeader className="items-center justify-center w-full">
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent className="h-full justify-center items-center">
+        <ChartContainer
+          config={chartConfig}
+        >
+          <PieChart>
+            <ChartTooltip content={<ChartTooltipContent nameKey="sliceId" />} />
+            <Pie
+              data={pieData}
+              dataKey="value"
+              nameKey="sliceId"
+              innerRadius="80%"
+              outerRadius="100%"
+              cornerRadius="50%"
+              paddingAngle={5}
+              strokeWidth={0}
+              isAnimationActive
+              cursor="pointer"
+              onClick={onPieClick}
+            >
+              {pieData.map((entry) => (
+                <Cell
+                  key={entry.sliceId}
+                  fill={`var(--color-${entry.sliceId})`}
+                />
+              ))}
+            </Pie>
+          </PieChart>
+        </ChartContainer>
+      </CardContent>
+      <CardFooter className="flex flex-wrap items-center justify-center gap-2 w-full">
         {pieData.map((item) => (
           <ChartIcon
             key={item.sliceId}
@@ -113,7 +115,7 @@ const PieChartWithPaddingAngle = ({ data, title }: IChartsProps) => {
             onCardClick={() => setSelectedStatus(item.name)}
           />
         ))}
-      </div>
+      </CardFooter>
       <StatusModal
         open={selectedStatus != null}
         status={selectedStatus}

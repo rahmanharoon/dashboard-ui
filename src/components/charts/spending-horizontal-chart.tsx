@@ -1,7 +1,9 @@
-import { useMemo, useState } from "react"
+import { memo, useMemo, useState, type CSSProperties } from "react"
 import { Bar, BarChart, CartesianGrid, Cell, XAxis, YAxis } from "recharts"
 import type { BarRectangleItem } from "recharts/types/cartesian/Bar"
+import type { XAxisTickContentProps } from "recharts/types/util/types"
 
+import { DirhamSymbol } from "@/components/dirham-symbol"
 import { SpendingGroupDetailsModal } from "@/components/modals/spending-group-details-modal"
 import {
   ChartContainer,
@@ -11,7 +13,7 @@ import {
 } from "@/components/ui/chart"
 import type { ISheetsData } from "@/interfaces/app.interface"
 import { FALLBACK_CHART_COLORS } from "@/lib/constants"
-import { Card } from "../ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 import { Label } from "../ui/label"
 
 const ACTUAL_BUDGET_KEY = "Actual_Budget_AED" as const
@@ -22,37 +24,40 @@ const GROUP_FIELD = {
 } as const
 
 type SpendingHorizontalDatum = {
+  barId: string
   name: string
   value: number
   otherNames?: string[]
 }
 
-const takeTopWithOther = (
-  entries: { name: string; value: number }[],
-  limit: number
-): SpendingHorizontalDatum[] => {
-  if (entries.length <= limit) return entries
+const SpendingHorizontalXAxisTick = (props: XAxisTickContentProps) => {
+  const { x, y, payload } = props
+  return (
+    <g transform={`translate(${x},${y})`}>
+      <text
+        textAnchor="middle"
+        className="fill-muted-foreground text-xs"
+        dy={12}
+      >
+        <tspan className="dirham-symbol">{"\uE000"}</tspan>
+        <tspan dx={3} className="tabular-nums">
+          {payload.value}
+        </tspan>
+      </text>
+    </g>
+  )
+}
 
-  const topItems: SpendingHorizontalDatum[] = entries
-    .slice(0, limit)
-    .map((e) => ({ ...e }))
-
-  const lastItems = entries.slice(limit)
-  const restValue = lastItems.reduce((s, x) => s + x.value, 0)
-  if (restValue > 0) {
-    topItems.push({
-      name: "Other",
-      value: restValue,
-      otherNames: lastItems.map((x) => x.name),
-    })
-  }
-  return topItems
+type SpendingHorizontalRow = {
+  name: string
+  value: number
+  otherNames?: string[]
 }
 
 const buildSpendingHorizontalData = (
   rows: ISheetsData[],
   groupBy: keyof typeof GROUP_FIELD
-): SpendingHorizontalDatum[] => {
+): SpendingHorizontalRow[] => {
   const field = GROUP_FIELD[groupBy]
   if (!rows?.length) return []
   const sums: Record<string, number> = {}
@@ -64,22 +69,15 @@ const buildSpendingHorizontalData = (
   const entries = Object.entries(sums).map(([name, value]) => ({ name, value }))
   entries.sort((a, b) => b.value - a.value)
 
-  return takeTopWithOther(entries, 10)
+  return entries
 }
-
-const chartConfig = {
-  value: {
-    label: "Spend (AED)",
-    color: "var(--chart-1)",
-  },
-} satisfies ChartConfig
 
 type SpendingSelection = {
   name: string
   otherNames: string[] | null
 }
 
-export function SpendingHorizontalChart({
+const SpendingHorizontalChart = ({
   title,
   data,
   groupBy,
@@ -89,13 +87,31 @@ export function SpendingHorizontalChart({
   data: ISheetsData[]
   groupBy: keyof typeof GROUP_FIELD
   emptyMessage?: string
-}) {
+}) => {
   const [selection, setSelection] = useState<SpendingSelection | null>(null)
 
-  const chartData = useMemo(
-    () => buildSpendingHorizontalData(data, groupBy),
-    [data, groupBy]
-  )
+  const { chartData, chartConfig } = useMemo(() => {
+    const rows = buildSpendingHorizontalData(data, groupBy)
+    const chartConfig: ChartConfig = {
+      value: {
+        label: (
+          <span className="inline-flex items-baseline gap-1">
+            <DirhamSymbol />
+            <span>Spend</span>
+          </span>
+        ),
+      },
+    }
+    const chartData: SpendingHorizontalDatum[] = rows.map((row, i) => {
+      const barId = `bar_${i}`
+      chartConfig[barId] = {
+        label: row.name,
+        color: FALLBACK_CHART_COLORS[i % FALLBACK_CHART_COLORS.length],
+      }
+      return { ...row, barId }
+    })
+    return { chartData, chartConfig }
+  }, [data, groupBy])
 
   const groupField = GROUP_FIELD[groupBy]
 
@@ -122,62 +138,92 @@ export function SpendingHorizontalChart({
   }
 
   return (
-    <Card className="flex flex-col gap-3 p-4">
-      <Label className="text-base">{title}</Label>
-      <ChartContainer
-        config={chartConfig}
-        className="w-full"
-        style={{
-          minHeight: Math.max(240, chartData.length * 40),
-        }}
-      >
-        <BarChart
-          accessibilityLayer
-          layout="vertical"
-          data={chartData}
-          margin={{ left: 4, right: 12 }}
+    <Card className="flex flex-col">
+      <CardHeader className="items-center justify-center w-full">
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent className="h-full min-w-0 w-full flex flex-col items-stretch pl-3 pr-4">
+        <ChartContainer
+          config={chartConfig}
+          className="aspect-video w-full min-w-0 justify-start"
         >
-          <CartesianGrid horizontal={false} strokeDasharray="3 3" />
-          <XAxis
-            type="number"
-            tickLine={false}
-            axisLine={false}
-            tickFormatter={(v) =>
-              typeof v === "number" ? v.toLocaleString() : String(v)
-            }
-          />
-          <YAxis
-            dataKey="name"
-            type="category"
-            width={112}
-            tickLine={false}
-            axisLine={false}
-            tickFormatter={(v) =>
-              String(v).length > 16 ? `${String(v).slice(0, 14)}…` : String(v)
-            }
-          />
-          <ChartTooltip
-            content={<ChartTooltipContent />}
-            cursor={{ fill: "var(--muted)", opacity: 0.25 }}
-          />
-          <Bar
-            dataKey="value"
-            radius={4}
-            cursor="pointer"
-            fill="var(--color-value)"
-            onClick={onBarClick}
+          <BarChart
+            accessibilityLayer
+            layout="vertical"
+            data={chartData}
+            margin={{ top: 4, right: 8, bottom: 4, left: 0 }}
           >
-            {chartData.map((entry, i) => (
-              <Cell
-                key={entry.name}
-                fill={
-                  FALLBACK_CHART_COLORS[i % FALLBACK_CHART_COLORS.length]
-                }
-              />
-            ))}
-          </Bar>
-        </BarChart>
-      </ChartContainer>
+            <CartesianGrid horizontal={false} strokeDasharray="3 3" />
+            <XAxis
+              type="number"
+              tickLine={false}
+              axisLine={false}
+              tick={SpendingHorizontalXAxisTick}
+            />
+            <YAxis
+              dataKey="name"
+              type="category"
+              width="auto"
+              tickLine={false}
+              axisLine={false}
+              tickFormatter={(v) =>
+                String(v).length > 16 ? `${String(v).slice(0, 14)}…` : String(v)
+              }
+            />
+            <ChartTooltip
+              content={
+                <ChartTooltipContent
+                  nameKey="barId"
+                  formatter={(value, _name, item) => {
+                    const row = item.payload as SpendingHorizontalDatum
+                    const indicatorColor = row?.barId
+                      ? `var(--color-${row.barId})`
+                      : FALLBACK_CHART_COLORS[0]
+                    return (
+                      <>
+                        <div
+                          className="h-2.5 w-2.5 shrink-0 rounded-[2px] border-(--color-border) bg-(--color-bg)"
+                          style={
+                            {
+                              "--color-bg": indicatorColor,
+                              "--color-border": indicatorColor,
+                            } as CSSProperties
+                          }
+                        />
+                        <div className="flex flex-1 justify-between gap-2 leading-none">
+                          <span className="text-muted-foreground">
+                            {row?.name}
+                          </span>
+                          <span className="flex items-baseline gap-1 font-mono font-medium text-foreground tabular-nums">
+                            <DirhamSymbol />
+                            {value}
+                          </span>
+                        </div>
+                      </>
+                    )
+                  }}
+                />
+              }
+              cursor={{ fill: "var(--muted)", opacity: 0.25 }}
+            />
+            <Bar
+              dataKey="value"
+              name="Spend"
+              radius={10}
+              cursor="pointer"
+              fill={`var(--color-${chartData[0].barId})`}
+              onClick={onBarClick}
+            >
+              {chartData.map((entry) => (
+                <Cell
+                  key={entry.name}
+                  fill={`var(--color-${entry.barId})`}
+                />
+              ))}
+            </Bar>
+          </BarChart>
+        </ChartContainer>
+      </CardContent>
       <SpendingGroupDetailsModal
         open={selection != null}
         groupField={groupField}
@@ -189,3 +235,5 @@ export function SpendingHorizontalChart({
     </Card>
   )
 }
+
+export default memo(SpendingHorizontalChart)  

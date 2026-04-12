@@ -63,6 +63,12 @@ export const useFilters = () => {
     []
   )
 
+  const resetFn = useCallback(() => {
+    setFilters(defaultFilters)
+    setSize(defaultPaginationValues.size)
+    setPage(defaultPaginationValues.pageNo)
+  }, [])
+
   return {
     goTo,
     page,
@@ -74,5 +80,6 @@ export const useFilters = () => {
     onChangeSize,
     getFilterOptions,
     onChangeFilterVal,
+    resetFn,
   }
 }

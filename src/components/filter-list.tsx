@@ -1,6 +1,6 @@
 import SearchInput from "./search-input"
-// import SelectInput from "./select-input"
 import MultiSelectInput from "./multi-select-input"
+import { Button } from "./ui/button"
 import { Card } from "./ui/card"
 import type { IFilterOptions, IFilters } from "@/interfaces/app.interface"
 
@@ -8,12 +8,14 @@ interface IFilerListProps {
   filters: IFilters
   options: IFilterOptions
   onChangeFilterVal: (key: string, value: string[] | string | null) => void
+  resetFn: () => void
 }
 
 const FilterList = ({
   filters,
   options,
   onChangeFilterVal,
+  resetFn,
 }: IFilerListProps) => {
   return (
     <Card className="grid grid-cols-1 items-center gap-4 p-3 sm:grid-cols-2 md:grid-cols-4">
@@ -76,6 +78,13 @@ const FilterList = ({
           onChangeFilterVal("Approval_Status", val)
         }
       />
+      <Button
+        type="button"
+        variant="secondary"
+        onClick={resetFn}
+      >
+        Reset
+      </Button>
     </Card>
   )
 }

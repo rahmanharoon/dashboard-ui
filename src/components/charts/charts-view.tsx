@@ -5,8 +5,9 @@ import BarChartUI from "./bar-charts"
 import { BudgetAreaChart } from "./budget-area-chart"
 import { BudgetLineChart } from "./budget-line-chart"
 import PieChartWithPaddingAngle from "./pie-charts"
-import { SpendingHorizontalChart } from "./spending-horizontal-chart"
+import SpendingHorizontalChart from "./spending-horizontal-chart"
 import { memo, useMemo, useState } from "react"
+import ChartPieInteractive from "./interactive-pie-chart"
 
 const EXPENSE_TYPE_TABS = [
   { label: "Capex", value: "CapEx" },
@@ -60,10 +61,9 @@ const ChartsView = ({ data }: { data: ISheetsData[] }) => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         <PieChartWithPaddingAngle title="Status" data={chartData} />
         <BarChartUI title="Approved Status" data={chartData} />
-        <SpendingHorizontalChart
+        <ChartPieInteractive
           title="Spending by owner"
           data={chartData}
-          groupBy="owner"
         />
         <SpendingHorizontalChart
           title="Spending by department"
