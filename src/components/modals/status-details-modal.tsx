@@ -1,7 +1,3 @@
-import { useMemo } from "react"
-
-import TableUI from "@/components/table-content"
-import { useFilters } from "@/hooks/useFilters"
 import type { ISheetsData } from "@/interfaces/app.interface"
 import { ReusableDialog } from "./reusable-dialog"
 import { ChartBarDefault } from "../charts/demo"
@@ -19,20 +15,6 @@ export const StatusModal = ({
   rows,
   onClose,
 }: StatusModalProps) => {
-  const { goNext, goPrev, goTo, onChangeSize, page, size } = useFilters()
-
-  const filteredRows = useMemo(() => {
-    if (!status) return []
-    return rows.filter((row) => row?.Status === status)
-  }, [rows, status])
-
-  const totalItems = filteredRows?.length
-
-  const pageData = useMemo(() => {
-    const start = (page - 1) * size
-    return filteredRows?.slice(start, start + size)
-  }, [filteredRows, page, size])
-
   const title =
     status != null && status !== ""
       ? `${status} Status details`
