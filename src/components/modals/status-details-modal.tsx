@@ -4,6 +4,7 @@ import TableUI from "@/components/table-content"
 import { useFilters } from "@/hooks/useFilters"
 import type { ISheetsData } from "@/interfaces/app.interface"
 import { ReusableDialog } from "./reusable-dialog"
+import { ChartBarDefault } from "../charts/demo"
 
 type StatusModalProps = {
   open: boolean
@@ -18,14 +19,7 @@ export const StatusModal = ({
   rows,
   onClose,
 }: StatusModalProps) => {
-  const {
-    goNext,
-    goPrev,
-    goTo,
-    onChangeSize,
-    page,
-    size,
-  } = useFilters()
+  const { goNext, goPrev, goTo, onChangeSize, page, size } = useFilters()
 
   const filteredRows = useMemo(() => {
     if (!status) return []
@@ -44,20 +38,24 @@ export const StatusModal = ({
       ? `${status} Status details`
       : "Status details"
 
-  const renderContent = status === null ? <></> : (
-    <div className="overflow-x-auto">
-      <TableUI
-        data={pageData}
-        goNext={goNext}
-        goPrev={goPrev}
-        goTo={goTo}
-        pageNo={page}
-        size={size}
-        totalItems={totalItems}
-        onChangeSize={onChangeSize}
-      />
-    </div>
-  )
+  const renderContent =
+    status === null ? (
+      <></>
+    ) : (
+      // <div className="overflow-x-auto">
+      //   <TableUI
+      //     data={pageData}
+      //     goNext={goNext}
+      //     goPrev={goPrev}
+      //     goTo={goTo}
+      //     pageNo={page}
+      //     size={size}
+      //     totalItems={totalItems}
+      //     onChangeSize={onChangeSize}
+      //   />
+      // </div>
+      <ChartBarDefault status={status} data={rows} />
+    )
 
   return (
     <ReusableDialog
